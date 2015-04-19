@@ -1,0 +1,50 @@
+
+[Ferr2DT_TerrainMaterial]
+Assets/Ferr/2DTerrain/TerrainMaterials/SandTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/RockTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/PipeMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/MossyTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/ForegroundTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/CaveTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/GooPlayer.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/FerrlibLogoSmall.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/Tumbleweed.prefab
+Assets/Level Textures/CavePlatform.prefab
+Assets/Level Textures/Ladder.prefab
+Assets/Level Textures/Road.prefab
+Assets/Level Textures/MetalWorks.prefab
+Assets/Level Textures/MetalWorksPillar.prefab
+Assets/Prefabs/Player_Global_CTRL.prefab
+Assets/Prefabs/WalkerMech_Global_CTRL.prefab
+Assets/Prefabs/Explosion_Grenade.prefab
+Assets/Prefabs/Explosion_Spout.prefab
+Assets/Prefabs/Smoke1.prefab
+Assets/Prefabs/Sparks.prefab
+Assets/Prefabs/Thug_Global_CTRL.prefab
+Assets/Prefabs/Global_CTRL.prefab
+
+[Ferr2DT_PathTerrain]
+Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/MossyTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/GooPlayer.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/RockTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/PipeMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/CaveTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/ForegroundTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/FerrlibLogoSmall.prefab
+Assets/Ferr/2DTerrain/Examples/Assets/Tumbleweed.prefab
+Assets/Ferr/2DTerrain/TerrainMaterials/SandTerrainMaterial.prefab
+Assets/Level Textures/CavePlatform.prefab
+Assets/Level Textures/Ladder.prefab
+Assets/Level Textures/Road.prefab
+Assets/Level Textures/MetalWorks.prefab
+Assets/Level Textures/MetalWorksPillar.prefab
+Assets/Prefabs/Player_Global_CTRL.prefab
+Assets/Prefabs/WalkerMech_Global_CTRL.prefab
+Assets/Prefabs/Explosion_Grenade.prefab
+Assets/Prefabs/Explosion_Spout.prefab
+Assets/Prefabs/Smoke1.prefab
+Assets/Prefabs/Sparks.prefab
+Assets/Prefabs/Thug_Global_CTRL.prefab
+Assets/Prefabs/Global_CTRL.prefab

@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: d41555fc2c995684c8696fd36ed6037b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GrenadeExplosion_1
+    21300002: GrenadeExplosion_2
+    21300004: GrenadeExplosion_3
+    21300006: GrenadeExplosion_4
+    21300008: GrenadeExplosion_5
+    21300010: GrenadeExplosion_6
+    21300012: GrenadeExplosion_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GrenadeExplosion_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 110
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeExplosion_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 75
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeExplosion_3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 73
+        width: 201
+        height: 195
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeExplosion_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 30
+        width: 220
+        height: 216
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeExplosion_5
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 33
+        width: 225
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeExplosion_6
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 47
+        width: 204
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeExplosion_7
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 66
+        width: 188
+        height: 185
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

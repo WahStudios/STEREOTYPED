@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 049c6919505740f4d8e8e21030ebf0b5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GunnerMech
+    21300002: WalkerMech_Body
+    21300004: WalkerMech_Thigh
+    21300006: WalkerMech_Foot
+    21300008: WalkerMech_Ankle
+    21300010: WalkerMech_DualCannon
+    21300012: GunnerMech_Face
+    21300014: GunnerMech_Abs
+    21300016: GunnerMech_Waist
+    21300018: GunnerMech_Leg1
+    21300020: GunnerMech_Leg2
+    21300022: GunnerMech_Shoulder
+    21300024: GunnerMech_Arm
+    21300026: GunnerMech_Foot
+    21300028: GunnerMech_Gun
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WalkerMech_Body
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 2619
+        width: 343
+        height: 342
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkerMech_Thigh
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 2702
+        width: 201
+        height: 240
+      alignment: 9
+      pivot: {x: .313808769, y: .759127796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkerMech_Foot
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2704
+        width: 110
+        height: 218
+      alignment: 9
+      pivot: {x: .64963156, y: .90938127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkerMech_Ankle
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 2545
+        width: 124
+        height: 52
+      alignment: 9
+      pivot: {x: .807596505, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WalkerMech_DualCannon
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 2466
+        width: 303
+        height: 107
+      alignment: 9
+      pivot: {x: .181106418, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Face
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2695
+        width: 300
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Abs
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2507
+        width: 209
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Waist
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2352
+        width: 185
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Leg1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2096
+        width: 127
+        height: 242
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Leg2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1970
+        width: 180
+        height: 349
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2681
+        width: 197
+        height: 305
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Arm
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 2464
+        width: 237
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Foot
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 2229
+        width: 248
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunnerMech_Gun
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 2079
+        width: 238
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

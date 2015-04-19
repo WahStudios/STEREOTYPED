@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 016af76618cd5be419a2d78efef85137
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_Reticle
+    21300002: UI_Ammo
+    21300004: UI_Grenade
+    21300006: UI_Junk
+    21300008: UI_KeyCard
+    21300010: UI_Health
+    21300012: UI_Shield
+    21300014: UI_Armor
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UI_Reticle
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2339
+        width: 158
+        height: 137
+      alignment: 9
+      pivot: {x: .495704561, y: .359449834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Ammo
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2060
+        width: 107
+        height: 167
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Grenade
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2071
+        width: 108
+        height: 182
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Junk
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2097
+        width: 143
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_KeyCard
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1826
+        width: 84
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Health
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1821
+        width: 183
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Shield
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1798
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Armor
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2313
+        width: 105
+        height: 172
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

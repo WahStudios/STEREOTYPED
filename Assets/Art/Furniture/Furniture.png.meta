@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 6f5846f1fe6c52d4e838d8934ae2b067
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Furniture
+    21300002: RoomArrow_Up
+    21300004: RoomArrow_Left
+    21300006: RoomArrow_Down
+    21300008: RoomArrow_Right
+    21300010: Furniture_LargeConcreateBlock_1
+    21300012: Furniture_RoomDoor
+    21300014: Furniture_DirtyWaterBarrel
+    21300016: Furniture_ItemCrate
+    21300018: Furniture_DirtyBarrel
+    21300020: Furniture_RedBarrel
+    21300022: Furniture_GasTank
+    21300024: Furniture_RoadBlock_Front
+    21300026: Furniture_ConcreateSlab_1
+    21300028: Furniture_ConcreateSlab_2
+    21300030: Furniture_LargeConcreateBlock_2
+    21300032: Furniture_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RoomArrow_Up
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4695
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoomArrow_Left
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 4690
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoomArrow_Down
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 4695
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoomArrow_Right
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4690
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_LargeConcreateBlock_1
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 4319
+        width: 361
+        height: 464
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_RoomDoor
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 4167
+        width: 240
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_DirtyWaterBarrel
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 4343
+        width: 146
+        height: 274
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_ItemCrate
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 4348
+        width: 200
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_DirtyBarrel
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 4343
+        width: 166
+        height: 240
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_RedBarrel
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 4338
+        width: 176
+        height: 279
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_GasTank
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 4343
+        width: 127
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_RoadBlock_Front
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 3909
+        width: 278
+        height: 376
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_ConcreateSlab_1
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 3860
+        width: 185
+        height: 464
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_ConcreateSlab_2
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 3855
+        width: 195
+        height: 454
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_LargeConcreateBlock_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3186
+        width: 762
+        height: 625
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_15
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 3201
+        width: 1031
+        height: 420
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
