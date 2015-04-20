@@ -16,6 +16,7 @@ TextureImporter:
     21300022: Face
     21300024: Mouth_Smile
     21300026: Eyes_Default
+    21300028: Player_Gun
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -194,6 +195,16 @@ TextureImporter:
         y: 991
         width: 49
         height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player_Gun
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 140
+        width: 147
+        height: 103
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

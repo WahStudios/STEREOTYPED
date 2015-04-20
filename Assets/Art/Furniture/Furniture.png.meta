@@ -8,7 +8,7 @@ TextureImporter:
     21300006: RoomArrow_Down
     21300008: RoomArrow_Right
     21300010: Furniture_LargeConcreateBlock_1
-    21300012: Furniture_RoomDoor
+    21300012: Furniture_RoomDoor_Closed
     21300014: Furniture_DirtyWaterBarrel
     21300016: Furniture_ItemCrate
     21300018: Furniture_DirtyBarrel
@@ -18,7 +18,15 @@ TextureImporter:
     21300026: Furniture_ConcreateSlab_1
     21300028: Furniture_ConcreateSlab_2
     21300030: Furniture_LargeConcreateBlock_2
-    21300032: Furniture_15
+    21300032: Furniture_LargeConcreateBlock_3
+    21300034: Furniture_RoomDoor_Open1
+    21300036: Furniture_RoomDoor_2
+    21300038: Furniture_RoomDoor_3
+    21300040: Furniture_RoomDoor_4
+    21300042: Furniture_RoomDoor_5
+    21300044: Furniture_RoomDoor_6
+    21300046: Furniture_KeyCardReader
+    21300048: Furniture_DNATube
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,7 +62,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -110,15 +118,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Furniture_RoomDoor
+    - name: Furniture_RoomDoor_Closed
       rect:
         serializedVersion: 2
-        x: 46
-        y: 4167
-        width: 240
-        height: 450
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 51
+        y: 2637
+        width: 233
+        height: 446
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Furniture_DirtyWaterBarrel
       rect:
@@ -210,13 +218,93 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Furniture_15
+    - name: Furniture_LargeConcreateBlock_3
       rect:
         serializedVersion: 2
         x: 857
         y: 3201
         width: 1031
         height: 420
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_RoomDoor_Open1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 2637
+        width: 233
+        height: 446
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_RoomDoor_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2637
+        width: 233
+        height: 446
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_RoomDoor_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 2637
+        width: 232
+        height: 446
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 6, w: 0}
+    - name: Furniture_RoomDoor_4
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 2638
+        width: 232
+        height: 446
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_RoomDoor_5
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2638
+        width: 233
+        height: 446
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_RoomDoor_6
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2638
+        width: 233
+        height: 446
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_KeyCardReader
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2499
+        width: 97
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_DNATube
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1791
+        width: 336
+        height: 776
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
