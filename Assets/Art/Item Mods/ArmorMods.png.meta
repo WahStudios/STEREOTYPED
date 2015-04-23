@@ -1,6 +1,29 @@
 fileFormatVersion: 2
 guid: 4bc08f700801ec240adcb61dd1f34eb1
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: ArmorMods_0
+    21300002: ArmorMods_1
+    21300004: ArmorMods_2
+    21300006: ScaryMask
+    21300008: Chest_LeatherOutfit
+    21300010: Bandana
+    21300012: ShoulderRocket
+    21300014: BulletproffVest
+    21300016: GrapplingHook1
+    21300018: ArmorMods_9
+    21300020: GrapplingHook2
+    21300022: Grenade1
+    21300024: ArmorMods_12
+    21300026: SpikedShoulderPad1
+    21300028: Grenade2
+    21300030: ArmorMods_15
+    21300032: Leg_LeatherOutfit
+    21300034: GrapplingHook3
+    21300036: Grenade3
+    21300038: Foot_LeatherOutfit
+    21300040: Toe_LeatherOutfit
+    21300042: SpikedShoulderPad2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
