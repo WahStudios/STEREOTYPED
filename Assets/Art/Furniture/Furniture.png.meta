@@ -27,6 +27,7 @@ TextureImporter:
     21300044: Furniture_RoomDoor_6
     21300046: Furniture_KeyCardReader
     21300048: Furniture_DNATube
+    21300050: UI_DNA_Common
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -305,6 +306,16 @@ TextureImporter:
         y: 1791
         width: 336
         height: 776
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_DNA_Common
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 3664
+        width: 538
+        height: 441
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
