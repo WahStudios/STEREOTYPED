@@ -179,6 +179,8 @@
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\PointGenerator.cs" />
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\PolygonGenerator.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\aiming.cs" />
+     <Compile Include="Assets\rollSwitch.cs" />
      <None Include="Assets\Ferr\2DTerrain\Shaders\UnlitColoredTint.shader" />
      <None Include="Assets\Ferr\2DTerrain\Shaders\UnitColoredTransparent.shader" />
      <None Include="Assets\Ferr\Docs\Ferr2DTerrainTool - Readme.txt" />

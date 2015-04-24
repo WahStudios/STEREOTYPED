@@ -13,8 +13,8 @@ public class PlayerMovement : MonoBehaviour {
 	public Animator anim;                   //Player's Animator
 	public bool jump;                       //jump switch, for animations
 	public Rigidbody2D rigid;               //Player's RigidBody2D = interacts with physics
-
-
+	public Puppet2D_GlobalControl puppetControl;
+	public bool roll = false;
 	
 	void Start () {
 	jump = anim.GetBool("jump");
@@ -33,40 +33,65 @@ public class PlayerMovement : MonoBehaviour {
 			isGrounded = Physics2D.OverlapCircle(grounder.transform.position, radiuss, ground);
 			anim.SetBool("isGrounded", isGrounded);
 
-			
-				
-				if (Input.GetButton("Jump") && isGrounded == true)
+
+				if (Input.GetButtonDown("Jump") && isGrounded == true)
 				{
 					jumpButton = false;
 					if(jumpButton == false){
-						rigid.AddForce(jumpVector, ForceMode2D.Force);
+						
+						rigid.AddRelativeForce(jumpVector, ForceMode2D.Force);
 						jumpButton = true;
 					}
 					
 				}
+
+				if(Input.GetButtonDown("Fire3")){
+			if(anim.GetBool("roll") == false){
+				anim.SetBool ("roll", true);
+				roll = true;
+				if(isFacingRight == true)
+				{
+					rigid.velocity = new Vector2(speedForce*3, rigid.velocity.y);
+				}
+				else
+				{
+					rigid.velocity = new Vector2(-speedForce*3, rigid.velocity.y);
+				}
+			}
+		}
+		else
+		{	if(roll == false){
+			if(anim.GetBool("roll") == true)
+				anim.SetBool("roll", false);
+			}
+		}
 				if (Input.GetAxis("Horizontal") < 0)
 				{
+					if(anim.GetBool("roll") == false){
 					if(anim.GetBool("duck") == false){
-						
+				puppetControl.flip = true;
 						isFacingRight = false;
 						rigid.velocity = new Vector2(-speedForce, rigid.velocity.y);
 						
-						transform.localScale = new Vector3(1, 1, 1);
+						//transform.localScale = new Vector3(1, 1, 1);
 					}
+			}
 					
 				}
 				else if (Input.GetAxis("Horizontal") > 0)
 				{
+					if(anim.GetBool("roll") == false){
 					if(anim.GetBool("duck")== false){
 						isFacingRight = true;
 						rigid.velocity = new Vector2(speedForce, rigid.velocity.y);
-						
-						transform.localScale = new Vector3(-1, 1, 1);
-						
+				puppetControl.flip = false;
+						//transform.localScale = new Vector3(-1, 1, 1);
+				}
 					}
 				}
 				else
 				{
+					if(anim.GetBool("roll") == false)
 					rigid.velocity = new Vector2(0, rigid.velocity.y);
 				}
 				
@@ -100,12 +125,12 @@ public class PlayerMovement : MonoBehaviour {
 				else
 					if (rigid.velocity.y > 1)
 				{
-					
+					if(isGrounded ==false){					
 					if(anim.GetBool("jump") == false)
 						anim.SetBool("jump", true);
 					if(anim.GetBool("isFalling")== true)
 						anim.SetBool("isFalling", false);
-					
+			}
 				}
 				
 				if (rigid.velocity.x > 0 || rigid.velocity.x < 0)
@@ -113,12 +138,17 @@ public class PlayerMovement : MonoBehaviour {
 					
 					if (isGrounded == true)
 					{
+						if(anim.GetBool("roll") == false){
+
+						
 						if(anim.GetBool("walk") == false)
 							anim.SetBool("walk", true);
 						if(anim.GetBool("jumpForward") == true)
 							anim.SetBool("jumpForward", false);
 						if(anim.GetBool("walkToIdle") == true)
 							anim.SetBool("walkToIdle", false);
+				}
+			
 						//			walking = false;
 						//		}
 					}
