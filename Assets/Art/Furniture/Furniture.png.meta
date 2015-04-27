@@ -8,7 +8,7 @@ TextureImporter:
     21300006: RoomArrow_Down
     21300008: RoomArrow_Right
     21300010: Furniture_LargeConcreateBlock_1
-    21300012: Furniture_RoomDoor_Closed
+    21300012: Furniture_RoomDoor_Frame
     21300014: Furniture_DirtyWaterBarrel
     21300016: Furniture_ItemCrate
     21300018: Furniture_DirtyBarrel
@@ -19,15 +19,22 @@ TextureImporter:
     21300028: Furniture_ConcreateSlab_2
     21300030: Furniture_LargeConcreateBlock_2
     21300032: Furniture_LargeConcreateBlock_3
-    21300034: Furniture_RoomDoor_Open1
-    21300036: Furniture_RoomDoor_2
-    21300038: Furniture_RoomDoor_3
+    21300034: Furniture_RDoor
+    21300036: Furniture_RoomDoor_NextRoom
+    21300038: Furniture_RoomDoor_Boss
     21300040: Furniture_RoomDoor_4
     21300042: Furniture_RoomDoor_5
     21300044: Furniture_RoomDoor_6
     21300046: Furniture_KeyCardReader
     21300048: Furniture_DNATube
     21300050: UI_DNA_Common
+    21300052: RoomArrow_Exit
+    21300054: Weapon_Knife
+    21300056: Furniture_LDoor
+    21300058: DNA_Green
+    21300060: DNA_Blue
+    21300062: DNA_Red
+    21300064: DNA_Yellow
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -72,54 +79,54 @@ TextureImporter:
     - name: RoomArrow_Up
       rect:
         serializedVersion: 2
-        x: 51
-        y: 4695
-        width: 69
-        height: 63
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 54
+        y: 4698
+        width: 66
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: RoomArrow_Left
       rect:
         serializedVersion: 2
         x: 139
-        y: 4690
-        width: 59
-        height: 73
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        y: 4694
+        width: 56
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: RoomArrow_Down
       rect:
         serializedVersion: 2
         x: 213
-        y: 4695
-        width: 68
-        height: 63
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        y: 4697
+        width: 66
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: RoomArrow_Right
       rect:
         serializedVersion: 2
-        x: 291
-        y: 4690
-        width: 63
-        height: 73
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 295
+        y: 4694
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Furniture_LargeConcreateBlock_1
       rect:
         serializedVersion: 2
         x: 1517
-        y: 4319
-        width: 361
-        height: 464
+        y: 4321
+        width: 358
+        height: 459
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Furniture_RoomDoor_Closed
+    - name: Furniture_RoomDoor_Frame
       rect:
         serializedVersion: 2
         x: 51
@@ -132,10 +139,10 @@ TextureImporter:
     - name: Furniture_DirtyWaterBarrel
       rect:
         serializedVersion: 2
-        x: 335
-        y: 4343
-        width: 146
-        height: 274
+        x: 336
+        y: 4346
+        width: 142
+        height: 271
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,66 +236,36 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Furniture_RoomDoor_Open1
+    - name: Furniture_RDoor
       rect:
         serializedVersion: 2
-        x: 317
-        y: 2637
-        width: 233
-        height: 446
+        x: 330
+        y: 2636
+        width: 121
+        height: 429
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Furniture_RoomDoor_2
+    - name: Furniture_RoomDoor_NextRoom
       rect:
         serializedVersion: 2
-        x: 582
-        y: 2637
-        width: 233
-        height: 446
+        x: 654
+        y: 2636
+        width: 212
+        height: 435
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Furniture_RoomDoor_3
+    - name: Furniture_RoomDoor_Boss
       rect:
         serializedVersion: 2
-        x: 848
-        y: 2637
-        width: 232
-        height: 446
+        x: 895
+        y: 2636
+        width: 213
+        height: 435
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 6, w: 0}
-    - name: Furniture_RoomDoor_4
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 2638
-        width: 232
-        height: 446
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Furniture_RoomDoor_5
-      rect:
-        serializedVersion: 2
-        x: 1383
-        y: 2638
-        width: 233
-        height: 446
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Furniture_RoomDoor_6
-      rect:
-        serializedVersion: 2
-        x: 1656
-        y: 2638
-        width: 233
-        height: 446
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Furniture_KeyCardReader
       rect:
         serializedVersion: 2
@@ -309,13 +286,73 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: UI_DNA_Common
+    - name: RoomArrow_Exit
       rect:
         serializedVersion: 2
-        x: 1091
-        y: 3664
-        width: 538
-        height: 441
+        x: 400
+        y: 4684
+        width: 110
+        height: 82
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_Knife
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 3705
+        width: 206
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Furniture_LDoor
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2636
+        width: 125
+        height: 429
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DNA_Green
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 2182
+        width: 112
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DNA_Blue
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 2182
+        width: 113
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DNA_Red
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2182
+        width: 112
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DNA_Yellow
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1954
+        width: 112
+        height: 215
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -22,7 +22,6 @@ Assets/Prefabs/Explosion_Spout.prefab
 Assets/Prefabs/Smoke1.prefab
 Assets/Prefabs/Sparks.prefab
 Assets/Prefabs/Thug_Global_CTRL.prefab
-Assets/Prefabs/Global_CTRL.prefab
 Assets/Prefabs/Enemy_MineDroid.prefab
 Assets/Prefabs/Enemy_MachineGun_Turret.prefab
 Assets/Prefabs/Furniture_Barrel.prefab
@@ -30,10 +29,11 @@ Assets/Prefabs/Furniture_RedBarrel.prefab
 Assets/Prefabs/Furniture_Crate.prefab
 Assets/Prefabs/Explosion_Large.prefab
 Assets/Prefabs/Furniture_Door.prefab
-Assets/Prefabs/FX_MechineGunFire.prefab
+Assets/Prefabs/GunnerMech_Global_CTRL.prefab
 Assets/Puppet2D/Prefabs/croc_Global_CTRL.prefab
 Assets/Puppet2D/Prefabs/FFDMonster_Global_CTRL.prefab
 Assets/Puppet2D/Prefabs/Puppetman_Global_CTRL.prefab
+Assets/Prefabs/Grenade.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
@@ -58,7 +58,6 @@ Assets/Prefabs/Explosion_Spout.prefab
 Assets/Prefabs/Smoke1.prefab
 Assets/Prefabs/Sparks.prefab
 Assets/Prefabs/Thug_Global_CTRL.prefab
-Assets/Prefabs/Global_CTRL.prefab
 Assets/Prefabs/Enemy_MineDroid.prefab
 Assets/Prefabs/Enemy_MachineGun_Turret.prefab
 Assets/Prefabs/Furniture_Barrel.prefab
@@ -66,7 +65,8 @@ Assets/Prefabs/Furniture_RedBarrel.prefab
 Assets/Prefabs/Furniture_Crate.prefab
 Assets/Prefabs/Explosion_Large.prefab
 Assets/Prefabs/Furniture_Door.prefab
-Assets/Prefabs/FX_MechineGunFire.prefab
 Assets/Puppet2D/Prefabs/croc_Global_CTRL.prefab
 Assets/Puppet2D/Prefabs/FFDMonster_Global_CTRL.prefab
 Assets/Puppet2D/Prefabs/Puppetman_Global_CTRL.prefab
+Assets/Prefabs/Grenade.prefab
+Assets/Prefabs/GunnerMech_Global_CTRL.prefab
