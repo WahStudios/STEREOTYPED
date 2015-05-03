@@ -23,7 +23,7 @@ public class Puppet2D_GlobalControl : MonoBehaviour {
 	public bool ControlsVisiblity = true;
 	public bool BonesVisiblity = true;
     public bool FFD_Visiblity = true;
-
+	public Puppet2D_IKHandle armControl;
 	public bool CombineMeshes = false;
 
 	public bool flip = false;
@@ -32,8 +32,30 @@ public class Puppet2D_GlobalControl : MonoBehaviour {
 	public bool AutoRefresh = true;
 	public bool ControlsEnabled = true;
     public bool lateUpdate = true;
+	public bool weaponControl = true;
+	public bool gunControl = false;
 
+	public void GunControl(){
+		if(!_Ikhandles.Contains(armControl))
+			_Ikhandles.Add(armControl);
 
+	}
+	public void EndGunControl(){
+		if(_Ikhandles.Contains(armControl))
+			_Ikhandles.Remove(armControl);
+	}
+
+	public void WeaponSwitch(){
+	if(weaponControl == false){
+			if(!_Ikhandles.Contains(armControl))
+			_Ikhandles.Add(armControl);
+	}
+	else
+		{
+			if(_Ikhandles.Contains(armControl))
+			_Ikhandles.Remove(armControl);
+		}
+	}
 	//public float boneSize;
 	// Use this for initialization
 	void OnEnable () 

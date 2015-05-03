@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\aiming.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Mothership! Unity 5\Mothership!\Assets\destroyOffScreenLeft.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="58" Column="48" />
-      <File FileName="Assets\Puppet2D\Scripts\Puppet2D_GlobalControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\Puppet2D\Scripts\Puppet2D_IKHandle.cs" Line="1" Column="1" />
-      <File FileName="Assets\rollSwitch.cs" Line="1" Column="1" />
-      <File FileName="Assets\aiming.cs" Line="6" Column="3" />
+      <File FileName="..\..\Mothership! Unity 5\Mothership!\Assets\destroyOffScreenLeft.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerMovement : MonoBehaviour {
 	
@@ -13,9 +14,15 @@ public class PlayerMovement : MonoBehaviour {
 	public Animator anim;                   //Player's Animator
 	public bool jump;                       //jump switch, for animations
 	public Rigidbody2D rigid;               //Player's RigidBody2D = interacts with physics
-	public Puppet2D_GlobalControl puppetControl;
+	public Puppet2D_GlobalControl puppetControl; //control with mouse
+//	public Puppet2D_GlobalControl releasePuppetControl; //animations play on without mouse control
 	public bool roll = false;
-	
+	public bool isFacingMouse = true;
+	public GameObject knifeObject;
+	public GameObject gunObject;
+	public int weaponNumber = 2;
+	public bool weaponSwitch = false;
+
 	void Start () {
 	jump = anim.GetBool("jump");
 	
@@ -25,9 +32,34 @@ public class PlayerMovement : MonoBehaviour {
 	public bool jumpStop = false;
 	public bool jumpFall = false;
 	public bool walking = false;
-	public bool isFacingRight;
+	public bool isFacingRight = true;
+	public bool isAttacking = false;
+	public bool gunControl = false;
+	public bool endAttack = false;
+	public bool animGunSwitch = false;
 	// Update is called once per frame
+	void EndAttack(){
+		endAttack = true;
+		if(weaponNumber == 2){
+		puppetControl.SendMessage("EndGunControl");
+		gunObject.SetActive(true);
+		}
+		//if(anim.GetBool("attack") == true)
+		//	anim.SetBool("attack", false);
+	}
+
+
 	void Update () {
+
+
+
+		if(weaponNumber == 2 && endAttack == false){
+			if(animGunSwitch == false){
+			//puppetControl.SendMessage("GunControl");
+				animGunSwitch = true;
+			}
+		}
+
 		
 			// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 			isGrounded = Physics2D.OverlapCircle(grounder.transform.position, radiuss, ground);
@@ -44,6 +76,53 @@ public class PlayerMovement : MonoBehaviour {
 					}
 					
 				}
+		if(Input.GetButtonDown("Fire2")){
+			CancelInvoke("EndAttack");
+			gunObject.SetActive(false);
+			isAttacking = true;
+			endAttack = false;
+			animGunSwitch = false;
+			//if(anim.GetBool("attack") == false){
+			int rand = 0;
+			rand = Random.Range(0,2);
+					
+			anim.SetInteger("randomAttack", rand);
+			anim.SetTrigger("throw");
+			puppetControl.SendMessage("GunControl");
+			//}
+			
+		}
+		else
+		{
+			if(isAttacking == true){
+				
+				
+				isAttacking = false;
+				Invoke("EndAttack", 0.5f);
+			}
+			
+			
+		}
+			if(Input.GetButtonDown("Fire1")){
+			CancelInvoke("EndAttack");
+			isAttacking = true;
+endAttack = false;
+			animGunSwitch = false;
+			//if(anim.GetBool("attack") == false){
+				int rand = 0;
+				if(weaponNumber == 1)
+				rand = Random.Range(0,2);
+				else if(weaponNumber == 0)
+				rand = Random.Range (0,3); 
+			
+				anim.SetInteger("randomAttack", rand);
+				anim.SetTrigger("attack");
+
+			//}
+
+		}
+
+
 
 				if(Input.GetButtonDown("Fire3")){
 			if(anim.GetBool("roll") == false){
@@ -68,25 +147,35 @@ public class PlayerMovement : MonoBehaviour {
 				if (Input.GetAxis("Horizontal") < 0)
 				{
 					if(anim.GetBool("roll") == false){
-					if(anim.GetBool("duck") == false){
-				puppetControl.flip = true;
-						isFacingRight = false;
+					//if(anim.GetBool("duck") == false){
+				//if(weaponNumber != 2){
+				//puppetControl.flip = true;
+			//	releasePuppetControl.flip = true;
+						//isFacingRight = false;
+				//}
+				if(anim.GetBool("duck") == false)
 						rigid.velocity = new Vector2(-speedForce, rigid.velocity.y);
+				else
+					rigid.velocity = new Vector2(-speedForce/2, rigid.velocity.y);
 						
 						//transform.localScale = new Vector3(1, 1, 1);
-					}
+					//}
 			}
 					
 				}
 				else if (Input.GetAxis("Horizontal") > 0)
 				{
 					if(anim.GetBool("roll") == false){
-					if(anim.GetBool("duck")== false){
-						isFacingRight = true;
+					//if(anim.GetBool("duck")== false){
+						//isFacingRight = true;
+						if(anim.GetBool("duck") == false)
 						rigid.velocity = new Vector2(speedForce, rigid.velocity.y);
-				puppetControl.flip = false;
+						else
+					rigid.velocity = new Vector2(speedForce/2, rigid.velocity.y);
+				//puppetControl.flip = false;
+			//	releasePuppetControl.flip = false;
 						//transform.localScale = new Vector3(-1, 1, 1);
-				}
+				//}
 					}
 				}
 				else
@@ -133,21 +222,28 @@ public class PlayerMovement : MonoBehaviour {
 			}
 				}
 				
-				if (rigid.velocity.x > 0 || rigid.velocity.x < 0)
-				{
-					
+				if (rigid.velocity.x > 0 ){
+		var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
+		Vector3 mousePos = Input.mousePosition;
+			
+		if(weaponNumber != 2 || mousePos.x > playerScreenPoint.x){	
 					if (isGrounded == true)
 					{
+					isFacingRight = true;
+					puppetControl.flip = false;
 						if(anim.GetBool("roll") == false){
 
 						
 						if(anim.GetBool("walk") == false)
 							anim.SetBool("walk", true);
+						if(anim.GetBool ("walkBack") == true)
+							anim.SetBool ("walkBack", false);
 						if(anim.GetBool("jumpForward") == true)
 							anim.SetBool("jumpForward", false);
 						if(anim.GetBool("walkToIdle") == true)
 							anim.SetBool("walkToIdle", false);
 				}
+
 			
 						//			walking = false;
 						//		}
@@ -169,34 +265,190 @@ public class PlayerMovement : MonoBehaviour {
 						//			walking = false;
 						//		}
 					}
+			}
+			else if (mousePos.x < playerScreenPoint.x && weaponNumber == 2){
+				isFacingRight = false;
+				puppetControl.flip = true;
+				if (isGrounded == true)
+				{
+					if(anim.GetBool("roll") == false){
+						
+						
+						if(anim.GetBool("walkBack") == false)
+							anim.SetBool("walkBack", true);
+						if(anim.GetBool ("walk") == true)
+							anim.SetBool ("walk", false);
+						if(anim.GetBool("jumpForward") == true)
+							anim.SetBool("jumpForward", false);
+						if(anim.GetBool("walkToIdle") == true)
+							anim.SetBool("walkToIdle", false);
+					}
 					
-					//}
+					
+					//			walking = false;
+					//		}
 				}
+				//}
+				else //if (jump == true)
+					//{
+					if (isGrounded == false)
+				{
+					//		if(walking == true){
+					if(anim.GetBool("jumpForward")== false)
+						anim.SetBool("jumpForward", true);
+					if(anim.GetBool("jump") == true)
+						anim.SetBool("jump", false);
+					if(anim.GetBool("walkBack")== true)
+						anim.SetBool("walkBack", false);
+					if(anim.GetBool("walkToIdle") == true)
+						anim.SetBool("walkToIdle", false);
+					//			walking = false;
+					//		}
+				}
+			}
+
+		}else if(rigid.velocity.x < 0){
+			var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
+			Vector3 mousePos = Input.mousePosition;
+			
+			if(weaponNumber != 2 || mousePos.x < playerScreenPoint.x){	
+				if (isGrounded == true)
+				{
+					isFacingRight = false;
+					puppetControl.flip = true;
+					if(anim.GetBool("roll") == false){
+						
+						
+						if(anim.GetBool("walk") == false)
+							anim.SetBool("walk", true);
+						if(anim.GetBool("walkBack") == true)
+							anim.SetBool ("walkBack", false);
+						if(anim.GetBool("jumpForward") == true)
+							anim.SetBool("jumpForward", false);
+						if(anim.GetBool("walkToIdle") == true)
+							anim.SetBool("walkToIdle", false);
+					}
+					
+					
+					//			walking = false;
+					//		}
+				}
+				//}
+				else //if (jump == true)
+					//{
+					if (isGrounded == false)
+				{
+					//		if(walking == true){
+					if(anim.GetBool("jumpForward")== false)
+						anim.SetBool("jumpForward", true);
+					if(anim.GetBool("jump") == true)
+						anim.SetBool("jump", false);
+					if(anim.GetBool("walk")== true)
+						anim.SetBool("walk", false);
+					if(anim.GetBool("walkToIdle") == true)
+						anim.SetBool("walkToIdle", false);
+					//			walking = false;
+					//		}
+				}
+			}
+			else if (mousePos.x > playerScreenPoint.x && weaponNumber == 2){
+				isFacingRight = true;
+				puppetControl.flip = false;
+				if (isGrounded == true)
+				{
+					if(anim.GetBool("roll") == false){
+						
+						
+						if(anim.GetBool("walkBack") == false)
+							anim.SetBool("walkBack", true);
+						if(anim.GetBool("walk") == true)
+							anim.SetBool("walk", false);
+						if(anim.GetBool("jumpForward") == true)
+							anim.SetBool("jumpForward", false);
+						if(anim.GetBool("walkToIdle") == true)
+							anim.SetBool("walkToIdle", false);
+					}
+					
+					
+					//			walking = false;
+					//		}
+				}
+				//}
+				else //if (jump == true)
+					//{
+					if (isGrounded == false)
+				{
+					//		if(walking == true){
+					if(anim.GetBool("jumpForward")== false)
+						anim.SetBool("jumpForward", true);
+					if(anim.GetBool("jump") == true)
+						anim.SetBool("jump", false);
+					if(anim.GetBool("walkBack")== true)
+						anim.SetBool("walkBack", false);
+					if(anim.GetBool("walkToIdle") == true)
+						anim.SetBool("walkToIdle", false);
+					//			walking = false;
+					//		}
+				}
+			}
+		}
 				else if (rigid.velocity.x == 0) //not in use
 				{
 					//if(walking == false){
 					if(anim.GetBool("walk")== true)
 						anim.SetBool("walk", false);
+					if(anim.GetBool ("walkBack")==true)
+				anim.SetBool("walkBack", false);
 					if(anim.GetBool("jumpForward")== true)
 						anim.SetBool("jumpForward", false);
 					if(anim.GetBool("walkToIdle")== false)
 						anim.SetBool("walkToIdle", true);
 					//		walking = true;
 					
-					if(Input.GetAxis("Vertical")< 0)
-					{
-						if(anim.GetBool("duck") == false)
-							anim.SetBool("duck", true);
-					}
-					else
-					{
-						if(anim.GetBool("duck") == true)
-							anim.SetBool("duck", false);
-					}
+					
 					//	}
 				}
-				
-				
+
+		if(Input.GetAxis("Vertical")< 0)
+		{
+			if(anim.GetBool("duck") == false)
+				anim.SetBool("duck", true);
+		}
+		else
+		{
+			if(anim.GetBool("duck") == true)
+				anim.SetBool("duck", false);
+		}
+
+	
+
+		if(Input.GetButtonDown("WeaponSwitch")){
+			if(weaponNumber == 0){
+				anim.SetInteger("weaponNumber", 1);
+				weaponNumber = 1;//knife
+				puppetControl.weaponControl = false;
+				puppetControl.SendMessage("WeaponSwitch");
+				gunObject.SetActive(false);
+				knifeObject.SetActive(true);
+			}
+			else if(weaponNumber == 1){
+				anim.SetInteger("weaponNumber", 2);
+				weaponNumber = 2;//gun
+				puppetControl.weaponControl = true;
+				puppetControl.SendMessage("WeaponSwitch");
+				knifeObject.SetActive(false);
+				gunObject.SetActive(true);
+
+			}
+			else if (weaponNumber == 2){
+				anim.SetInteger("weaponNumber", 0);
+				weaponNumber = 0;//fists
+				puppetControl.weaponControl = false;
+				puppetControl.SendMessage("WeaponSwitch");
+				gunObject.SetActive(false);
+				knifeObject.SetActive(false);
+			}
+		}
 		
 	}
 	
