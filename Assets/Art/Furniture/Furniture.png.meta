@@ -35,6 +35,11 @@ TextureImporter:
     21300060: DNA_Blue
     21300062: DNA_Red
     21300064: DNA_Yellow
+    21300066: Light_DoorLight
+    21300068: Light_FloodLight_Stand
+    21300070: Light_FloodLight1
+    21300072: Light_FloodLight2
+    21300074: Light_FloodLight3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -353,6 +358,56 @@ TextureImporter:
         y: 1954
         width: 112
         height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Light_DoorLight
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4890
+        width: 116
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Light_FloodLight_Stand
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 3670
+        width: 240
+        height: 540
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Light_FloodLight1
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 4153
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Light_FloodLight2
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 4033
+        width: 103
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Light_FloodLight3
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 3898
+        width: 96
+        height: 104
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

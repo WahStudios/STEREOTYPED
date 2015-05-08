@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 1379fb69ea3726a44b053b5f69c72ebf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BlackMan_Example_3
+    21300002: BlackMan_Example_7
+    21300004: BlackMan_Example_11
+    21300006: BlackMan_Example_12
+    21300008: BlackMan_Example_16
+    21300010: BlackMan_Example_18
+    21300012: BlackMan_Example_21
+    21300014: BlackMan_Example_22
+    21300016: BlackMan_Example_23
+    21300018: BlackMan_Example_25
+    21300020: BlackMan_Example_26
+    21300022: BlackMan_Example_27
+    21300024: BlackMan_Example_28
+    21300026: BlackMan_Example_29
+    21300028: BlackMan_Example_30
+    21300030: BlackMan_Example_31
+    21300032: BlackMan_Example_32
+    21300034: BlackMan_Example_33
+    21300036: BlackMan_Example_34
+    21300038: BlackMan_Example_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BlackMan_Example_3
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 814
+        width: 132
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 829
+        width: 105
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_11
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 703
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_12
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 703
+        width: 86
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_16
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 742
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 643
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 536
+        width: 120
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_22
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 608
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_23
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 536
+        width: 119
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 549
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_26
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 573
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 486
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_28
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 436
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 495
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_30
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 419
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_31
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 507
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_32
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 321
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_33
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 303
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_34
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 261
+        width: 82
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackMan_Example_35
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 140
+        width: 147
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
