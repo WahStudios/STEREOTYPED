@@ -28,7 +28,7 @@ public class GunShotMovement : MonoBehaviour {
 		startingRot = transform.rotation;
 		thisSprite = gameObject.GetComponent<SpriteRenderer>();
 		thisSprite.enabled = false;
-
+		
 	}
 	
 	public void FireRight(){
@@ -37,6 +37,7 @@ public class GunShotMovement : MonoBehaviour {
 		isLeftActive = false;
 		forceAdded = true;
 		ResetGrenade();
+		ResetObject ();
 		//isActive = true;
 	}
 	
@@ -46,6 +47,7 @@ public class GunShotMovement : MonoBehaviour {
 		Debug.Log ("FireLeft");
 		forceAdded = true;
 		ResetGrenade();
+		ResetObject();
 	}
 	// Update is called once per frame
 	void Update () {
@@ -59,52 +61,51 @@ public class GunShotMovement : MonoBehaviour {
 				transform.rotation = startingRot;
 				setLeft = true;
 			}
-
 			transform.Translate (Vector2.right * ObjectPool.gunShotRate);
 			//transform.parent = null;
 			
 		}
 		*/
 		if(isLeftActive == true)
-
+			
 		{
-
+			
 			if(thisSprite.enabled == false)
-			thisSprite.enabled = true;
+				thisSprite.enabled = true;
 			if(ObjectPool.isGrenade == false){
-			if(setLeft == false){
-				//transform.parent = parentTransform ;
-				transform.rotation = ObjectPool.facingLeft.transform.rotation;
-				setLeft = true;
+				//if(setLeft == false){
+					//transform.parent = parentTransform ;
+					transform.rotation = ObjectPool.facingLeft.transform.rotation;
+					//setLeft = true;
+				//}
+				
+				transform.Translate (Vector2.right *  ObjectPool.gunShotSpeed);
+				//transform.parent = null;
+				
+				
+				
+				
+				
+				if(gameObject.transform.position.x < (startingPos.x - ObjectPool.gunShotDistance) || gameObject.transform.position.x > (startingPos.x + ObjectPool.gunShotDistance))
+				{
+					ResetObject ();
+				}
 			}
-
-			transform.Translate (Vector2.right *  ObjectPool.gunShotSpeed);
-			//transform.parent = null;
-		
-		
-
-
-		
-		if(gameObject.transform.position.x < (startingPos.x - ObjectPool.gunShotDistance) || gameObject.transform.position.x > (startingPos.x + ObjectPool.gunShotDistance))
-		{
-			ResetObject ();
-		}
-			}
-
+			
 			else{//grenade logic
 				if(forceAdded == true && isLeftActive == true){
-				transform.parent = null;
-				Rigidbody2D rigid  = gameObject.GetComponent<Rigidbody2D>();
-				rigid.isKinematic = false;
-
-				if(facingLeft == false){
-				if(ObjectPool.playerMovement.randomMoveNumber == 1)
-				rigid.AddForce(forceVector);
-				else
-						rigid.AddForce(forceVectorHighThrow);
-					forceAdded = false;
-			}
-			else
+					transform.parent = null;
+					Rigidbody2D rigid  = gameObject.GetComponent<Rigidbody2D>();
+					rigid.isKinematic = false;
+					
+					if(facingLeft == false){
+						if(ObjectPool.playerMovement.randomMoveNumber == 1)
+							rigid.AddForce(forceVector);
+						else
+							rigid.AddForce(forceVectorHighThrow);
+						forceAdded = false;
+					}
+					else
 					{
 						if(ObjectPool.playerMovement.randomMoveNumber == 1)
 							rigid.AddForce(forceVectorLeft);
@@ -113,22 +114,25 @@ public class GunShotMovement : MonoBehaviour {
 						forceAdded = false;
 					}
 				}
-
+				
 			}
-
-		
-	}
+			
+			
+		}
 	}
 	public void ResetGrenade(){
+		if(ObjectPool.isGrenade == true){
 		Rigidbody2D rigid  = gameObject.GetComponent<Rigidbody2D>();
 		rigid.isKinematic = true;
 		isLeftActive = true;
 		transform.parent = parentTransform;
 		transform.position = startingPos;
 		transform.rotation = startingRot;
+		}
 	}
 	public void ResetObject(){
-	//	transform.parent = parentTransform ;
+		//	transform.parent = parentTransform ;
+		if(ObjectPool.isGrenade == false){
 		setLeft = false;
 		isActive = false;
 		isLeftActive = false;
@@ -137,5 +141,6 @@ public class GunShotMovement : MonoBehaviour {
 		transform.Translate (Vector2.right * 0);
 		if(thisSprite.enabled == true)
 			thisSprite.enabled = false;
+		}
 	}
 }

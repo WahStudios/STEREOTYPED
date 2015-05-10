@@ -39,6 +39,13 @@ Assets/Prefabs/Boss_RagedThug_Global_CTRL.prefab
 Assets/Prefabs/FloodLight_3.prefab
 Assets/Prefabs/Bullet_FX.prefab
 Assets/Working Prefabs/Grenade Object.prefab
+Assets/ItemDatabase.prefab
+Assets/UI Canvas.prefab
+Assets/Working Prefabs/Slot.prefab
+Assets/Working Prefabs/PlayerParent.prefab
+Assets/Resources/Health.prefab
+Assets/Resources/WeaponMod.prefab
+Assets/Resources/GrenadeMod.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
@@ -79,6 +86,11 @@ Assets/Prefabs/GunnerMech_Global_CTRL.prefab
 Assets/Prefabs/Boss_RagedThug_Global_CTRL.prefab
 Assets/Prefabs/FloodLight_3.prefab
 Assets/Prefabs/Bullet_FX.prefab
-Assets/Prefabs/Grenade 1.prefab
-Assets/Prefabs/Grenade Object.prefab
 Assets/Working Prefabs/Grenade Object.prefab
+Assets/ItemDatabase.prefab
+Assets/UI Canvas.prefab
+Assets/Working Prefabs/Slot.prefab
+Assets/Working Prefabs/PlayerParent.prefab
+Assets/Resources/Health.prefab
+Assets/Resources/WeaponMod.prefab
+Assets/Resources/GrenadeMod.prefab
