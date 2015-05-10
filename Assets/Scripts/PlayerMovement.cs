@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour {
 	public GameObject gunObject;
 	public int weaponNumber = 2;
 	public bool weaponSwitch = false;
+	public int randomMoveNumber;
 
 	void Start () {
 	jump = anim.GetBool("jump");
@@ -37,12 +38,14 @@ public class PlayerMovement : MonoBehaviour {
 	public bool gunControl = false;
 	public bool endAttack = false;
 	public bool animGunSwitch = false;
+	public bool grenade = false;
 	// Update is called once per frame
 	void EndAttack(){
 		endAttack = true;
 		if(weaponNumber == 2){
 		puppetControl.SendMessage("EndGunControl");
 		gunObject.SetActive(true);
+			grenade = false;
 		}
 		//if(anim.GetBool("attack") == true)
 		//	anim.SetBool("attack", false);
@@ -83,23 +86,22 @@ public class PlayerMovement : MonoBehaviour {
 			endAttack = false;
 			animGunSwitch = false;
 			//if(anim.GetBool("attack") == false){
-			int rand = 0;
-			rand = Random.Range(0,2);
+
 					
-			anim.SetInteger("randomAttack", rand);
-			anim.SetTrigger("throw");
-			puppetControl.SendMessage("GunControl");
+		
+			grenade = true;
 			//}
 			
 		}
 		else
 		{
-			if(isAttacking == true){
+		
+		//	if(isAttacking == true){
 				
 				
-				isAttacking = false;
+				//isAttacking = false;
 				Invoke("EndAttack", 0.5f);
-			}
+			//}
 			
 			
 		}

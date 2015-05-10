@@ -37,6 +37,8 @@ Assets/Prefabs/FX_MechineGunFire.prefab
 Assets/Prefabs/GunnerMech_Global_CTRL.prefab
 Assets/Prefabs/Boss_RagedThug_Global_CTRL.prefab
 Assets/Prefabs/FloodLight_3.prefab
+Assets/Prefabs/Bullet_FX.prefab
+Assets/Working Prefabs/Grenade Object.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
@@ -76,3 +78,7 @@ Assets/Prefabs/FX_MechineGunFire.prefab
 Assets/Prefabs/GunnerMech_Global_CTRL.prefab
 Assets/Prefabs/Boss_RagedThug_Global_CTRL.prefab
 Assets/Prefabs/FloodLight_3.prefab
+Assets/Prefabs/Bullet_FX.prefab
+Assets/Prefabs/Grenade 1.prefab
+Assets/Prefabs/Grenade Object.prefab
+Assets/Working Prefabs/Grenade Object.prefab
