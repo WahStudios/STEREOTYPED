@@ -46,6 +46,8 @@ Assets/Working Prefabs/PlayerParent.prefab
 Assets/Resources/Health.prefab
 Assets/Resources/WeaponMod.prefab
 Assets/Resources/GrenadeMod.prefab
+Assets/Prefabs/Roads/RoadPrefab0.prefab
+Assets/Prefabs/WalkerMech_Global_CTRL 1.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
@@ -94,3 +96,5 @@ Assets/Working Prefabs/PlayerParent.prefab
 Assets/Resources/Health.prefab
 Assets/Resources/WeaponMod.prefab
 Assets/Resources/GrenadeMod.prefab
+Assets/Prefabs/WalkerMech_Global_CTRL 1.prefab
+Assets/Prefabs/Roads/RoadPrefab0.prefab

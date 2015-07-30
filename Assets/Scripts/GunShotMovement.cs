@@ -16,6 +16,9 @@ public class GunShotMovement : MonoBehaviour {
 	public Vector2 forceVectorHighThrowLeft;
 	bool forceAdded = false;
 	bool facingLeft = false;
+	bool isParented = true;
+	public GameObject explosionFX;
+	public Animator explosionAnim;
 	//public GameObject leftFacingRotate;
 	//public ObjectPool objectPool;
 	// Use this for initialization
@@ -32,60 +35,44 @@ public class GunShotMovement : MonoBehaviour {
 	}
 	
 	public void FireRight(){
-		Debug.Log ("FireRight");
-		facingLeft = true;
-		isLeftActive = false;
-		forceAdded = true;
 		ResetGrenade();
 		ResetObject ();
+		Debug.Log ("FireLeft");
+		facingLeft = true;
+		isLeftActive = true;
+		forceAdded = true;
+
 		//isActive = true;
 	}
 	
 	public void FireLeft(){
-		facingLeft = false;
-		isLeftActive = false;
-		Debug.Log ("FireLeft");
-		forceAdded = true;
 		ResetGrenade();
 		ResetObject();
+		facingLeft = false;
+		isLeftActive = true;
+		Debug.Log ("FireRight");
+		forceAdded = true;
+
 	}
 	// Update is called once per frame
 	void Update () {
-		/*
-		if(isActive == true)
-		{
-			if(thisSprite.enabled == false)
-				thisSprite.enabled = true;
-			if(setLeft == false){
-				//transform.parent = parentTransform ;
-				transform.rotation = startingRot;
-				setLeft = true;
-			}
-			transform.Translate (Vector2.right * ObjectPool.gunShotRate);
-			//transform.parent = null;
-			
-		}
-		*/
+		
 		if(isLeftActive == true)
 			
 		{
-			
-			if(thisSprite.enabled == false)
-				thisSprite.enabled = true;
+
+
 			if(ObjectPool.isGrenade == false){
-				//if(setLeft == false){
-					//transform.parent = parentTransform ;
+				if(thisSprite.enabled == false){
+					Debug.Log ("enableSprite");
+					thisSprite.enabled = true;
+				}
+					if(transform.parent != null){
 					transform.rotation = ObjectPool.facingLeft.transform.rotation;
-					//setLeft = true;
-				//}
-				
-				transform.Translate (Vector2.right *  ObjectPool.gunShotSpeed);
-				//transform.parent = null;
-				
-				
-				
-				
-				
+					transform.parent = null;
+					}
+					transform.Translate (Vector2.right *  ObjectPool.gunShotSpeed);
+			
 				if(gameObject.transform.position.x < (startingPos.x - ObjectPool.gunShotDistance) || gameObject.transform.position.x > (startingPos.x + ObjectPool.gunShotDistance))
 				{
 					ResetObject ();
@@ -113,6 +100,7 @@ public class GunShotMovement : MonoBehaviour {
 							rigid.AddForce(forceVectorHighThrowLeft);
 						forceAdded = false;
 					}
+					Invoke ("ExplodeGrenade", 2f);
 				}
 				
 			}
@@ -120,6 +108,18 @@ public class GunShotMovement : MonoBehaviour {
 			
 		}
 	}
+
+	public void ExplodeGrenade(){
+		explosionFX.SetActive(true);
+		explosionAnim.SetBool("explode", true);
+		Invoke ("FinishExplosion", 0.5f);
+	}
+	public void FinishExplosion(){
+		explosionAnim.SetBool("explode", false);
+		explosionFX.SetActive(false);
+		thisSprite.enabled = false;
+	}
+
 	public void ResetGrenade(){
 		if(ObjectPool.isGrenade == true){
 		Rigidbody2D rigid  = gameObject.GetComponent<Rigidbody2D>();
@@ -128,6 +128,7 @@ public class GunShotMovement : MonoBehaviour {
 		transform.parent = parentTransform;
 		transform.position = startingPos;
 		transform.rotation = startingRot;
+			thisSprite.enabled = true;
 		}
 	}
 	public void ResetObject(){
@@ -136,6 +137,7 @@ public class GunShotMovement : MonoBehaviour {
 		setLeft = false;
 		isActive = false;
 		isLeftActive = false;
+		transform.parent = parentTransform;
 		transform.position = startingPos;
 		transform.rotation = startingRot;
 		transform.Translate (Vector2.right * 0);

@@ -10,6 +10,7 @@ public class GunShoot : MonoBehaviour {
 	public float gunShotSpeed = 1f;
 	public float bulletMaxNumber;
 	public bool isGrenade = false;
+
 	//public float bulletStartingDistance = 1f;
 //	public float bulletStartingHeight = 0.5f;
 
