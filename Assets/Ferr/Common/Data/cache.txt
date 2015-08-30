@@ -26,6 +26,7 @@ Assets/Prefabs/Cavern/Cavern_10.prefab
 Assets/Prefabs/Cavern/Cavern_11.prefab
 Assets/Prefabs/Cavern/Cavern_12.prefab
 Assets/Prefabs/Cavern/Cavern_13.prefab
+Assets/Prefabs/Cavern/Cavern_Shop.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Prefabs/Roads/RoadPrefab0.prefab
@@ -42,3 +43,4 @@ Assets/Prefabs/Cavern/Cavern_10.prefab
 Assets/Prefabs/Cavern/Cavern_11.prefab
 Assets/Prefabs/Cavern/Cavern_12.prefab
 Assets/Prefabs/Cavern/Cavern_13.prefab
+Assets/Prefabs/Cavern/Cavern_Shop.prefab
