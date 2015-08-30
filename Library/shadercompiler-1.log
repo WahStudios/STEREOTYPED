@@ -1,30 +1,3 @@
-Base path: C:/Program Files (x86)/Unity4.3.4f1/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-11792
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-6132
 Cmd: getPlatforms
-Cmd: preprocess
-  insize=1331 outsize=503 ok=1
-Cmd: preprocess
-  insize=1001 outsize=655 ok=1
-Cmd: preprocess
-  insize=1254 outsize=426 ok=1
-Cmd: preprocess
-  insize=1030 outsize=661 ok=1
-Cmd: preprocess
-  insize=1753 outsize=598 ok=1
-Cmd: preprocess
-  insize=920 outsize=575 ok=1
-Cmd: preprocess
-  insize=949 outsize=579 ok=1
-Cmd: preprocess
-  insize=904 outsize=205 ok=1
-Cmd: preprocess
-  insize=1163 outsize=368 ok=1
-Cmd: preprocess
-  insize=1337 outsize=389 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (54): incorrect number of arguments to numeric-type constructor
-  api=4 type=0 insize=1204 outsize=0 kw= ok=0
-Cmd: preprocess
-  insize=607 outsize=604 ok=1
-Cmd: preprocess
-  insize=1239 outsize=444 ok=1
