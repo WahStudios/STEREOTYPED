@@ -33,9 +33,13 @@ public class RoomOptions : MonoBehaviour {
 	void Start () {
 		thisGrid = GameObject.Find ("Grid/" + gameObject.name);
 		gridPos = thisGrid.GetComponent<GridPos> ();
+		if(GameObject.Find ("RoomPool/" + gridPos.aboveGrid.name) != null)
 		upRoom = GameObject.Find ("RoomPool/" + gridPos.aboveGrid.name);
+		if(GameObject.Find ("RoomPool/" + gridPos.belowGrid.name) != null)
 		downRoom =  GameObject.Find ("RoomPool/" + gridPos.belowGrid.name);
+		if(GameObject.Find ("RoomPool/" + gridPos.leftGrid.name) != null)
 		leftRoom = GameObject.Find ("RoomPool/" + gridPos.leftGrid.name);
+		if(GameObject.Find ("RoomPool/" + gridPos.rightGrid.name) != null)
 		rightRoom =  GameObject.Find ("RoomPool/" + gridPos.rightGrid.name);
 		if (upRoom != null) {
 			upRoomOptions = upRoom.GetComponent<RoomOptions> ();
@@ -82,33 +86,37 @@ public class RoomOptions : MonoBehaviour {
 		delay = false;
 		invokeDelay = false;
 	}
-	public float decay = 1.5f;
-	public bool delay = false;
+	static public float decay = 1.5f;
+	static public bool delay = false;
 	// Update is called once per frame
 	void Update () {
-	if (leftDoorScript != null && leftDoorScript.isInDoorway == true) {
-			if(delay == false){
-			if(Input.GetAxis("Vertical") > 0.2f)
-			{
-				playerParent.transform.position = leftDoorExit.transform.position;		
-			}
-		
+		if (delay == false) {
+		if (leftDoorScript != null && leftDoorScript.isInDoorway == true) {
+				if (Input.GetAxis ("Vertical") > 0.2f) {
+					playerParent.transform.position = leftDoorExit.transform.position;
+					delay = true;
+				}
+
+		}
 		if (rightDoorScript != null && rightDoorScript.isInDoorway == true) {
 			if(Input.GetAxis("Vertical") > 0.2f)
 			{
 				playerParent.transform.position = rightDoorExit.transform.position;		
+					delay = true;
 			}
 		}
 		if (upDoorScript != null && upDoorScript.isInDoorway == true) {
 			if(Input.GetAxis("Vertical") > 0.2f)
 			{
 				playerParent.transform.position = upDoorExit.transform.position;		
+					delay = true;
 			}
 		}
 		if (downDoorScript != null && downDoorScript.isInDoorway == true) {
 			if(Input.GetAxis("Vertical") > 0.2f)
 			{
-				playerParent.transform.position = downDoorExit.transform.position;		
+				playerParent.transform.position = downDoorExit.transform.position;	
+					delay = true;
 			}
 		}
 	}
@@ -119,6 +127,6 @@ public class RoomOptions : MonoBehaviour {
 					invokeDelay = true;
 				}
 			}
+
 }
-	}
 }

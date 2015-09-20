@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Door : MonoBehaviour {
-	public BoxCollider2D boxCollider;
+	BoxCollider2D boxCollider;
 	public bool isInDoorway = false;
 
 	// Use this for initialization
@@ -11,7 +11,7 @@ public class Door : MonoBehaviour {
 	}
 	void Start () {
 
-		boxCollider.collider2D.isTrigger = true;
+
 		Vector2 boxSize = boxCollider.size;
 		Vector2 boxCenter = boxCollider.center;
 		boxSize.x = 2;
@@ -19,7 +19,7 @@ public class Door : MonoBehaviour {
 		boxCenter.y = 2.2f;
 		boxCollider.center = boxCenter;
 		boxCollider.size = boxSize;
-
+		boxCollider.collider2D.isTrigger = true;
 
 	}
 	

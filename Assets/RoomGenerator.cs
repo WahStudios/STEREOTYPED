@@ -138,85 +138,117 @@ public class RoomGenerator : MonoBehaviour {
 
 			GridPos gridPos = currentGrid2.GetComponent<GridPos> ();
 			if (randomDirection == 1) {//up
-				if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+
 					currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
 
 					currentGrid2 = gridPos.aboveGrid;
 
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+
+				} else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+				
 					currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid2 = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
-					currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
-					currentGrid2 = gridPos.leftGrid;
-					usedGrids.Add (gridPos.leftGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
-					currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
-					currentGrid2 = gridPos.rightGrid;
-					usedGrids.Add (gridPos.rightGrid, 1);
-				}
-			
-			
-			} else if (randomDirection == 2) {//down
-				if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
-					currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
-					currentGrid2 = gridPos.belowGrid;
-					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
-					currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
-					currentGrid2 = gridPos.aboveGrid;
-					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
-					currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
-					currentGrid2 = gridPos.leftGrid;
-					usedGrids.Add (gridPos.leftGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
-					currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
-					currentGrid2 = gridPos.rightGrid;
-					usedGrids.Add (gridPos.rightGrid, 1);
-				}
-			
-			
-			} else if (randomDirection == 3) {//left
-				if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) {
+
 					currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid2 = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
 				
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
-					currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
-					currentGrid2 = gridPos.aboveGrid;
-					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
-					currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
-					currentGrid2 = gridPos.belowGrid;
-					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+				} else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+
 					currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid2 = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
+
+				}
+			
+			
+			} else if (randomDirection == 2) {//down
+				if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+
+					currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
+					currentGrid2 = gridPos.belowGrid;
+					usedGrids.Add (gridPos.belowGrid, 1);
+
+				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+
+					currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
+					currentGrid2 = gridPos.aboveGrid;
+					usedGrids.Add (gridPos.aboveGrid, 1);
+
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) {
+
+					currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
+					currentGrid2 = gridPos.leftGrid;
+					usedGrids.Add (gridPos.leftGrid, 1);
+
+				} else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+
+					currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
+					currentGrid2 = gridPos.rightGrid;
+					usedGrids.Add (gridPos.rightGrid, 1);
+
+				}
+			
+			
+			} else if (randomDirection == 3) {//left
+				if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) {
+
+					currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
+					currentGrid2 = gridPos.leftGrid;
+					usedGrids.Add (gridPos.leftGrid, 1);
+
+				
+				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
+					currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
+					currentGrid2 = gridPos.aboveGrid;
+					usedGrids.Add (gridPos.aboveGrid, 1);
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
+					currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
+					currentGrid2 = gridPos.belowGrid;
+					usedGrids.Add (gridPos.belowGrid, 1);
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
+					currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
+					currentGrid2 = gridPos.rightGrid;
+					usedGrids.Add (gridPos.rightGrid, 1);
+					}
 				}
 			
 			
 			} else if (randomDirection == 4) {//right
-				if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
 					currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid2 = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+					}
+				} else  if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
 					currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid2 = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
 					currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid2 = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) {
+					if(gridPos.leftGrid != null){
 					currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid2 = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
+					}
 				
 				}
 			
@@ -237,83 +269,118 @@ public class RoomGenerator : MonoBehaviour {
 	
 			GridPos gridPos = currentGrid3.GetComponent<GridPos> ();
 			if (randomDirection == 1) {//up
-				if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
 					currentRandomRoom3.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid3 = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+					}
+				} else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
 					currentRandomRoom3.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid3 = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) {
+					if(gridPos.leftGrid != null){
 					currentRandomRoom3.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid3 = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
 					currentRandomRoom3.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid3 = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
+					}
 				}
 				
 				
 			} else if (randomDirection == 2) {//down
-				if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
 					currentRandomRoom3.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid3 = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
 					currentRandomRoom3.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid3 = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) {
+					if(gridPos.leftGrid != null){
 					currentRandomRoom3.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid3 = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
 					currentRandomRoom3.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid3 = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
+					}
 				}
 				
 				
 			} else if (randomDirection == 3) {//left
-				if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) {
+					if(gridPos.leftGrid != null){
 					currentRandomRoom3.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid3 = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
+					}
+				
 					
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+
 					currentRandomRoom3.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid3 = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+
+
+				} else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+				if(gridPos.belowGrid != null){
 					currentRandomRoom3.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid3 = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+				}
+				} else  if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+				if(gridPos.rightGrid != null){
 					currentRandomRoom3.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid3 = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
 				}
+				}
 				
 				
 			} else if (randomDirection == 4) {//right
-				if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
 					currentRandomRoom3.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid3 = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+					}
+				} else  if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
 					currentRandomRoom3.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid3 = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+					}
+				
+				} else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
 					currentRandomRoom3.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid3 = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+					if(gridPos.leftGrid != null){
 					currentRandomRoom3.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid3 = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
+					}
 					
 				}
 				
@@ -334,83 +401,115 @@ public class RoomGenerator : MonoBehaviour {
 		
 			GridPos gridPos = currentGrid.GetComponent<GridPos> ();
 			if (randomDirection == 1) {//up
-				if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
 					currentRandomRoom.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+					}
+				} else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
 					currentRandomRoom.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+					if(gridPos.leftGrid != null){
 					currentRandomRoom.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+					}
+				} else	if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
 					currentRandomRoom.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
+					}
 				}
 			
 			
 			} else if (randomDirection == 2) {//down
-				if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
 					currentRandomRoom.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
 					currentRandomRoom.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+					if(gridPos.leftGrid != null){
 					currentRandomRoom.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+					}
+				} else	if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
 					currentRandomRoom.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
+					}
 				}
 			
 			
 			} else if (randomDirection == 3) {//left
-				if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+					if(gridPos.leftGrid != null){
 					currentRandomRoom.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
+					}
 				
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
 					currentRandomRoom.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
 					currentRandomRoom.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
 					currentRandomRoom.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
+					}
 				}
 			
 			
 			} else if (randomDirection == 4) {//right
-				if (!usedGrids.ContainsKey (gridPos.rightGrid)) {
+				if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+					if(gridPos.rightGrid != null){
 					currentRandomRoom.transform.position = gridPos.rightGrid.transform.position;
 					currentGrid = gridPos.rightGrid;
 					usedGrids.Add (gridPos.rightGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+					if(gridPos.aboveGrid != null){
 					currentRandomRoom.transform.position = gridPos.aboveGrid.transform.position;
 					currentGrid = gridPos.aboveGrid;
 					usedGrids.Add (gridPos.aboveGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.belowGrid)) {
+					}
+				} else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+					if(gridPos.belowGrid != null){
 					currentRandomRoom.transform.position = gridPos.belowGrid.transform.position;
 					currentGrid = gridPos.belowGrid;
 					usedGrids.Add (gridPos.belowGrid, 1);
-				} else if (!usedGrids.ContainsKey (gridPos.leftGrid)) {
+					}
+				} else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+					if(gridPos.leftGrid != null){
 					currentRandomRoom.transform.position = gridPos.leftGrid.transform.position;
 					currentGrid = gridPos.leftGrid;
 					usedGrids.Add (gridPos.leftGrid, 1);
+					}
 				
 				}
 			
@@ -538,102 +637,134 @@ public class RoomGenerator : MonoBehaviour {
 				GridPos gridPos = currentGrid.GetComponent<GridPos>();
 				if(randomDirection == 1)//up
 				{
-					if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+					}
 					}
 
 
 				}
 				else if(randomDirection == 2)//down
 				{
-					if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else  if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+						}
 					}
 					
 					
 				}
 				else if(randomDirection == 3)//left
 				{
-					if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+				if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 				
 					}
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+						}
 					}
 					
 					
 				}
 				else if(randomDirection == 4)//right
 				{
-					if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+						}
 					}
 
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else  if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 						
 					}
 					
@@ -663,102 +794,134 @@ public class RoomGenerator : MonoBehaviour {
 				GridPos gridPos = currentGrid2.GetComponent<GridPos>();
 				if(randomDirection == 1)//up
 				{
-					if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid2 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid2 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid2 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid2 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+						}
 					}
 					
 					
 				}
 				else if(randomDirection == 2)//down
 				{
-					if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid2 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid2 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid2 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid2 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+						}
 					}
 					
 					
 				}
 				else if(randomDirection == 3)//left
 				{
-					if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid2 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 						
 					}
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid2 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid2 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid2 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+						}
 					}
 					
 					
 				}
 				else if(randomDirection == 4)//right
 				{
-					if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom2.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid2 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+						}
 					}
 					
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom2.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid2 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom2.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid2 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else 	if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom2.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid2 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 						
 					}
 					
@@ -785,47 +948,55 @@ public class RoomGenerator : MonoBehaviour {
 				GridPos gridPos = currentGrid3.GetComponent<GridPos>();
 				if(randomDirection == 1)//up
 				{
-					if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
+						if(gridPos.aboveGrid != null){
 						currentRandomRoom3.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid3 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else  if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
+						if(gridPos.belowGrid != null){
 						currentRandomRoom3.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid3 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
+						if(gridPos.leftGrid != null){
 						currentRandomRoom3.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid3 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
+						}
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
+						if(gridPos.rightGrid != null){
 						currentRandomRoom3.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid3 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
+						}
 					}
 					
 					
 				}
 				else if(randomDirection == 2)//down
 				{
-					if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid3 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid3 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
 						currentRandomRoom3.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid3 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid3 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
@@ -835,23 +1006,23 @@ public class RoomGenerator : MonoBehaviour {
 				}
 				else if(randomDirection == 3)//left
 				{
-					if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
 						currentRandomRoom3.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid3 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
 						
 					}
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid3 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else	if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid3 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid3 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
@@ -861,23 +1032,23 @@ public class RoomGenerator : MonoBehaviour {
 				}
 				else if(randomDirection == 4)//right
 				{
-					if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid3 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
 					}
 					
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid3 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else	if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
 						currentRandomRoom3.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid3 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
 						currentRandomRoom3.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid3 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
@@ -909,22 +1080,22 @@ public class RoomGenerator : MonoBehaviour {
 				GridPos gridPos = currentGrid4.GetComponent<GridPos>();
 				if(randomDirection == 1)//up
 				{
-					if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid4 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid4 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
 						currentRandomRoom4.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid4 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid4 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
@@ -934,22 +1105,22 @@ public class RoomGenerator : MonoBehaviour {
 				}
 				else if(randomDirection == 2)//down
 				{
-					if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid4 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid4 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
 						currentRandomRoom4.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid4 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid4 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
@@ -959,23 +1130,23 @@ public class RoomGenerator : MonoBehaviour {
 				}
 				else if(randomDirection == 3)//left
 				{
-					if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
 						currentRandomRoom4.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid4 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
 						
 					}
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid4 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid4 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid4 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
@@ -985,23 +1156,23 @@ public class RoomGenerator : MonoBehaviour {
 				}
 				else if(randomDirection == 4)//right
 				{
-					if(!usedGrids.ContainsKey(gridPos.rightGrid)){
+					if (!usedGrids.ContainsKey (gridPos.rightGrid) && gridPos.rightGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.rightGrid.transform.position;
 						currentGrid4 = gridPos.rightGrid;
 						usedGrids.Add(gridPos.rightGrid, 1);
 					}
 					
-					else if(!usedGrids.ContainsKey(gridPos.aboveGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.aboveGrid) && gridPos.aboveGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.aboveGrid.transform.position;
 						currentGrid4 = gridPos.aboveGrid;
 						usedGrids.Add(gridPos.aboveGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.belowGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.belowGrid) && gridPos.belowGrid != null) {
 						currentRandomRoom4.transform.position = gridPos.belowGrid.transform.position;
 						currentGrid4 = gridPos.belowGrid;
 						usedGrids.Add(gridPos.belowGrid, 1);
 					}
-					else if(!usedGrids.ContainsKey(gridPos.leftGrid)){
+					else if (!usedGrids.ContainsKey (gridPos.leftGrid) && gridPos.leftGrid != null) { 
 						currentRandomRoom4.transform.position = gridPos.leftGrid.transform.position;
 						currentGrid4 = gridPos.leftGrid;
 						usedGrids.Add(gridPos.leftGrid, 1);
