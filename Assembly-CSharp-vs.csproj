@@ -183,6 +183,7 @@
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\PolygonGenerator.cs" />
      <Compile Include="Assets\RandomLevelGenerator.cs" />
      <Compile Include="Assets\RandomRoad.cs" />
+     <Compile Include="Assets\Randomize.cs" />
      <Compile Include="Assets\RoomGenerator.cs" />
      <Compile Include="Assets\RoomOptions.cs" />
      <Compile Include="Assets\Scripts\Equipment.cs" />
@@ -216,7 +217,7 @@
      <None Include="Assets\Ferr\2DTerrain\Shaders\LightmapColored.shader" />
      <None Include="Assets\Ferr\2DTerrain\Shaders\LitColoredTransparent.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/mrray/Documents/GitHub/STEREOTYPED/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/mrray/Documents/GitHub/Sterotyped Master Branch/STEREOTYPED/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.8/Standalone/UnityEngine.UI.dll</HintPath>

@@ -183,6 +183,7 @@
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\PolygonGenerator.cs" />
      <Compile Include="Assets\RandomLevelGenerator.cs" />
      <Compile Include="Assets\RandomRoad.cs" />
+     <Compile Include="Assets\Randomize.cs" />
      <Compile Include="Assets\RoomGenerator.cs" />
      <Compile Include="Assets\RoomOptions.cs" />
      <Compile Include="Assets\Scripts\Equipment.cs" />
