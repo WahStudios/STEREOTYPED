@@ -67,6 +67,7 @@ Assets/Prefabs/GridPieces/Grid_Cavern_12.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_11.prefab
 Assets/Prefabs/Grid.prefab
 Assets/Working Prefabs/Grid.prefab
+Assets/Default Grid.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Prefabs/Roads/RoadPrefab0.prefab
@@ -136,3 +137,4 @@ Assets/Prefabs/GridPieces/Grid_Cavern_12.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_11.prefab
 Assets/Prefabs/Grid.prefab
 Assets/Working Prefabs/Grid.prefab
+Assets/Default Grid.prefab
