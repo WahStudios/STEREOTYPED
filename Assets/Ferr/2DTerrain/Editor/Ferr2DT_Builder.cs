@@ -9,7 +9,7 @@ public class Ferr2DT_Builder {
     static bool wasPlaying;
 
     static Ferr2DT_Builder() {
-        EditorApplication.playmodeStateChanged += StateChanged;
+     //   EditorApplication.playmodeStateChanged += StateChanged;
     }
 
     static void StateChanged() {

@@ -46,6 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CharacterAttributes.cs" />
+     <Compile Include="Assets\CharacterInformationUI.cs" />
+     <Compile Include="Assets\CharacterMods.cs" />
+     <Compile Include="Assets\CharacterStats.cs" />
      <Compile Include="Assets\Door.cs" />
      <Compile Include="Assets\Ferr\2D\Scripts\Ferr2D_Animator.cs" />
      <Compile Include="Assets\Ferr\2D\Scripts\Ferr2D_DynamicMesh.cs" />
@@ -181,6 +185,7 @@
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\FixedBitArray3.cs" />
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\PointGenerator.cs" />
      <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\PolygonGenerator.cs" />
+     <Compile Include="Assets\RandomCharacterGenerator.cs" />
      <Compile Include="Assets\RandomLevelGenerator.cs" />
      <Compile Include="Assets\RandomRoad.cs" />
      <Compile Include="Assets\Randomize.cs" />
