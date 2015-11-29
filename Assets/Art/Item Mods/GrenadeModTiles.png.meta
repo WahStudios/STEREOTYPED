@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 7aca887cea14f03458e223ecb9365450
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GrenadeModTiles_FireBallz
+    21300002: GrenadeModTiles_Radiated Grenade
+    21300004: GrenadeModTiles_SpikedGrenade
+    21300006: GrenadeModTiles_Eruption
+    21300008: GrenadeModTiles_CrossFire
+    21300010: GrenadeModTiles_Magnet Grenade
+    21300012: GrenadeModTiles_BigGrenade
+    21300014: GrenadeModTiles_ProximityGrenade
+    21300016: GrenadeModTiles_9
+    21300018: GrenadeModTiles_PoisonGrenade
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GrenadeModTiles_FireBallz
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 359
+        width: 108
+        height: 148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_Radiated Grenade
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 358
+        width: 135
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_SpikedGrenade
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 361
+        width: 144
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_Eruption
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 354
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_CrossFire
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 354
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_Magnet Grenade
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 368
+        width: 137
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_BigGrenade
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 366
+        width: 151
+        height: 143
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_ProximityGrenade
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 354
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_9
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 354
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeModTiles_PoisonGrenade
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 352
+        width: 173
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

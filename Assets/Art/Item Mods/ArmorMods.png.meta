@@ -2,9 +2,9 @@ fileFormatVersion: 2
 guid: 4bc08f700801ec240adcb61dd1f34eb1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ArmorMods_0
-    21300002: ArmorMods_1
-    21300004: ArmorMods_2
+    21300000: ArmorMods_CyborgHead
+    21300002: ArmorMods_CyborgShoulder
+    21300004: ArmorMods_CyborgBody
     21300006: ScaryMask
     21300008: Chest_LeatherOutfit
     21300010: Bandana
@@ -14,7 +14,7 @@ TextureImporter:
     21300018: ArmorMods_9
     21300020: GrapplingHook2
     21300022: Grenade1
-    21300024: ArmorMods_12
+    21300024: ArmorMods_RedBandana
     21300026: SpikedShoulderPad1
     21300028: Grenade2
     21300030: ArmorMods_15
@@ -24,6 +24,42 @@ TextureImporter:
     21300038: Foot_LeatherOutfit
     21300040: Toe_LeatherOutfit
     21300042: SpikedShoulderPad2
+    21300044: ArmorMods_ScaryMask
+    21300046: ArmorMods_SpikedShoulderPads_Chest
+    21300048: ArmorMods__SpikedShoulderPads_LShoulder
+    21300050: ArmorMods_6
+    21300052: ArmorMods_BulletProofVest
+    21300054: ArmorMods_8
+    21300056: ArmorMods_10
+    21300058: ArmorMods_CyborgArm
+    21300060: ArmorMods_LeatherPants
+    21300062: ArmorMods__SpikedShoulderPads_RShoulder
+    21300064: ArmorMods_16
+    21300066: ArmorMods_CyborgHand
+    21300068: ArmorMods_CyborgThigh
+    21300070: ArmorMods_CyborgFoot
+    21300072: ArmorMods_20
+    21300074: ArmorMods_SoldierOutfit_Shoulder
+    21300076: ArmorMods_SoldierOutfit_Chest
+    21300078: ArmorMods_CowBoyHat
+    21300080: ArmorMods_TintedShades
+    21300082: ArmorMods_LeatherBoots
+    21300084: ArmorMods_26
+    21300086: ArmorMods_SoldierOutfit_RWrist
+    21300088: ArmorMods_SoldierOutfit_Thigh
+    21300090: ArmorMods_MuggersMask
+    21300092: ArmorMods_SoldierOutfit_LWrist
+    21300094: ArmorMods_SoldierOutfit_Foot
+    21300096: ArmorMods_SoldierOutfit_LWristBand
+    21300098: ArmorMods_MotorcycleHelmet
+    21300100: ArmorMods_PrisonOutfit_Underware
+    21300102: ArmorMods_PrisonOutfit_Shoulder
+    21300104: ArmorMods_LeatherJacket
+    21300106: ArmorMods_PrisonOutfit_Thigh
+    21300108: ArmorMods_MetalLeggins_Thigh
+    21300110: ArmorMods_LetherJacket_Shoulder
+    21300112: ArmorMods_PrisonOutfit_Foot
+    21300114: ArmorMods_MetalLeggins_Foot
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -44,7 +80,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 1024
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -59,229 +95,429 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: ArmorMods_0
+    - name: ArmorMods_CyborgHead
       rect:
         serializedVersion: 2
-        x: 17
-        y: 435
-        width: 95
-        height: 84
+        x: 76
+        y: 966
+        width: 92
+        height: 80
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ArmorMods_1
+    - name: ArmorMods_CyborgShoulder
       rect:
         serializedVersion: 2
-        x: 143
-        y: 417
-        width: 76
-        height: 96
+        x: 201
+        y: 947
+        width: 73
+        height: 94
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ArmorMods_2
+    - name: ArmorMods_CyborgBody
       rect:
         serializedVersion: 2
-        x: 252
-        y: 339
-        width: 136
-        height: 158
+        x: 311
+        y: 870
+        width: 132
+        height: 154
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ScaryMask
+    - name: ArmorMods_ScaryMask
       rect:
         serializedVersion: 2
-        x: 457
-        y: 399
-        width: 77
-        height: 104
+        x: 517
+        y: 929
+        width: 74
+        height: 101
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Chest_LeatherOutfit
+    - name: ArmorMods_SpikedShoulderPads_Chest
       rect:
         serializedVersion: 2
-        x: 601
-        y: 366
+        x: 661
+        y: 896
+        width: 117
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods__SpikedShoulderPads_LShoulder
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 950
+        width: 105
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_6
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 935
+        width: 183
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_BulletProofVest
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 927
         width: 124
-        height: 153
+        height: 128
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bandana
+    - name: ArmorMods_8
       rect:
         serializedVersion: 2
-        x: 788
-        y: 424
-        width: 155
-        height: 82
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ShoulderRocket
-      rect:
-        serializedVersion: 2
-        x: 1034
-        y: 377
-        width: 185
-        height: 115
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BulletproffVest
-      rect:
-        serializedVersion: 2
-        x: 1290
-        y: 328
-        width: 126
-        height: 131
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: GrapplingHook1
-      rect:
-        serializedVersion: 2
-        x: 1527
-        y: 377
-        width: 76
-        height: 89
+        x: 1391
+        y: 955
+        width: 73
+        height: 88
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ArmorMods_9
       rect:
         serializedVersion: 2
-        x: 152
-        y: 334
-        width: 58
-        height: 79
+        x: 1856
+        y: 968
+        width: 49
+        height: 82
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: GrapplingHook2
+    - name: ArmorMods_10
       rect:
         serializedVersion: 2
-        x: 1496
-        y: 203
-        width: 147
-        height: 161
+        x: 40
+        y: 821
+        width: 86
+        height: 95
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grenade1
+    - name: ArmorMods_CyborgArm
       rect:
         serializedVersion: 2
-        x: 1716
-        y: 339
-        width: 51
-        height: 85
+        x: 212
+        y: 865
+        width: 55
+        height: 76
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ArmorMods_12
+    - name: ArmorMods_RedBandana
       rect:
         serializedVersion: 2
-        x: 154
-        y: 272
-        width: 52
-        height: 51
+        x: 471
+        y: 818
+        width: 152
+        height: 80
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpikedShoulderPad1
+    - name: ArmorMods_LeatherPants
       rect:
         serializedVersion: 2
-        x: 630
-        y: 246
-        width: 96
-        height: 91
+        x: 704
+        y: 794
+        width: 50
+        height: 88
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grenade2
+    - name: ArmorMods__SpikedShoulderPads_RShoulder
       rect:
         serializedVersion: 2
-        x: 1716
-        y: 244
-        width: 51
-        height: 86
+        x: 809
+        y: 846
+        width: 93
+        height: 89
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ArmorMods_15
       rect:
         serializedVersion: 2
-        x: 5
-        y: 50
-        width: 89
-        height: 98
+        x: 1361
+        y: 782
+        width: 144
+        height: 158
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Leg_LeatherOutfit
+    - name: ArmorMods_16
       rect:
         serializedVersion: 2
-        x: 646
-        y: 128
+        x: 1856
+        y: 874
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_CyborgHand
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 802
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_CyborgThigh
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 768
         width: 53
         height: 93
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: GrapplingHook3
+    - name: ArmorMods_CyborgFoot
       rect:
         serializedVersion: 2
-        x: 1543
-        y: 70
-        width: 96
-        height: 107
+        x: 359
+        y: 754
+        width: 41
+        height: 87
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grenade3
+    - name: ArmorMods_20
       rect:
         serializedVersion: 2
-        x: 1716
-        y: 139
+        x: 1856
+        y: 768
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_SoldierOutfit_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 683
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_SoldierOutfit_Chest
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 611
+        width: 110
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_CowBoyHat
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 611
+        width: 168
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_TintedShades
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 678
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_LeatherBoots
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 690
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_26
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 649
+        width: 94
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_SoldierOutfit_RWrist
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 571
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_SoldierOutfit_Thigh
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 494
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_MuggersMask
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 475
+        width: 103
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_SoldierOutfit_LWrist
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 459
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_SoldierOutfit_Foot
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 379
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_SoldierOutfit_LWristBand
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 393
         width: 51
-        height: 85
+        height: 48
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Foot_LeatherOutfit
+    - name: ArmorMods_MotorcycleHelmet
       rect:
         serializedVersion: 2
-        x: 648
-        y: 6
-        width: 55
-        height: 89
+        x: 281
+        y: 313
+        width: 112
+        height: 135
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Toe_LeatherOutfit
+    - name: ArmorMods_PrisonOutfit_Underware
       rect:
         serializedVersion: 2
-        x: 752
-        y: 6
-        width: 44
-        height: 29
+        x: 19
+        y: 224
+        width: 100
+        height: 145
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpikedShoulderPad2
+    - name: ArmorMods_PrisonOutfit_Shoulder
       rect:
         serializedVersion: 2
-        x: 763
-        y: 246
-        width: 107
-        height: 100
+        x: 152
+        y: 271
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_LeatherJacket
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 147
+        width: 120
+        height: 138
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_PrisonOutfit_Thigh
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 56
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_MetalLeggins_Thigh
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 132
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_LetherJacket_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 187
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_PrisonOutfit_Foot
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 9
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmorMods_MetalLeggins_Foot
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 24
+        width: 40
+        height: 69
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

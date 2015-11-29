@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 71c014d22b878fe41bed969913688bf7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GunModTiles_RubberBullet
+    21300002: GunModTiles_Contra
+    21300004: GunModTiles_PoisonJacket
+    21300006: GunModTiles_PointBlank
+    21300008: GunModTiles_ExplosiveTip
+    21300010: GunModTiles_HuntersBullet
+    21300012: GunModTiles_7
+    21300014: GunModTiles_Scope
+    21300016: GunModTiles_PhaseBullet
+    21300018: GunModTiles_10
+    21300020: GunModTiles_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GunModTiles_RubberBullet
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 21
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_Contra
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 32
+        width: 148
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_PoisonJacket
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 27
+        width: 31
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_PointBlank
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 23
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_ExplosiveTip
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 23
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_HuntersBullet
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 23
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 7
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_Scope
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 21
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_PhaseBullet
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 21
+        width: 176
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_10
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 21
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GunModTiles_11
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 26
+        width: 132
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

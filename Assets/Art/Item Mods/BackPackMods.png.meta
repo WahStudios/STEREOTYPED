@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: e0275dccf612a8e4986bbb323b0ca87e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BackPackMods_Umbrella
+    21300002: BackPackMods_AntiGravityShoes
+    21300004: BackPackMods_CrownOfMercenaryKing
+    21300006: BackPackMods_VeganMeal
+    21300008: BackPackMods_ShrinkingMechine
+    21300010: BackPackMods_ShoulderLaser
+    21300012: BackPackMods_Shield
+    21300014: BackPackMods_RocketShoes
+    21300016: BackPackMods_GrapplingHook
+    21300018: BackPackMods_Calculator
+    21300020: BackPackMods_241
+    21300022: BackPackMods_11
+    21300024: BackPackMods_12
+    21300026: BackPackMods_LargeClip
+    21300028: BackPackMods_14
+    21300030: BackPackMods_HomingMissile
+    21300032: BackPackMods_16
+    21300034: BackPackMods_17
+    21300036: BackPackMods_BrokenCloackingDevice
+    21300038: BackPackMods_Flashlight
+    21300040: BackPackMods_EnergizedSmallMagazine
+    21300042: BackPackMods_RustyLockPick
+    21300044: BackPackMods_BackPack
+    21300046: BackPackMods_GPS
+    21300048: BackPackMods_Anorexic
+    21300050: BackPackMods_25
+    21300052: BackPackMods_26
+    21300054: BackPackMods_Latte
+    21300056: BackPackMods_28
+    21300058: BackPackMods_OldEyePatch
+    21300060: BackPackMods_30
+    21300062: BackPackMods_31
+    21300064: BackPackMods_32
+    21300066: BackPackMods_33
+    21300068: BackPackMods_34
+    21300070: BackPackMods_35
+    21300072: BackPackMods_36
+    21300074: BackPackMods_37
+    21300076: BackPackMods_38
+    21300078: BackPackMods_39
+    21300080: BackPackMods_40
+    21300082: BackPackMods_41
+    21300084: BackPackMods_42
+    21300086: BackPackMods_43
+    21300088: BackPackMods_44
+    21300090: BackPackMods_45
+    21300092: BackPackMods_46
+    21300094: BackPackMods_47
+    21300096: BackPackMods_48
+    21300098: BackPackMods_49
+    21300100: BackPackMods_50
+    21300102: BackPackMods_51
+    21300104: BackPackMods_52
+    21300106: BackPackMods_53
+    21300108: BackPackMods_54
+    21300110: BackPackMods_55
+    21300112: BackPackMods_56
+    21300114: BackPackMods_57
+    21300116: BackPackMods_58
+    21300118: BackPackMods_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BackPackMods_Umbrella
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 887
+        width: 145
+        height: 148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_AntiGravityShoes
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 880
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_CrownOfMercenaryKing
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 910
+        width: 150
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_VeganMeal
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 926
+        width: 133
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_ShrinkingMechine
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 878
+        width: 162
+        height: 163
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_ShoulderLaser
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 885
+        width: 140
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_Shield
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 885
+        width: 40
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_RocketShoes
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 880
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_GrapplingHook
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 880
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_Calculator
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 887
+        width: 91
+        height: 143
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_241
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 698
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 698
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 698
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_LargeClip
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 705
+        width: 62
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_14
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 698
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_HomingMissile
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 696
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_16
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 708
+        width: 137
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_17
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 698
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_BrokenCloackingDevice
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 704
+        width: 52
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_Flashlight
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 698
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_EnergizedSmallMagazine
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 535
+        width: 111
+        height: 146
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_RustyLockPick
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 551
+        width: 135
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_BackPack
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 533
+        width: 103
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_GPS
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 539
+        width: 144
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_Anorexic
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 536
+        width: 62
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_25
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 528
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_26
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 528
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_Latte
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 549
+        width: 75
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_28
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 528
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_OldEyePatch
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 528
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_30
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 360
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_31
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 360
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_32
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 360
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_33
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 360
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_34
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 360
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_35
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 360
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_36
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 360
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_37
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 360
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_38
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 360
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_39
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 360
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 196
+        width: 111
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_41
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 211
+        width: 135
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_42
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 193
+        width: 103
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_43
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 199
+        width: 144
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_44
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 197
+        width: 62
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_45
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 189
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_46
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 189
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_47
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 210
+        width: 75
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_48
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 189
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_49
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 189
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_50
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 7
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_51
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 7
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_52
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 7
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_53
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 7
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_54
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 7
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_55
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 7
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_56
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 7
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_57
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 7
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_58
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 7
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackPackMods_59
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 7
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

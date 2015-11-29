@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: e303f165bc62db64e912768b9db2d7fc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SelectScreen_MeleeDamage
+    21300002: SelectScreen_GunDamage
+    21300004: SelectScreen_BulletSpeed
+    21300006: SelectScreen_TotalAmmo
+    21300008: SelectScreen_Accuracy
+    21300010: SelectScreen_FireRate
+    21300012: SelectScreen_Block
+    21300014: SelectScreen_BG
+    21300016: SelectScreen_MovementSpeed
+    21300018: SelectScreen_BulletRange
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SelectScreen_MeleeDamage
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 857
+        width: 164
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_GunDamage
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 684
+        width: 164
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_BulletSpeed
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 506
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_TotalAmmo
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 862
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_Accuracy
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 647
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_FireRate
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 473
+        width: 164
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_Block
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 862
+        width: 24
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_BG
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 862
+        width: 215
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_MovementSpeed
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 294
+        width: 164
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SelectScreen_BulletRange
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 666
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
