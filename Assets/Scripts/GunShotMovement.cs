@@ -19,6 +19,7 @@ public class GunShotMovement : MonoBehaviour {
 	bool isParented = true;
 	public GameObject explosionFX;
 	public Animator explosionAnim;
+    
 	//public GameObject leftFacingRotate;
 	//public ObjectPool objectPool;
 	// Use this for initialization
@@ -65,7 +66,8 @@ public class GunShotMovement : MonoBehaviour {
 			if(ObjectPool.isGrenade == false){
 				if(thisSprite.enabled == false){
 					Debug.Log ("enableSprite");
-					thisSprite.enabled = true;
+                    
+                    thisSprite.enabled = true;
 				}
 					if(transform.parent != null){
 					transform.rotation = ObjectPool.facingLeft.transform.rotation;
@@ -81,7 +83,8 @@ public class GunShotMovement : MonoBehaviour {
 			
 			else{//grenade logic
 				if(forceAdded == true && isLeftActive == true){
-					transform.parent = null;
+                    gameObject.GetComponent<BoxCollider2D>().enabled = true;
+                    transform.parent = null;
 					Rigidbody2D rigid  = gameObject.GetComponent<Rigidbody2D>();
 					rigid.isKinematic = false;
 					
@@ -118,6 +121,7 @@ public class GunShotMovement : MonoBehaviour {
 		explosionAnim.SetBool("explode", false);
 		explosionFX.SetActive(false);
 		thisSprite.enabled = false;
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
 	}
 
 	public void ResetGrenade(){

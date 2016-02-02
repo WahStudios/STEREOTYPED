@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BulletCheck.cs" />
     <Compile Include="Assets\CharacterAttributes.cs" />
     <Compile Include="Assets\CharacterInformationUI.cs" />
     <Compile Include="Assets\CharacterMods.cs" />
@@ -97,8 +98,12 @@
     <Compile Include="Assets\Ferr\Common\Scripts\Ferr_JSON.cs" />
     <Compile Include="Assets\Ferr\Common\Scripts\Ferr_LambdaComparer.cs" />
     <Compile Include="Assets\Ferr\Common\Scripts\Ferr_LogoLock.cs" />
+    <Compile Include="Assets\GrenadeChekc.cs" />
     <Compile Include="Assets\GridPos.cs" />
+    <Compile Include="Assets\GroundCheck.cs" />
     <Compile Include="Assets\GunShoot.cs" />
+    <Compile Include="Assets\MeleeRange.cs" />
+    <Compile Include="Assets\PlayerCheck.cs" />
     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_BakeAnimation.cs" />
     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_Bakedmesh.cs" />
     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_EditSkinWeights.cs" />
@@ -220,6 +225,7 @@
     <Compile Include="Assets\Scripts\ItemStats.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SlotScript.cs" />
+    <Compile Include="Assets\ShootRange.cs" />
     <Compile Include="Assets\aiming.cs" />
     <Compile Include="Assets\rollSwitch.cs" />
   </ItemGroup>
