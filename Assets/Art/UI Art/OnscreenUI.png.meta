@@ -10,6 +10,18 @@ TextureImporter:
     21300010: UI_Health
     21300012: UI_Shield
     21300014: UI_Armor
+    21300016: UI_HealthBar
+    21300018: UI_HealthBar_BG
+    21300020: UI_HealthMeter
+    21300022: UI_AmmoMeter
+    21300024: UI_ArmorMeter
+    21300026: UI_Bullet
+    21300028: UI_Grenade
+    21300030: UI_Junk
+    21300032: UI_KeyCard
+    21300034: UI_Shield
+    21300036: UI_Reticle
+    21300038: UI_Counter
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -51,22 +63,62 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: UI_Reticle
+    - name: UI_HealthBar
       rect:
         serializedVersion: 2
-        x: 61
-        y: 2339
-        width: 158
-        height: 137
-      alignment: 9
-      pivot: {x: .495704561, y: .359449834}
+        x: 107
+        y: 719
+        width: 627
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: UI_Ammo
+    - name: UI_HealthBar_BG
       rect:
         serializedVersion: 2
-        x: 84
-        y: 2060
-        width: 107
+        x: 117
+        y: 531
+        width: 626
+        height: 168
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_HealthMeter
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 354
+        width: 611
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_AmmoMeter
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 172
+        width: 611
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_ArmorMeter
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 611
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Bullet
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1214
+        width: 106
         height: 167
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -74,9 +126,9 @@ TextureImporter:
     - name: UI_Grenade
       rect:
         serializedVersion: 2
-        x: 266
-        y: 2071
-        width: 108
+        x: 269
+        y: 1225
+        width: 213
         height: 182
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -84,10 +136,10 @@ TextureImporter:
     - name: UI_Junk
       rect:
         serializedVersion: 2
-        x: 422
-        y: 2097
-        width: 143
-        height: 125
+        x: 495
+        y: 1225
+        width: 177
+        height: 155
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -95,39 +147,39 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
-        y: 1826
-        width: 84
-        height: 136
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: UI_Health
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 1821
-        width: 183
-        height: 165
+        y: 980
+        width: 161
+        height: 188
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: UI_Shield
       rect:
         serializedVersion: 2
-        x: 477
-        y: 1798
-        width: 224
-        height: 224
+        x: 509
+        y: 951
+        width: 225
+        height: 225
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: UI_Armor
+    - name: UI_Reticle
       rect:
         serializedVersion: 2
-        x: 456
-        y: 2313
-        width: 105
-        height: 172
+        x: 93
+        y: 1492
+        width: 158
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Counter
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1256
+        width: 115
+        height: 57
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
