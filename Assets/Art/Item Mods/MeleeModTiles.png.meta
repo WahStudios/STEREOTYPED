@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 1440f548c48a8174191d14670e82ba6a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MeleeMod_PunchOut
+    21300002: MeleeMod_KnockOut
+    21300004: MeleeMod_LiveWire
+    21300006: MeleeMod_HotPoker
+    21300008: MeleeMod_IcePick
+    21300010: MeleeMod_HanzosBlade
+    21300012: MeleeMod_TrickCut
+    21300014: MeleeMod_Shiv
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MeleeMod_PunchOut
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 354
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MeleeMod_KnockOut
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 354
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MeleeMod_LiveWire
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 354
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MeleeMod_HotPoker
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 354
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MeleeMod_IcePick
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 354
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MeleeMod_HanzosBlade
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 354
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MeleeMod_TrickCut
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 354
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MeleeMod_Shiv
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 354
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

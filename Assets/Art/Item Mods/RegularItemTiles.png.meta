@@ -3,9 +3,16 @@ guid: a7e808715b33e69409a7cd00731fc7ef
 TextureImporter:
   fileIDToRecycleName:
     21300000: RegularItemTiles
-    21300002: KeyCard
-    21300004: RegularItemTiles_1
-    21300006: Junk
+    21300002: Item_KeyCard
+    21300004: Item_LargeHealthPack
+    21300006: Item_Junk
+    21300008: Item_JunkChip1
+    21300010: Item_JunkChip3
+    21300012: Item_JunkChip5
+    21300014: Item_JunkChip25
+    21300016: Item_JunkChip50
+    21300018: Item_JunkChip100
+    21300020: Item_JunkChip500
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -47,7 +54,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: KeyCard
+    - name: Item_KeyCard
       rect:
         serializedVersion: 2
         x: 126
@@ -57,7 +64,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RegularItemTiles_1
+    - name: Item_LargeHealthPack
       rect:
         serializedVersion: 2
         x: 364
@@ -67,13 +74,83 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Junk
+    - name: Item_Junk
       rect:
         serializedVersion: 2
         x: 596
         y: 2764
         width: 148
         height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Item_JunkChip1
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2780
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Item_JunkChip3
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 2780
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Item_JunkChip5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 2780
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Item_JunkChip25
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2780
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Item_JunkChip50
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2627
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Item_JunkChip100
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2627
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Item_JunkChip500
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 2627
+        width: 129
+        height: 129
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
