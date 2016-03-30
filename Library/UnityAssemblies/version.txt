@@ -1,4 +1,4 @@
-4.7.0f1:2.1.0.0
+4.7.0f1:2.2.0.0
 StandaloneWindows
 C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.dll
 C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.7.0/Standalone/UnityEngine.UI.dll

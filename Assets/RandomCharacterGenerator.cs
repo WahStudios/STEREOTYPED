@@ -125,14 +125,30 @@ public class RandomCharacterGenerator : MonoBehaviour {
 			characterMods.armorMod = CharacterMods.ArmorMod.mod3;
 		}
 		if (randomCyborgMod == 0) {
-			characterMods.cyborgMod = CharacterMods.CyborgMod.mod1;
+            if (randomArmorMod != 0)
+                characterMods.cyborgMod = CharacterMods.CyborgMod.mod1;
+            else if (randomArmorMod == 0 && randomArmorMod != 1)
+                characterMods.cyborgMod = CharacterMods.CyborgMod.mod2;
+            else if (randomArmorMod == 1 && randomArmorMod != 2)
+                characterMods.cyborgMod = CharacterMods.CyborgMod.mod3;
+
 		}
 		else if (randomCyborgMod== 1) {
-			characterMods.cyborgMod = CharacterMods.CyborgMod.mod2;
-		}
+            if (randomArmorMod != 1)
+            characterMods.cyborgMod = CharacterMods.CyborgMod.mod2;
+            else if (randomArmorMod == 1 && randomArmorMod != 2)
+                characterMods.cyborgMod = CharacterMods.CyborgMod.mod3;
+            else if (randomArmorMod == 2 && randomArmorMod != 0)
+                characterMods.cyborgMod = CharacterMods.CyborgMod.mod1;
+        }
 		else if (randomCyborgMod == 2) {
+            if(randomArmorMod != 2)
 			characterMods.cyborgMod = CharacterMods.CyborgMod.mod3;
-		}
+            else if (randomArmorMod == 2 && randomArmorMod != 0)
+                characterMods.cyborgMod = CharacterMods.CyborgMod.mod1;
+            else if (randomArmorMod == 0 && randomArmorMod != 1)
+                characterMods.cyborgMod = CharacterMods.CyborgMod.mod2;
+        }
 		if (randomDNAMod == 0) {
 			characterMods.DNAmod = CharacterMods.DNAMod.mod1;
 		}

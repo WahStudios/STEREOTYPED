@@ -69,6 +69,8 @@ Assets/Prefabs/Grid.prefab
 Assets/Working Prefabs/Grid.prefab
 Assets/Default Grid.prefab
 Assets/Working Prefabs/Grenade Object.prefab
+Assets/Working Prefabs/tempTitleScreenPrefab.prefab
+Assets/Working Prefabs/PlayerParent.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Prefabs/Roads/RoadPrefab0.prefab
@@ -140,3 +142,5 @@ Assets/Prefabs/Grid.prefab
 Assets/Working Prefabs/Grid.prefab
 Assets/Default Grid.prefab
 Assets/Working Prefabs/Grenade Object.prefab
+Assets/Working Prefabs/tempTitleScreenPrefab.prefab
+Assets/Working Prefabs/PlayerParent.prefab

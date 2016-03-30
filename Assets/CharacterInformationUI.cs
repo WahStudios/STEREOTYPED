@@ -66,38 +66,38 @@ public class CharacterInformationUI : MonoBehaviour {
 		StartStats ();
 	}
 	public void StartStats(){
-		HP.text = defaultHP + charStats.HP.ToString ();
-		meleeDamage.text = defaultMeleeDamage + charStats.meleeDamage.ToString ();
-		gunDamage.text = defaultGunDamage + charStats.gunDamage.ToString ();
-		bulletRange.text = defaultBulletRange + charStats.bulletRange.ToString ();
-		bulletSpeed.text = defaultBulletSpeed + charStats.bulletSpeed.ToString ();
-		firingSpeed.text = defaultFiringSpeed + charStats.firingSpeed.ToString ();
-		accuracy.text = defaultAccuracy + charStats.accuracy.ToString ();
-		totalAmmo.text = defaultTotalAmmo + charStats.totalAmmo.ToString ();
-		movementSpeed.text = defaultMovementSpeed + charStats.movementSpeed.ToString ();
-		jumpHeight.text = defaultJumpHeight + charStats.jumpHeight.ToString ();
+		HP.text = charStats.HP.ToString ();
+		meleeDamage.text = charStats.meleeDamage.ToString ();
+		gunDamage.text = charStats.gunDamage.ToString ();
+		bulletRange.text =  charStats.bulletRange.ToString ();
+		bulletSpeed.text = charStats.bulletSpeed.ToString ();
+		firingSpeed.text = charStats.firingSpeed.ToString ();
+		accuracy.text =charStats.accuracy.ToString ();
+		totalAmmo.text = charStats.totalAmmo.ToString ();
+		movementSpeed.text =  charStats.movementSpeed.ToString ();
+		jumpHeight.text = charStats.jumpHeight.ToString ();
 	}
 	// Update is called once per frame
 	public void DisplayStats () {
-		HP.text = defaultHP + charStats.HP.ToString ();
-		meleeDamage.text = defaultMeleeDamage + charStats.meleeDamage.ToString ();
-		gunDamage.text = defaultGunDamage + charStats.gunDamage.ToString ();
-		bulletRange.text = defaultBulletRange + charStats.bulletRange.ToString ();
-		bulletSpeed.text = defaultBulletSpeed + charStats.bulletSpeed.ToString ();
-		firingSpeed.text = defaultFiringSpeed + charStats.firingSpeed.ToString ();
-		accuracy.text = defaultAccuracy + charStats.accuracy.ToString ();
-		totalAmmo.text = defaultTotalAmmo + charStats.totalAmmo.ToString ();
-		movementSpeed.text = defaultMovementSpeed + charStats.movementSpeed.ToString ();
-		jumpHeight.text = defaultJumpHeight + charStats.jumpHeight.ToString ();
+		HP.text =charStats.HP.ToString ();
+		meleeDamage.text = charStats.meleeDamage.ToString ();
+		gunDamage.text =  charStats.gunDamage.ToString ();
+		bulletRange.text =  charStats.bulletRange.ToString ();
+		bulletSpeed.text =  charStats.bulletSpeed.ToString ();
+		firingSpeed.text = charStats.firingSpeed.ToString ();
+		accuracy.text = charStats.accuracy.ToString ();
+		totalAmmo.text = charStats.totalAmmo.ToString ();
+		movementSpeed.text = charStats.movementSpeed.ToString ();
+		jumpHeight.text = charStats.jumpHeight.ToString ();
 		gender.text = charAttr.gender.ToString ();
 		skinColor.text = charAttr.skinColor.ToString ();
 		raceSkills.text = charAttr.raceSkills.ToString ();
-		armor.text = defArmor + charMods.armorMod.ToString ();
-		cyborg.text = defCyborg + charMods.cyborgMod.ToString ();
-		DNA.text = defDNA + charMods.DNAmod.ToString ();
-		gun.text = defGun + charMods.gunMod.ToString ();
-		melee.text = defMelee + charMods.meleeMod.ToString ();
-		grenade.text = defGrenade + charMods.grenadeMod.ToString ();
-		super.text = defSuper + charMods.super.ToString ();
+		armor.text = charMods.armorMod.ToString ();
+		cyborg.text =charMods.cyborgMod.ToString ();
+		DNA.text =  charMods.DNAmod.ToString ();
+		gun.text = charMods.gunMod.ToString ();
+		melee.text = charMods.meleeMod.ToString ();
+		grenade.text = charMods.grenadeMod.ToString ();
+		super.text =  charMods.super.ToString ();
 	}
 }
