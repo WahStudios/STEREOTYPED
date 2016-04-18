@@ -1,0 +1,829 @@
+fileFormatVersion: 2
+guid: d5f6f1dcbfb591146860b8b7530e1dbf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BaseForm_0
+    21300002: BaseForm_1
+    21300004: AsainMan_Ear
+    21300006: AsainMan_Head
+    21300008: WhiteMan_Ear
+    21300010: WhiteMan_Head
+    21300012: BlackWoman_Head
+    21300014: AsianWoman_Head
+    21300016: WhiteWoman_Head
+    21300018: BaseForm_9
+    21300020: BaseForm_10
+    21300022: AsainMan_Shoulder
+    21300024: AsainMan_Chest
+    21300026: WhiteMan_Shoulder
+    21300028: WhiteMan_Chest
+    21300030: BlackWoman_Shoulder
+    21300032: BlackWoman_Chest
+    21300034: AsianWoman_Shoulder
+    21300036: AsianWoman_Chest
+    21300038: WhiteWoman_Shoulder
+    21300040: WhiteWoman_Chest
+    21300042: BaseForm_21
+    21300044: AsainMan_Arm
+    21300046: WhiteMan_Arm
+    21300048: BaseForm_Arm
+    21300050: AsianWoman_Arm
+    21300052: WhiteWoman_Arm
+    21300054: BaseForm_27
+    21300056: BaseForm_28
+    21300058: AsainMan_Hand
+    21300060: AsainMan_Thigh
+    21300062: WhiteMan_Hand
+    21300064: WhiteMan_Thigh
+    21300066: BlackWoman_Thigh
+    21300068: AsianWoman_Thigh
+    21300070: WhiteWoman_Thigh
+    21300072: BaseForm_36
+    21300074: BaseForm_37
+    21300076: BaseForm_38
+    21300078: BaseForm_39
+    21300080: AsainMan_Foot
+    21300082: WhiteMan_Foot
+    21300084: BaseForm_42
+    21300086: BaseForm_43
+    21300088: BaseForm_44
+    21300090: MaleAlbino_Ear
+    21300092: BaseForm_46
+    21300094: LatinMale_Ear
+    21300096: LatinMale_Head
+    21300098: BaseForm_49
+    21300100: LatinWoman_Head
+    21300102: BaseForm_51
+    21300104: BaseForm_52
+    21300106: LatinMale_Shoulder
+    21300108: LatinMale_Body
+    21300110: BaseForm_55
+    21300112: BaseForm_56
+    21300114: LatinWoman_Shoulder
+    21300116: LatinWoman_Chest
+    21300118: BaseForm_59
+    21300120: LatinMale_Arm
+    21300122: BaseForm_61
+    21300124: LatinWoman_Arm
+    21300126: BaseForm_63
+    21300128: BaseForm_64
+    21300130: LatinMale_Hand
+    21300132: LatinMale_Thigh
+    21300134: BaseForm_67
+    21300136: LatinWoman_Thigh
+    21300138: BaseForm_69
+    21300140: BaseForm_70
+    21300142: BaseForm_71
+    21300144: BaseForm_72
+    21300146: BaseForm_73
+    21300148: BaseForm_74
+    21300150: BaseForm_2
+    21300152: AsainMan_Calve
+    21300154: WhiteMan_Calve
+    21300156: BaseForm_75
+    21300158: BaseForm_76
+    21300160: BaseForm_77
+    21300162: BlackWoman_Arm
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BaseForm_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 998
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 959
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Ear
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 998
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Head
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 959
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Ear
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 998
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Head
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 959
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackWoman_Head
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 959
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsianWoman_Head
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 959
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteWoman_Head
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 959
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 899
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_10
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 792
+        width: 120
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 899
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Chest
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 792
+        width: 119
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 899
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Chest
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 792
+        width: 119
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackWoman_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 858
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackWoman_Chest
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 791
+        width: 112
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsianWoman_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 858
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsianWoman_Chest
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 791
+        width: 112
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteWoman_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 858
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteWoman_Chest
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 791
+        width: 112
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 805
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Arm
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 805
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Arm
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 805
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackWoman_Arm
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 752
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsianWoman_Arm
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 752
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteWoman_Arm
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 752
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_27
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 742
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_28
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 692
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Hand
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 743
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Thigh
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 692
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Hand
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 743
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Thigh
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 692
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackWoman_Thigh
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 691
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsianWoman_Thigh
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 691
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteWoman_Thigh
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 691
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Foot
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 606
+        width: 83
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Foot
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 606
+        width: 83
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MaleAlbino_Ear
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 508
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_46
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 469
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinMale_Ear
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 508
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinMale_Head
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 469
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_49
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 471
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinWoman_Head
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 471
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_51
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 409
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 302
+        width: 119
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinMale_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 409
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinMale_Body
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 302
+        width: 119
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_55
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 370
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_56
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 303
+        width: 112
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinWoman_Shoulder
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 370
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinWoman_Chest
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 303
+        width: 112
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_59
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 315
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinMale_Arm
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 315
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_61
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 264
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinWoman_Arm
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 264
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_63
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 253
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_64
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 202
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinMale_Hand
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 253
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinMale_Thigh
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 202
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_67
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 203
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LatinWoman_Thigh
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 203
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_71
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 84
+        width: 83
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 86
+        width: 83
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 658
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AsainMan_Calve
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 658
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteMan_Calve
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 658
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 606
+        width: 82
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_76
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 136
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BaseForm_77
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 138
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
