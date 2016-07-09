@@ -24,6 +24,7 @@ public class GameShow : MonoBehaviour {
         PlayerPrefs.SetInt("GameShowCharacterAccuracy", char1Stats.accuracy);
         PlayerPrefs.SetInt("GameShowCharacterTotalAmmo", char1Stats.totalAmmo);
         PlayerPrefs.SetInt("GameShowCharacterMovementSpeed", char1Stats.movementSpeed);
+        PlayerPrefs.SetInt("GameShowCharacterJumpHeight", char1Stats.jumpHeight);
         // -- need to set up stats below first
         //PlayerPrefs.SetInt("GameShowCharacterAmmoClip", char1Stats.ammoClip);
         // PlayerPrefs.SetInt("GameShowCharacterArmor", char1Stats.armor);
@@ -114,6 +115,7 @@ public class GameShow : MonoBehaviour {
         PlayerPrefs.SetInt("GameShowCharacterAccuracy", char2Stats.accuracy);
         PlayerPrefs.SetInt("GameShowCharacterTotalAmmo", char2Stats.totalAmmo);
         PlayerPrefs.SetInt("GameShowCharacterMovementSpeed", char2Stats.movementSpeed);
+        PlayerPrefs.SetInt("GameShowCharacterJumpHeight", char2Stats.jumpHeight);
         // -- need to set up stats below first
         //PlayerPrefs.SetInt("GameShowCharacterAmmoClip", char2Stats.ammoClip);
         // PlayerPrefs.SetInt("GameShowCharacterArmor", char2Stats.armor);

@@ -19,6 +19,7 @@ public class GunShotMovement : MonoBehaviour {
 	bool isParented = true;
 	public GameObject explosionFX;
 	public Animator explosionAnim;
+    public Vector2 startingPosition;
     
 	//public GameObject leftFacingRotate;
 	//public ObjectPool objectPool;
@@ -28,11 +29,11 @@ public class GunShotMovement : MonoBehaviour {
 		Rigidbody2D rigid  = gameObject.GetComponent<Rigidbody2D>();
 		rigid.isKinematic = true;
 		parentTransform = transform.parent;
-		startingPos = transform.position;
+		startingPos = startingPosition;
 		startingRot = transform.rotation;
 		thisSprite = gameObject.GetComponent<SpriteRenderer>();
 		thisSprite.enabled = false;
-		
+        //InvokeRepeating("ResetObject", 5f, 5f);	
 	}
 	
 	public void FireRight(){
@@ -65,9 +66,13 @@ public class GunShotMovement : MonoBehaviour {
 
 			if(ObjectPool.isGrenade == false){
 				if(thisSprite.enabled == false){
-					Debug.Log ("enableSprite");
+					
                     
                     thisSprite.enabled = true;
+                    if(thisSprite.enabled == true)
+                    {
+                        Debug.Log("enableSprite");
+                    }
 				}
 					if(transform.parent != null){
 					transform.rotation = ObjectPool.facingLeft.transform.rotation;
@@ -77,7 +82,7 @@ public class GunShotMovement : MonoBehaviour {
 			
 				if(gameObject.transform.position.x < (startingPos.x - ObjectPool.gunShotDistance) || gameObject.transform.position.x > (startingPos.x + ObjectPool.gunShotDistance))
 				{
-					ResetObject ();
+					//ResetObject ();
 				}
 			}
 			
@@ -141,12 +146,16 @@ public class GunShotMovement : MonoBehaviour {
 		setLeft = false;
 		isActive = false;
 		isLeftActive = false;
-		transform.parent = parentTransform;
+		transform.SetParent(parentTransform);
 		transform.position = startingPos;
 		transform.rotation = startingRot;
 		transform.Translate (Vector2.right * 0);
 		if(thisSprite.enabled == true)
 			thisSprite.enabled = false;
 		}
+        if(thisSprite.enabled == false)
+        {
+            Debug.Log("Sprite.disabled");
+        }
 	}
 }

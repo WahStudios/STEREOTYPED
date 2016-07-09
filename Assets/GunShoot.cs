@@ -11,6 +11,11 @@ public class GunShoot : MonoBehaviour {
 	public float bulletMaxNumber;
 	public bool isGrenade = false;
 
+    public float gunShootDistanceModifier = 0.4f;
+    public float gunShootSpeedModifier = 0.4f;
+    public float gunShootRateModifier = 4f;
+    public GameShowStats gameShowStats;
+
 	//public float bulletStartingDistance = 1f;
 //	public float bulletStartingHeight = 0.5f;
 
@@ -20,13 +25,23 @@ public class GunShoot : MonoBehaviour {
 	private float nextFire;
 	bool reset;
 	int n = 0;
-
+    float defaultGunShotDistance;
+    float defaultGunShotSpeed;
+    float defaultGunShotRate;
 	public GameObject facingLeft; //left facing bullet to match rotation when facing left
 	// Use this for initialization
 	void Start () {
-
+        Invoke("DelayedStart", 3f);
+        defaultGunShotDistance = gunShotDistance;
+        defaultGunShotRate = gunShotRate;
+        defaultGunShotSpeed = gunShotSpeed;
 	}
-	
+	public void DelayedStart()
+    {
+        gunShotDistance = defaultGunShotDistance * gameShowStats.bulletRange * gunShootDistanceModifier;
+        gunShotSpeed = defaultGunShotSpeed * gameShowStats.bulletSpeed * gunShootSpeedModifier;
+        gunShotRate = defaultGunShotRate * gameShowStats.firingSpeed * gunShootRateModifier;
+    }
 	// Update is called once per frame
 	void Update () {
 

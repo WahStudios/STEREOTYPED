@@ -23,12 +23,23 @@ public class PlayerMovement : MonoBehaviour {
 	public int weaponNumber = 2;
 	public bool weaponSwitch = false;
 	public int randomMoveNumber;
-
+    public GameShowStats gameShowStats;
+    float defaultSpeedForce;
+    float defaultJumpVector;
 	void Start () {
 	jump = anim.GetBool("jump");
+        defaultSpeedForce = speedForce;
+        defaultJumpVector = jumpVector.y;
+        Invoke("DelayedStart", 2f);
 	
 		
 	}
+
+    public void DelayedStart()
+    {
+        speedForce = defaultSpeedForce * gameShowStats.movementSpeed * speedForceModifier;
+        jumpVector.y = defaultJumpVector * gameShowStats.jumpHeight * jumpHeightModifier;
+    }
 	public bool jumpButton = false;    
 	public bool jumpStop = false;
 	public bool jumpFall = false;
@@ -39,6 +50,8 @@ public class PlayerMovement : MonoBehaviour {
 	public bool endAttack = false;
 	public bool animGunSwitch = false;
 	public bool grenade = false;
+    public float jumpHeightModifier = 0.4f;
+    public float speedForceModifier = 0.4f;
 	// Update is called once per frame
 	void EndAttack(){
 		endAttack = true;
@@ -51,6 +64,7 @@ public class PlayerMovement : MonoBehaviour {
 		//	anim.SetBool("attack", false);
 	}
 
+    
 
 	void Update () {
 

@@ -15,6 +15,7 @@ public class GameShowStats : MonoBehaviour {
     public int totalAmmo = 5;
     public int movementSpeed = 1;
     public int jumpHeight = 1;
+    public CharacterStats characterStats;
 
     void Start()
     {
@@ -27,6 +28,21 @@ public class GameShowStats : MonoBehaviour {
         bulletSpeed = PlayerPrefs.GetInt("GameShowCharacterBulletSpeed", bulletSpeed);
         totalAmmo = PlayerPrefs.GetInt("GameShowCharacterTotalAmmo", totalAmmo);
         movementSpeed = PlayerPrefs.GetInt("GameShowCharacterMovementSpeed", movementSpeed);
+        jumpHeight = PlayerPrefs.GetInt("GameShowCharacterJumpHeight", jumpHeight);
+        if(characterStats != null)
+        {
+            characterStats.accuracy = accuracy;
+            characterStats.bulletRange = bulletRange;
+            characterStats.bulletSpeed = bulletSpeed;
+            characterStats.firingSpeed = firingSpeed;
+            characterStats.gunDamage = gunDamage;
+            characterStats.HP = HP;
+            characterStats.meleeDamage = meleeDamage;
+            characterStats.movementSpeed = movementSpeed;
+            characterStats.jumpHeight = jumpHeight;
+            characterStats.totalAmmo = totalAmmo;
+        }
+        
         // -- need to set up stats below first
         //PlayerPrefs.GetInt("GameShowCharacterAmmoClip", ammoClip);
         // PlayerPrefs.GetInt("GameShowCharacterArmor", armor);
