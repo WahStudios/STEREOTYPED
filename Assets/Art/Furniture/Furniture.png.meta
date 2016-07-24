@@ -40,6 +40,7 @@ TextureImporter:
     21300070: Light_FloodLight1
     21300072: Light_FloodLight2
     21300074: Light_FloodLight3
+    21300076: JumpPanel
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -408,6 +409,16 @@ TextureImporter:
         y: 3898
         width: 96
         height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpPanel
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 2628
+        width: 202
+        height: 157
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
