@@ -9,6 +9,7 @@ TextureImporter:
     21300008: Title_LiveShow
     21300010: Title_Options
     21300012: Title_Exit
+    21300014: Title_Stereotyped
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -117,6 +118,16 @@ TextureImporter:
         y: 12
         width: 574
         height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Title_Stereotyped
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 30
+        width: 99
+        height: 752
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
