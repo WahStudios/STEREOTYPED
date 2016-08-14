@@ -4,7 +4,7 @@ using System.Collections;
 public class CharacterAttributes : MonoBehaviour {
 	public enum Gender {Male, Female}
 	public Gender gender;
-	public enum SkinColor {White, Black, Hispanic}
+	public enum SkinColor {Black, Asian, White, Jew, Latin, Mutt, Albino}
 	public SkinColor skinColor;
 	public enum RaceSkills {Skill1, Skill2, Skill3}
 	public RaceSkills raceSkills;

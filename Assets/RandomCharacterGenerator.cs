@@ -94,9 +94,25 @@ public class RandomCharacterGenerator : MonoBehaviour {
 		} else if (randomSkinColor == 1) {
 			characterAttributes.skinColor = CharacterAttributes.SkinColor.White;
 		} else if (randomSkinColor == 2) {
-			characterAttributes.skinColor = CharacterAttributes.SkinColor.Hispanic;
+			characterAttributes.skinColor = CharacterAttributes.SkinColor.Jew;
 		}
-		int randomRaceSkill = Random.Range (0, characterAttributes.maxRaceSkills);
+        else if (randomSkinColor == 3)
+        {
+            characterAttributes.skinColor = CharacterAttributes.SkinColor.Latin;
+        }
+        else if (randomSkinColor == 4)
+        {
+            characterAttributes.skinColor = CharacterAttributes.SkinColor.Mutt;
+        }
+        else if (randomSkinColor == 5)
+        {
+            characterAttributes.skinColor = CharacterAttributes.SkinColor.Albino;
+        }
+        else if (randomSkinColor == 6)
+        {
+            characterAttributes.skinColor = CharacterAttributes.SkinColor.Asian;
+        }
+        int randomRaceSkill = Random.Range (0, characterAttributes.maxRaceSkills);
 		if (randomRaceSkill == 0) {
 			characterAttributes.raceSkills = CharacterAttributes.RaceSkills.Skill1;
 		}

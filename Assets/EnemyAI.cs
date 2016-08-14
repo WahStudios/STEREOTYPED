@@ -46,139 +46,152 @@ public class EnemyAI : MonoBehaviour {
     void Start () {
     
 	}
+
+    public void Die()
+    {
+        isDead = true;
+        anim.SetTrigger("Die");
+        Debug.Log("Die");
+    }
+    public bool isDead = false;
     public bool isPlayerOnTheRight = true;
     public float aiSpeed = 10f;
     public bool shootSwitch = false; //pull the trigger to make true
     public bool kickSwitch = false;
     public float closestWalkingDistance = 5f;
     public Vector2 jumpVector;
-	// Update is called once per frame
-	void Update () {
-	if(isGrounded == true)
+    // Update is called once per frame
+    void Update()
+    {
+        if (isDead == false)
         {
-            if(upperBulletCheck == true)
+            if (isGrounded == true)
             {
-                anim.SetTrigger("Duck");
-                upperBulletCheck = false;
-            }
-            if(lowerBulletCheck == true)
-            {
-                anim.SetTrigger("Jump");
-                lowerBulletCheck = false;
-                rigidbody2D.AddRelativeForce(jumpVector, ForceMode2D.Force);
-             }
-
-            if(grenadeCheck == false)
-            {
-                if(anim.GetBool("GrenadeCheck") == true)
-                anim.SetBool("GrenadeCheck", false);
-            }
-            else
-            {
-                if (anim.GetBool("GrenadeCheck") == false)
-                    anim.SetBool("GrenadeCheck", true);
-            }
-            if(hasFoundPlayer == true)
-            {
-                if(target != null)
+                if (upperBulletCheck == true)
                 {
-                    if(target.position.x > this.transform.position.x)
+                    anim.SetTrigger("Duck");
+                    upperBulletCheck = false;
+                }
+                if (lowerBulletCheck == true)
+                {
+                    anim.SetTrigger("Jump");
+                    lowerBulletCheck = false;
+                    rigidbody2D.AddRelativeForce(jumpVector, ForceMode2D.Force);
+                }
+
+                if (grenadeCheck == false)
+                {
+                    if (anim.GetBool("GrenadeCheck") == true)
+                        anim.SetBool("GrenadeCheck", false);
+                }
+                else
+                {
+                    if (anim.GetBool("GrenadeCheck") == false)
+                        anim.SetBool("GrenadeCheck", true);
+                }
+                if (hasFoundPlayer == true)
+                {
+                    if (target != null)
                     {
-                        isPlayerOnTheRight = true;
-                        Quaternion rot = transform.rotation;
-                        puppetControl.flip = false;
-                        //rot.y = 360;
-                        transform.rotation = rot;
-                    }
-                    else
-                    {
-                        isPlayerOnTheRight = false;
-                        Quaternion rot = transform.rotation;
-                        puppetControl.flip = true;
-                        //rot.y = 180;
-                        transform.rotation = rot;
-                    }
-                    if (isPlayerOnTheRight == true)
-                    {
-                        if (grenadeCheck == false)
+                        if (target.position.x > this.transform.position.x)
                         {
-                            if (target.position.x > this.transform.position.x + closestWalkingDistance)
+                            isPlayerOnTheRight = true;
+                            Quaternion rot = transform.rotation;
+                            puppetControl.flip = false;
+                            //rot.y = 360;
+                            transform.rotation = rot;
+                        }
+                        else
+                        {
+                            isPlayerOnTheRight = false;
+                            Quaternion rot = transform.rotation;
+                            puppetControl.flip = true;
+                            //rot.y = 180;
+                            transform.rotation = rot;
+                        }
+                        if (isPlayerOnTheRight == true)
+                        {
+                            if (grenadeCheck == false)
                             {
-                                if (anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Idle") || anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Run"))
+                                if (target.position.x > this.transform.position.x + closestWalkingDistance)
                                 {
-                                    transform.position = Vector2.MoveTowards(transform.position, target.position, aiSpeed);
-                                    anim.SetBool("Walk", true);
+                                    if (anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Idle") || anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Run"))
+                                    {
+                                        transform.position = Vector2.MoveTowards(transform.position, target.position, aiSpeed);
+                                        anim.SetBool("Walk", true);
+                                    }
+                                }
+                                else
+                                {
+
+                                    anim.SetBool("Walk", false);
                                 }
                             }
                             else
                             {
-
-                                anim.SetBool("Walk", false);
+                                transform.position = Vector2.MoveTowards(transform.position, target.position, -aiSpeed);
+                                anim.SetBool("Walk", true);
+                                puppetControl.flip = true;
                             }
                         }
                         else
                         {
-                            transform.position = Vector2.MoveTowards(transform.position, target.position, -aiSpeed);
-                            anim.SetBool("Walk", true);
-                            puppetControl.flip = true;
-                        }
-                    }
-                    else
-                    {
-                        if (grenadeCheck == false)
-                        {
-                            if (target.position.x < this.transform.position.x - closestWalkingDistance)
+                            if (grenadeCheck == false)
                             {
-                                if (anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Idle") || anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Run"))
+                                if (target.position.x < this.transform.position.x - closestWalkingDistance)
                                 {
-                                    transform.position = Vector2.MoveTowards(transform.position, target.position, aiSpeed);
-                                    anim.SetBool("Walk", true);
+                                    if (anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Idle") || anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Run"))
+                                    {
+                                        transform.position = Vector2.MoveTowards(transform.position, target.position, aiSpeed);
+                                        anim.SetBool("Walk", true);
+                                    }
                                 }
+                                else
+                                {
+                                    anim.SetBool("Walk", false);
+                                }
+
                             }
                             else
                             {
-                                anim.SetBool("Walk", false);
+                                transform.position = Vector2.MoveTowards(transform.position, target.position, -aiSpeed);
+                                anim.SetBool("Walk", true);
+                                puppetControl.flip = false;
                             }
-
                         }
-                        else {
-                            transform.position = Vector2.MoveTowards(transform.position, target.position, -aiSpeed);
-                            anim.SetBool("Walk", true);
-                            puppetControl.flip = false;
-                        }
-                    }
-                    
 
-                    if(shootRange == true)
-                    {
-                        if(meleeRange == false)
+
+                        if (shootRange == true)
                         {
-                            if(shootSwitch == false)
+                            if (meleeRange == false)
                             {
-                                if (anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Idle") || anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Run"))
+                                if (shootSwitch == false)
                                 {
-                                    if (grenadeCheck == false)
+                                    if (anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Idle") || anim.GetCurrentAnimatorStateInfo(0).IsName("Standard_Run"))
                                     {
-                                        Shoot();
-                                        shootSwitch = true;
+                                        if (grenadeCheck == false)
+                                        {
+                                            Shoot();
+                                            shootSwitch = true;
+                                        }
                                     }
                                 }
                             }
-                        }
-                        else
-                        {
+                            else
+                            {
 
-                            if (kickSwitch == false)
-                                if (grenadeCheck == false)
-                                {
-                                    Kick();
-                                    kickSwitch = true;
-                                }
+                                if (kickSwitch == false)
+                                    if (grenadeCheck == false)
+                                    {
+                                        Kick();
+                                        kickSwitch = true;
+                                    }
                             }
                         }
                     }
                 }
             }
         }
+    }
 	}
 

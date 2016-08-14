@@ -43,11 +43,11 @@ public class GameShow : MonoBehaviour {
             PlayerPrefs.SetInt("GameShowArmorMod", 3);
 
         if (char1Mods.cyborgMod == CharacterMods.CyborgMod.mod1)
-            PlayerPrefs.SetInt("GameShowCyborgmod", 1);
+            PlayerPrefs.SetInt("GameShowCyborgMod", 1);
         else if(char1Mods.cyborgMod == CharacterMods.CyborgMod.mod2)
-            PlayerPrefs.SetInt("GameShowCyborgmod", 2);
+            PlayerPrefs.SetInt("GameShowCyborgMod", 2);
         else if (char1Mods.cyborgMod == CharacterMods.CyborgMod.mod3)
-            PlayerPrefs.SetInt("GameShowCyborgmod", 3);
+            PlayerPrefs.SetInt("GameShowCyborgMod", 3);
 
         if (char1Mods.DNAmod == CharacterMods.DNAMod.mod1)
             PlayerPrefs.SetInt("GameShowDNAMod", 1);
@@ -95,10 +95,17 @@ public class GameShow : MonoBehaviour {
             PlayerPrefs.SetInt("GameShowSkinColor", 1);
         else if (char1Attr.skinColor == CharacterAttributes.SkinColor.White)
             PlayerPrefs.SetInt("GameShowSkinColor", 2);
-        else if (char1Attr.skinColor == CharacterAttributes.SkinColor.Hispanic)
+        else if (char1Attr.skinColor == CharacterAttributes.SkinColor.Asian)
             PlayerPrefs.SetInt("GameShowSkinColor", 3);
+        else if (char1Attr.skinColor == CharacterAttributes.SkinColor.Jew)
+            PlayerPrefs.SetInt("GameShowSkinColor", 4);
+        else if (char1Attr.skinColor == CharacterAttributes.SkinColor.Latin)
+            PlayerPrefs.SetInt("GameShowSkinColor", 5);
+        else if (char1Attr.skinColor == CharacterAttributes.SkinColor.Mutt)
+            PlayerPrefs.SetInt("GameShowSkinColor", 6);
+        else if (char1Attr.skinColor == CharacterAttributes.SkinColor.Albino)
+            PlayerPrefs.SetInt("GameShowSkinColor", 7);
 
-        
 
 
         Application.LoadLevel(gameShowScene);
@@ -187,8 +194,16 @@ public class GameShow : MonoBehaviour {
             PlayerPrefs.SetInt("GameShowSkinColor", 1);
         else if (char2Attr.skinColor == CharacterAttributes.SkinColor.White)
             PlayerPrefs.SetInt("GameShowSkinColor", 2);
-        else if (char2Attr.skinColor == CharacterAttributes.SkinColor.Hispanic)
+        else if (char2Attr.skinColor == CharacterAttributes.SkinColor.Asian)
             PlayerPrefs.SetInt("GameShowSkinColor", 3);
+        else if (char2Attr.skinColor == CharacterAttributes.SkinColor.Jew)
+            PlayerPrefs.SetInt("GameShowSkinColor", 4);
+        else if (char2Attr.skinColor == CharacterAttributes.SkinColor.Latin)
+            PlayerPrefs.SetInt("GameShowSkinColor", 5);
+        else if (char2Attr.skinColor == CharacterAttributes.SkinColor.Mutt)
+            PlayerPrefs.SetInt("GameShowSkinColor", 6);
+        else if (char2Attr.skinColor == CharacterAttributes.SkinColor.Albino)
+            PlayerPrefs.SetInt("GameShowSkinColor", 7);
 
         Application.LoadLevel(gameShowScene);
     }

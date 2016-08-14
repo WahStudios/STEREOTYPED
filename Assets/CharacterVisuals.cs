@@ -12,17 +12,24 @@ public class CharacterVisuals : MonoBehaviour {
   
     public CharacterAttributes charAttr;
 
-    public GameObject femaleSkinColor1;
-    public GameObject femaleSkinColor2;
-    public GameObject femaleSkinColor3;
-
-    public GameObject skinColor1;
-    public GameObject skinColor2;
-    public GameObject skinColor3;
+    
     public GameObject femaleHead;
     public GameObject maleHead;
     public GameObject femaleChest;
     public GameObject maleChest;
+   
+    public GameObject[] bodyParts;
+
+    public Sprite[] whiteSprites;
+    public Sprite[] blackSprites;
+    public Sprite[] asianSprites;
+    public Sprite[] jewSprites;
+    public Sprite[] latinSprites;
+    public Sprite[] muttSprites;
+    public Sprite[] albinoSprites;
+   
+
+
 
     public GameObject armorMod1;
     public GameObject armorMod2;
@@ -56,32 +63,17 @@ public class CharacterVisuals : MonoBehaviour {
     public GameObject grenadeMod2;
     public GameObject grenadeMod3;
 
+    public Material defaultMat;
+    public Material whiteMat;
+
   //  public GameObject super1;
   //  public GameObject super2;
   //  public GameObject super3;
 
 	// Use this for initialization
 	public void RollVisuals () {
-        /*   Additional Scripting needed for visuals as grenades are tied into attack
-        if (charMods.grenadeMod == CharacterMods.GrenadeMod.mod1)
-        {
-            grenadeMod1.SetActive(true);
-            grenadeMod2.SetActive(false);
-            grenadeMod3.SetActive(false);
-        }
-        else if (charMods.grenadeMod == CharacterMods.GrenadeMod.mod2)
-        {
-            grenadeMod1.SetActive(false);
-            grenadeMod2.SetActive(true);
-            grenadeMod3.SetActive(false);
-        }
-        else if (charMods.grenadeMod == CharacterMods.GrenadeMod.mod3)
-        {
-            grenadeMod1.SetActive(false);
-            grenadeMod2.SetActive(false);
-            grenadeMod3.SetActive(true);
-        }
-        */
+        
+
         if (charAttr.gender == CharacterAttributes.Gender.Male)
         {
             maleHead.SetActive(true);
@@ -211,7 +203,62 @@ public class CharacterVisuals : MonoBehaviour {
         }
         */
 
-       
+       if(charAttr.skinColor == CharacterAttributes.SkinColor.White)
+        {
+            for (int i = 0; i < bodyParts.Length; i++)
+            {
+                bodyParts[i].GetComponent<SpriteRenderer>().sprite = whiteSprites[i];
+                bodyParts[i].GetComponent<SpriteRenderer>().material = whiteMat;
+            }
+        }
+       else if (charAttr.skinColor == CharacterAttributes.SkinColor.Black)
+        {
+            for (int i = 0; i < bodyParts.Length; i++)
+            {
+                bodyParts[i].GetComponent<SpriteRenderer>().sprite = blackSprites[i];
+                bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+            }
+        }
+        else if (charAttr.skinColor == CharacterAttributes.SkinColor.Asian)
+        {
+            for (int i = 0; i < bodyParts.Length; i++)
+            {
+                bodyParts[i].GetComponent<SpriteRenderer>().sprite = asianSprites[i];
+                bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+            }
+        }
+        else if (charAttr.skinColor == CharacterAttributes.SkinColor.Jew)
+        {
+            for (int i = 0; i < bodyParts.Length; i++)
+            {
+                bodyParts[i].GetComponent<SpriteRenderer>().sprite = whiteSprites[i];
+                bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+            }
+        }
+        else if (charAttr.skinColor == CharacterAttributes.SkinColor.Latin)
+        {
+            for (int i = 0; i < bodyParts.Length; i++)
+            {
+                bodyParts[i].GetComponent<SpriteRenderer>().sprite = latinSprites[i];
+                bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+            }
+        }
+        else if (charAttr.skinColor == CharacterAttributes.SkinColor.Mutt)
+        {
+            for (int i = 0; i < bodyParts.Length; i++)
+            {
+                bodyParts[i].GetComponent<SpriteRenderer>().sprite = latinSprites[i];
+                bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+            }
+        }
+        else if (charAttr.skinColor == CharacterAttributes.SkinColor.Albino)
+        {
+            for (int i = 0; i < bodyParts.Length; i++)
+            {
+                bodyParts[i].GetComponent<SpriteRenderer>().sprite = albinoSprites[i];
+                bodyParts[i].GetComponent<SpriteRenderer>().material = whiteMat;
+            }
+        }
 
     }
 	

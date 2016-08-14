@@ -59,6 +59,19 @@ public class GameShowVisuals : MonoBehaviour
     public GameObject grenadeMod2;
     public GameObject grenadeMod3;
 
+    public GameObject[] bodyParts;
+
+    public Sprite[] whiteSprites;
+    public Sprite[] blackSprites;
+    public Sprite[] asianSprites;
+    public Sprite[] jewSprites;
+    public Sprite[] latinSprites;
+    public Sprite[] muttSprites;
+    public Sprite[] albinoSprites;
+
+    public Material defaultMat;
+    public Material whiteMat;
+
     //  public GameObject super1;
     //  public GameObject super2;
     //  public GameObject super3;
@@ -191,6 +204,63 @@ public class GameShowVisuals : MonoBehaviour
                 femaleCyborgMod1.SetActive(false);
                 femaleCyborgMod2.SetActive(false);
                 femaleCyborgMod3.SetActive(true);
+            }
+
+            if (charAttr.skinColor == GameShowAttributes.SkinColor.White)
+            {
+                for (int i = 0; i < bodyParts.Length; i++)
+                {
+                    bodyParts[i].GetComponent<SpriteRenderer>().sprite = whiteSprites[i];
+                    bodyParts[i].GetComponent<SpriteRenderer>().material = whiteMat;
+                }
+            }
+            else if (charAttr.skinColor == GameShowAttributes.SkinColor.Black)
+            {
+                for (int i = 0; i < bodyParts.Length; i++)
+                {
+                    bodyParts[i].GetComponent<SpriteRenderer>().sprite = blackSprites[i];
+                    bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+                }
+            }
+            else if (charAttr.skinColor == GameShowAttributes.SkinColor.Asian)
+            {
+                for (int i = 0; i < bodyParts.Length; i++)
+                {
+                    bodyParts[i].GetComponent<SpriteRenderer>().sprite = asianSprites[i];
+                    bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+                }
+            }
+            else if (charAttr.skinColor == GameShowAttributes.SkinColor.Jew)
+            {
+                for (int i = 0; i < bodyParts.Length; i++)
+                {
+                    bodyParts[i].GetComponent<SpriteRenderer>().sprite = whiteSprites[i];
+                    bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+                }
+            }
+            else if (charAttr.skinColor == GameShowAttributes.SkinColor.Latin)
+            {
+                for (int i = 0; i < bodyParts.Length; i++)
+                {
+                    bodyParts[i].GetComponent<SpriteRenderer>().sprite = latinSprites[i];
+                    bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+                }
+            }
+            else if (charAttr.skinColor == GameShowAttributes.SkinColor.Mutt)
+            {
+                for (int i = 0; i < bodyParts.Length; i++)
+                {
+                    bodyParts[i].GetComponent<SpriteRenderer>().sprite = latinSprites[i];
+                    bodyParts[i].GetComponent<SpriteRenderer>().material = defaultMat;
+                }
+            }
+            else if (charAttr.skinColor == GameShowAttributes.SkinColor.Albino)
+            {
+                for (int i = 0; i < bodyParts.Length; i++)
+                {
+                    bodyParts[i].GetComponent<SpriteRenderer>().sprite = albinoSprites[i];
+                    bodyParts[i].GetComponent<SpriteRenderer>().material = whiteMat;
+                }
             }
         }
 
