@@ -69,9 +69,11 @@
     <Compile Include="Assets\CharacterMods.cs" />
     <Compile Include="Assets\CharacterStats.cs" />
     <Compile Include="Assets\CharacterVisuals.cs" />
+    <Compile Include="Assets\CreateRoom.cs" />
     <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\EnemyAI.cs" />
     <Compile Include="Assets\EnemyHit.cs" />
+    <Compile Include="Assets\EnemyPlacement.cs" />
     <Compile Include="Assets\EnemyStats.cs" />
     <Compile Include="Assets\ExitGame.cs" />
     <Compile Include="Assets\Ferr\2D\Scripts\Ferr2D_Animator.cs" />
@@ -241,6 +243,7 @@
     <Compile Include="Assets\Scripts\SlotScript.cs" />
     <Compile Include="Assets\SetActiveButtons.cs" />
     <Compile Include="Assets\ShootRange.cs" />
+    <Compile Include="Assets\SpawnArea.cs" />
     <Compile Include="Assets\StatIconsUI.cs" />
     <Compile Include="Assets\StatModifiers.cs" />
     <Compile Include="Assets\aiming.cs" />

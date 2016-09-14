@@ -1769,6 +1769,7 @@ gridColumnRight = gridColumn8;
             BossRoom();
         }
     }
+    public EnemyPlacement enemyPlacement;
     public bool hasReachedMax = false;
 	// Update is called once per frame
 	void Update () {
@@ -1777,7 +1778,12 @@ gridColumnRight = gridColumn8;
             if(maxRandomRooms == currentRandomRooms)
             {
                 BossRoom();
+                foreach(CreateRoom c in enemyPlacement.createRoom)
+                {
+                    //c.spawnAreas[0].SpawnEnemies();
+                }
                 hasReachedMax = true;
+
             }
         }
 
