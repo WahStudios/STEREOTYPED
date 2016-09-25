@@ -75,6 +75,7 @@ Assets/Prefabs/SelectScreen_UGUI_Char1.prefab
 Assets/Prefabs/JumpPanel.prefab
 Assets/Working Prefabs/CreateRoom.prefab
 Assets/Working Prefabs/Thug_Global_CTRL.prefab
+Assets/Prefabs/EnemyPlacement.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Prefabs/Roads/RoadPrefab0.prefab
@@ -152,3 +153,4 @@ Assets/Prefabs/SelectScreen_UGUI_Char1.prefab
 Assets/Prefabs/JumpPanel.prefab
 Assets/Working Prefabs/CreateRoom.prefab
 Assets/Working Prefabs/Thug_Global_CTRL.prefab
+Assets/Prefabs/EnemyPlacement.prefab
