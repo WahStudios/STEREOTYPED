@@ -74,8 +74,33 @@ Assets/Working Prefabs/PlayerParent.prefab
 Assets/Prefabs/SelectScreen_UGUI_Char1.prefab
 Assets/Prefabs/JumpPanel.prefab
 Assets/Working Prefabs/CreateRoom.prefab
-Assets/Working Prefabs/Thug_Global_CTRL.prefab
 Assets/Prefabs/EnemyPlacement.prefab
+Assets/Working Prefabs/BlackThug.prefab
+Assets/Working Prefabs/BlackThug 1.prefab
+Assets/Working Prefabs/BlackThug 2.prefab
+Assets/Working Prefabs/WhiteThug.prefab
+Assets/Working Prefabs/WhiteThug 1.prefab
+Assets/Working Prefabs/WhiteThug 2.prefab
+Assets/Working Prefabs/AsianThug.prefab
+Assets/Working Prefabs/AsianThug 1.prefab
+Assets/Working Prefabs/AsianThug 2.prefab
+Assets/Working Prefabs/LatinThug.prefab
+Assets/Working Prefabs/LatinThug 2.prefab
+Assets/Working Prefabs/LatinThug 1.prefab
+Assets/Working Prefabs/AsianBoss.prefab
+Assets/Working Prefabs/BlackBoss.prefab
+Assets/Working Prefabs/WhiteBoss.prefab
+Assets/Working Prefabs/LatinBoss.prefab
+Assets/Working Prefabs/AsianSubType.prefab
+Assets/Working Prefabs/BlackSubType.prefab
+Assets/Working Prefabs/WhiteSubType.prefab
+Assets/Working Prefabs/LatinSubType.prefab
+Assets/Working Prefabs/NPC1.prefab
+Assets/Working Prefabs/NPC2.prefab
+Assets/Working Prefabs/NPC3.prefab
+Assets/Resources/WeaponMod.prefab
+Assets/Resources/Health.prefab
+Assets/Resources/GrenadeMod.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Prefabs/Roads/RoadPrefab0.prefab
@@ -152,5 +177,30 @@ Assets/Working Prefabs/PlayerParent.prefab
 Assets/Prefabs/SelectScreen_UGUI_Char1.prefab
 Assets/Prefabs/JumpPanel.prefab
 Assets/Working Prefabs/CreateRoom.prefab
-Assets/Working Prefabs/Thug_Global_CTRL.prefab
 Assets/Prefabs/EnemyPlacement.prefab
+Assets/Working Prefabs/BlackThug.prefab
+Assets/Working Prefabs/BlackThug 1.prefab
+Assets/Working Prefabs/BlackThug 2.prefab
+Assets/Working Prefabs/WhiteThug.prefab
+Assets/Working Prefabs/WhiteThug 1.prefab
+Assets/Working Prefabs/WhiteThug 2.prefab
+Assets/Working Prefabs/AsianThug.prefab
+Assets/Working Prefabs/AsianThug 1.prefab
+Assets/Working Prefabs/AsianThug 2.prefab
+Assets/Working Prefabs/LatinThug.prefab
+Assets/Working Prefabs/LatinThug 2.prefab
+Assets/Working Prefabs/LatinThug 1.prefab
+Assets/Working Prefabs/AsianBoss.prefab
+Assets/Working Prefabs/BlackBoss.prefab
+Assets/Working Prefabs/WhiteBoss.prefab
+Assets/Working Prefabs/LatinBoss.prefab
+Assets/Working Prefabs/AsianSubType.prefab
+Assets/Working Prefabs/BlackSubType.prefab
+Assets/Working Prefabs/WhiteSubType.prefab
+Assets/Working Prefabs/LatinSubType.prefab
+Assets/Working Prefabs/NPC1.prefab
+Assets/Working Prefabs/NPC2.prefab
+Assets/Working Prefabs/NPC3.prefab
+Assets/Resources/WeaponMod.prefab
+Assets/Resources/Health.prefab
+Assets/Resources/GrenadeMod.prefab
