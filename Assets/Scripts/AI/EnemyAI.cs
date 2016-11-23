@@ -16,6 +16,7 @@ public class EnemyAI : MonoBehaviour {
     public EnemyStats enemyStats;
     public Animator anim;
     public Puppet2D_GlobalControl puppetControl;
+    
 
     // Use this for initialization
     public void Reload()

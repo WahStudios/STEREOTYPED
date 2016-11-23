@@ -2,7 +2,9 @@
 using System.Collections;
 
 public class PlayerCheck : MonoBehaviour {
-    public EnemyAI enemyAI;
+    public ThugEnemyAI enemyAI;
+
+    void Start() { enemyAI = transform.parent.GetComponent<ThugEnemyAI>(); }
 	// Use this for initialization
 	void OnTriggerEnter2D(Collider2D other)
     {

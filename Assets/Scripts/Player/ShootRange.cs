@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MeleeRange : MonoBehaviour {
-
-    public EnemyAI enemyAI;
+public class ShootRange : MonoBehaviour {
+    public ThugEnemyAI enemyAI;
+    void Start()
+    {
+        enemyAI = transform.parent.GetComponent<ThugEnemyAI>();
+    }
     // Use this for initialization
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            if (enemyAI.meleeRange == false)
+            if (enemyAI.shootRange == false)
             {
-                enemyAI.meleeRange = true;
+                enemyAI.shootRange = true;
             }
         }
     }
@@ -19,9 +22,9 @@ public class MeleeRange : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            if (enemyAI.meleeRange == true)
+            if (enemyAI.shootRange == true)
             {
-                enemyAI.meleeRange = false;
+                enemyAI.shootRange = false;
             }
         }
     }

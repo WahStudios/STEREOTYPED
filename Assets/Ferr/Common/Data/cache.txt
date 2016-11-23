@@ -67,7 +67,7 @@ Assets/Prefabs/GridPieces/Grid_Cavern_12.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_11.prefab
 Assets/Prefabs/Grid.prefab
 Assets/Working Prefabs/Grid.prefab
-Assets/Default Grid.prefab
+Assets/Scripts/General/Default Grid.prefab
 Assets/Working Prefabs/Grenade Object.prefab
 Assets/Working Prefabs/tempTitleScreenPrefab.prefab
 Assets/Working Prefabs/PlayerParent.prefab
@@ -101,6 +101,8 @@ Assets/Working Prefabs/NPC3.prefab
 Assets/Resources/WeaponMod.prefab
 Assets/Resources/Health.prefab
 Assets/Resources/GrenadeMod.prefab
+Assets/Scripts/General/ItemDatabase.prefab
+Assets/Scripts/General/UI Canvas.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Prefabs/Roads/RoadPrefab0.prefab
@@ -170,7 +172,6 @@ Assets/Prefabs/GridPieces/Grid_Cavern_12.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_11.prefab
 Assets/Prefabs/Grid.prefab
 Assets/Working Prefabs/Grid.prefab
-Assets/Default Grid.prefab
 Assets/Working Prefabs/Grenade Object.prefab
 Assets/Working Prefabs/tempTitleScreenPrefab.prefab
 Assets/Working Prefabs/PlayerParent.prefab
@@ -204,3 +205,6 @@ Assets/Working Prefabs/NPC3.prefab
 Assets/Resources/WeaponMod.prefab
 Assets/Resources/Health.prefab
 Assets/Resources/GrenadeMod.prefab
+Assets/Scripts/General/Default Grid.prefab
+Assets/Scripts/General/ItemDatabase.prefab
+Assets/Scripts/General/UI Canvas.prefab

@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyHit : MonoBehaviour {
 
     public EnemyStats enemyStats;
-    public EnemyAI enemyAI;
+    public ThugEnemyAI enemyAI;
     public Animator animator;
     public bool isDead = false;
     public bool die = false;
@@ -12,6 +12,7 @@ public class EnemyHit : MonoBehaviour {
     public float gunShotRate = 0.5f;
 
     // Use this for initialization
+    void Start() { enemyAI = GetComponent<ThugEnemyAI>(); }
     void OnCollisionEnter2D(Collision2D other)
     {
         if (Time.time > nextFire)

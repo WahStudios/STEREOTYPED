@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class GrenadeChekc : MonoBehaviour {
-    public EnemyAI enemyAI;
+    public ThugEnemyAI enemyAI;
     public GameObject currentGrenade;
 	// Use this for initialization
 	void OnTriggerStay2D(Collider2D other)
@@ -16,6 +16,7 @@ public class GrenadeChekc : MonoBehaviour {
            
         }
     }
+    void Start() { enemyAI = transform.parent.GetComponent<ThugEnemyAI>(); }
     void Update()
     {
         if (currentGrenade != null)
