@@ -12,199 +12,73 @@ Assets/Ferr/2DTerrain/TerrainMaterials/MossyTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/ForegroundTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/CaveTerrainMaterial.prefab
-Assets/Prefabs/Cavern/Cavern_6.prefab
+Assets/Prefabs/Cavern/Cavern_SecretRoom_GeneticsLab.prefab
 Assets/Prefabs/Cavern/Cavern_3.prefab
-Assets/Prefabs/Roads/RoadPrefab0.prefab
-Assets/Prefabs/Cavern/Cavern_2.prefab
-Assets/Prefabs/Cavern/Cavern_1.prefab
-Assets/Prefabs/Cavern/Cavern_5.prefab
-Assets/Prefabs/Cavern/Cavern_9.prefab
-Assets/Prefabs/Cavern/Cavern_4.prefab
-Assets/Prefabs/Cavern/Cavern_7.prefab
-Assets/Prefabs/Cavern/Cavern_8.prefab
-Assets/Prefabs/Cavern/Cavern_10.prefab
-Assets/Prefabs/Cavern/Cavern_11.prefab
-Assets/Prefabs/Cavern/Cavern_12.prefab
-Assets/Prefabs/Cavern/Cavern_13.prefab
-Assets/Prefabs/Cavern/Cavern_Shop.prefab
-Assets/Prefabs/Enemy_MineDroid.prefab
-Assets/Prefabs/Boss_RagedThug_Global_CTRL.prefab
-Assets/Prefabs/Furniture_Crate.prefab
-Assets/Ferr/2DTerrain/Examples/Assets/GooPlayer.prefab
-Assets/Prefabs/Enemy_MachineGun_Turret.prefab
-Assets/Ferr/2DTerrain/Examples/Assets/Tumbleweed.prefab
-Assets/Prefabs/Player_Global_CTRL.prefab
-Assets/Prefabs/Explosion_Spout.prefab
-Assets/Puppet2D/Prefabs/FFDMonster_Global_CTRL.prefab
-Assets/Prefabs/FloodLight_3.prefab
-Assets/Prefabs/Furniture_Door.prefab
-Assets/Prefabs/Thug_Global_CTRL.prefab
-Assets/Prefabs/Smoke1.prefab
-Assets/Puppet2D/Prefabs/croc_Global_CTRL.prefab
-Assets/Prefabs/Explosion_Grenade.prefab
-Assets/Puppet2D/Prefabs/Puppetman_Global_CTRL.prefab
-Assets/Ferr/2DTerrain/Examples/Assets/FerrlibLogoSmall.prefab
-Assets/Prefabs/GunnerMech_Global_CTRL.prefab
-Assets/Prefabs/Grenade.prefab
-Assets/Prefabs/Furniture_Barrel.prefab
-Assets/Prefabs/Furniture_RedBarrel.prefab
-Assets/Prefabs/Explosion_Large.prefab
-Assets/Prefabs/WalkerMech_Global_CTRL.prefab
-Assets/Prefabs/Sparks.prefab
-Assets/Prefabs/GridPieces/GridFitPrefab.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_Shop.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_1.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_2.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_3.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_4.prefab
+Assets/Prefabs/Roads/RoadPrefab0.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_Shop.prefab
+Assets/Prefabs/Cavern/Cavern_6.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_7.prefab
+Assets/Prefabs/Cavern/Cavern_2.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_10.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_2.prefab
+Assets/Prefabs/Cavern/Cavern_8.prefab
+Assets/Prefabs/Cavern/Cavern_12.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_1.prefab
+Assets/Prefabs/Cavern/Cavern_7.prefab
+Assets/Prefabs/Cavern/Cavern_1.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_9.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_5.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_6.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_7.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_8.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_9.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_10.prefab
+Assets/Prefabs/Cavern/Cavern_5.prefab
+Assets/Prefabs/Cavern/Cavern_9.prefab
+Assets/Prefabs/Cavern/Cavern_Shop.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_12.prefab
+Assets/Prefabs/Cavern/Cavern_13.prefab
+Assets/Prefabs/Cavern/Cavern_4.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_4.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_11.prefab
-Assets/Prefabs/Grid.prefab
-Assets/Working Prefabs/Grid.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_8.prefab
 Assets/Scripts/General/Default Grid.prefab
-Assets/Working Prefabs/Grenade Object.prefab
-Assets/Working Prefabs/tempTitleScreenPrefab.prefab
-Assets/Working Prefabs/PlayerParent.prefab
-Assets/Prefabs/SelectScreen_UGUI_Char1.prefab
-Assets/Prefabs/JumpPanel.prefab
-Assets/Working Prefabs/CreateRoom.prefab
-Assets/Prefabs/EnemyPlacement.prefab
-Assets/Working Prefabs/BlackThug.prefab
-Assets/Working Prefabs/BlackThug 1.prefab
-Assets/Working Prefabs/BlackThug 2.prefab
-Assets/Working Prefabs/WhiteThug.prefab
-Assets/Working Prefabs/WhiteThug 1.prefab
-Assets/Working Prefabs/WhiteThug 2.prefab
-Assets/Working Prefabs/AsianThug.prefab
-Assets/Working Prefabs/AsianThug 1.prefab
-Assets/Working Prefabs/AsianThug 2.prefab
-Assets/Working Prefabs/LatinThug.prefab
-Assets/Working Prefabs/LatinThug 2.prefab
-Assets/Working Prefabs/LatinThug 1.prefab
-Assets/Working Prefabs/AsianBoss.prefab
-Assets/Working Prefabs/BlackBoss.prefab
-Assets/Working Prefabs/WhiteBoss.prefab
-Assets/Working Prefabs/LatinBoss.prefab
-Assets/Working Prefabs/AsianSubType.prefab
-Assets/Working Prefabs/BlackSubType.prefab
-Assets/Working Prefabs/WhiteSubType.prefab
-Assets/Working Prefabs/LatinSubType.prefab
-Assets/Working Prefabs/NPC1.prefab
-Assets/Working Prefabs/NPC2.prefab
-Assets/Working Prefabs/NPC3.prefab
-Assets/Resources/WeaponMod.prefab
-Assets/Resources/Health.prefab
-Assets/Resources/GrenadeMod.prefab
-Assets/Scripts/General/ItemDatabase.prefab
-Assets/Scripts/General/UI Canvas.prefab
+Assets/Prefabs/Cavern/Cavern_10.prefab
+Assets/Prefabs/Cavern/Cavern_11.prefab
+Assets/Prefabs/Cavern/Cavern_SecretRoom_StorageLocker.prefab
+Assets/Level Textures/CavernBG.prefab
 
 [Ferr2DT_PathTerrain]
+Assets/Scripts/General/Default Grid.prefab
 Assets/Prefabs/Roads/RoadPrefab0.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_Shop.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_9.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_8.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_7.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_6.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_5.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_4.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_3.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_2.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_12.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_11.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_10.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_1.prefab
+Assets/Prefabs/Cavern/Cavern_Shop.prefab
+Assets/Prefabs/Cavern/Cavern_SecretRoom_GeneticsLab.prefab
 Assets/Prefabs/Cavern/Cavern_9.prefab
+Assets/Prefabs/Cavern/Cavern_8.prefab
+Assets/Prefabs/Cavern/Cavern_7.prefab
 Assets/Prefabs/Cavern/Cavern_6.prefab
 Assets/Prefabs/Cavern/Cavern_5.prefab
 Assets/Prefabs/Cavern/Cavern_4.prefab
 Assets/Prefabs/Cavern/Cavern_3.prefab
 Assets/Prefabs/Cavern/Cavern_2.prefab
-Assets/Prefabs/Cavern/Cavern_1.prefab
-Assets/Prefabs/Cavern/Cavern_7.prefab
-Assets/Prefabs/Cavern/Cavern_8.prefab
-Assets/Prefabs/Cavern/Cavern_10.prefab
-Assets/Prefabs/Cavern/Cavern_11.prefab
-Assets/Prefabs/Cavern/Cavern_12.prefab
 Assets/Prefabs/Cavern/Cavern_13.prefab
-Assets/Prefabs/Cavern/Cavern_Shop.prefab
-Assets/Prefabs/Enemy_MineDroid.prefab
-Assets/Level Textures/CavePlatform.prefab
-Assets/Ferr/2DTerrain/TerrainMaterials/RockTerrainMaterial.prefab
-Assets/Ferr/2DTerrain/TerrainMaterials/CaveTerrainMaterial.prefab
-Assets/Prefabs/Boss_RagedThug_Global_CTRL.prefab
-Assets/Ferr/2DTerrain/TerrainMaterials/ForegroundTerrainMaterial.prefab
-Assets/Prefabs/Furniture_Crate.prefab
-Assets/Ferr/2DTerrain/Examples/Assets/GooPlayer.prefab
-Assets/Prefabs/Enemy_MachineGun_Turret.prefab
-Assets/Ferr/2DTerrain/Examples/Assets/Tumbleweed.prefab
-Assets/Level Textures/Road.prefab
-Assets/Prefabs/Player_Global_CTRL.prefab
-Assets/Prefabs/Explosion_Spout.prefab
-Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
-Assets/Puppet2D/Prefabs/FFDMonster_Global_CTRL.prefab
-Assets/Prefabs/FloodLight_3.prefab
-Assets/Ferr/2DTerrain/TerrainMaterials/MossyTerrainMaterial.prefab
-Assets/Level Textures/MetalWorksPillar.prefab
-Assets/Prefabs/Furniture_Door.prefab
-Assets/Prefabs/Thug_Global_CTRL.prefab
-Assets/Ferr/2DTerrain/TerrainMaterials/PipeMaterial.prefab
-Assets/Prefabs/Smoke1.prefab
-Assets/Puppet2D/Prefabs/croc_Global_CTRL.prefab
-Assets/Prefabs/Explosion_Grenade.prefab
-Assets/Puppet2D/Prefabs/Puppetman_Global_CTRL.prefab
-Assets/Ferr/2DTerrain/Examples/Assets/FerrlibLogoSmall.prefab
-Assets/Prefabs/GunnerMech_Global_CTRL.prefab
-Assets/Prefabs/Grenade.prefab
-Assets/Prefabs/Furniture_Barrel.prefab
-Assets/Prefabs/Furniture_RedBarrel.prefab
-Assets/Ferr/2DTerrain/TerrainMaterials/SandTerrainMaterial.prefab
-Assets/Prefabs/Explosion_Large.prefab
-Assets/Level Textures/Ladder.prefab
-Assets/Prefabs/WalkerMech_Global_CTRL.prefab
-Assets/Prefabs/Sparks.prefab
-Assets/Level Textures/MetalWorks.prefab
-Assets/Prefabs/GridPieces/GridFitPrefab.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_Shop.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_1.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_2.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_3.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_4.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_5.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_6.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_7.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_8.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_9.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_10.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_12.prefab
-Assets/Prefabs/GridPieces/Grid_Cavern_11.prefab
-Assets/Prefabs/Grid.prefab
-Assets/Working Prefabs/Grid.prefab
-Assets/Working Prefabs/Grenade Object.prefab
-Assets/Working Prefabs/tempTitleScreenPrefab.prefab
-Assets/Working Prefabs/PlayerParent.prefab
-Assets/Prefabs/SelectScreen_UGUI_Char1.prefab
-Assets/Prefabs/JumpPanel.prefab
-Assets/Working Prefabs/CreateRoom.prefab
-Assets/Prefabs/EnemyPlacement.prefab
-Assets/Working Prefabs/BlackThug.prefab
-Assets/Working Prefabs/BlackThug 1.prefab
-Assets/Working Prefabs/BlackThug 2.prefab
-Assets/Working Prefabs/WhiteThug.prefab
-Assets/Working Prefabs/WhiteThug 1.prefab
-Assets/Working Prefabs/WhiteThug 2.prefab
-Assets/Working Prefabs/AsianThug.prefab
-Assets/Working Prefabs/AsianThug 1.prefab
-Assets/Working Prefabs/AsianThug 2.prefab
-Assets/Working Prefabs/LatinThug.prefab
-Assets/Working Prefabs/LatinThug 2.prefab
-Assets/Working Prefabs/LatinThug 1.prefab
-Assets/Working Prefabs/AsianBoss.prefab
-Assets/Working Prefabs/BlackBoss.prefab
-Assets/Working Prefabs/WhiteBoss.prefab
-Assets/Working Prefabs/LatinBoss.prefab
-Assets/Working Prefabs/AsianSubType.prefab
-Assets/Working Prefabs/BlackSubType.prefab
-Assets/Working Prefabs/WhiteSubType.prefab
-Assets/Working Prefabs/LatinSubType.prefab
-Assets/Working Prefabs/NPC1.prefab
-Assets/Working Prefabs/NPC2.prefab
-Assets/Working Prefabs/NPC3.prefab
-Assets/Resources/WeaponMod.prefab
-Assets/Resources/Health.prefab
-Assets/Resources/GrenadeMod.prefab
-Assets/Scripts/General/Default Grid.prefab
-Assets/Scripts/General/ItemDatabase.prefab
-Assets/Scripts/General/UI Canvas.prefab
+Assets/Prefabs/Cavern/Cavern_12.prefab
+Assets/Prefabs/Cavern/Cavern_11.prefab
+Assets/Prefabs/Cavern/Cavern_10.prefab
+Assets/Prefabs/Cavern/Cavern_1.prefab
+Assets/Prefabs/Cavern/Cavern_SecretRoom_StorageLocker.prefab
+Assets/NewTerrainMaterial.prefab
+Assets/Ferr/NewTerrainMaterial.prefab
+Assets/Ferr/2DTerrain/NewTerrainMaterial.prefab
+Assets/Level Textures/NewTerrainMaterial.prefab
+Assets/Level Textures/CavernBG.prefab
