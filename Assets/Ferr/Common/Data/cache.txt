@@ -4,6 +4,7 @@ Assets/Level Textures/Road.prefab
 Assets/Level Textures/MetalWorksPillar.prefab
 Assets/Level Textures/MetalWorks.prefab
 Assets/Level Textures/Ladder.prefab
+Assets/Level Textures/CavernBG.prefab
 Assets/Level Textures/CavePlatform.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/SandTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/RockTerrainMaterial.prefab
@@ -12,7 +13,7 @@ Assets/Ferr/2DTerrain/TerrainMaterials/MossyTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/ForestTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/ForegroundTerrainMaterial.prefab
 Assets/Ferr/2DTerrain/TerrainMaterials/CaveTerrainMaterial.prefab
-Assets/Prefabs/Cavern/Cavern_SecretRoom_GeneticsLab.prefab
+Assets/Prefabs/Cavern/Cavern_8.prefab
 Assets/Prefabs/Cavern/Cavern_3.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_3.prefab
 Assets/Prefabs/Roads/RoadPrefab0.prefab
@@ -22,11 +23,12 @@ Assets/Prefabs/GridPieces/Grid_Cavern_7.prefab
 Assets/Prefabs/Cavern/Cavern_2.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_10.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_2.prefab
-Assets/Prefabs/Cavern/Cavern_8.prefab
 Assets/Prefabs/Cavern/Cavern_12.prefab
+Assets/Prefabs/Cavern/Cavern_SecretRoom_GeneticsLab.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_1.prefab
 Assets/Prefabs/Cavern/Cavern_7.prefab
 Assets/Prefabs/Cavern/Cavern_1.prefab
+Assets/Prefabs/Cavern/Cavern_SecretRoom_StorageLocker.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_9.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_5.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_6.prefab
@@ -42,8 +44,6 @@ Assets/Prefabs/GridPieces/Grid_Cavern_8.prefab
 Assets/Scripts/General/Default Grid.prefab
 Assets/Prefabs/Cavern/Cavern_10.prefab
 Assets/Prefabs/Cavern/Cavern_11.prefab
-Assets/Prefabs/Cavern/Cavern_SecretRoom_StorageLocker.prefab
-Assets/Level Textures/CavernBG.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Scripts/General/Default Grid.prefab
@@ -62,6 +62,7 @@ Assets/Prefabs/GridPieces/Grid_Cavern_11.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_10.prefab
 Assets/Prefabs/GridPieces/Grid_Cavern_1.prefab
 Assets/Prefabs/Cavern/Cavern_Shop.prefab
+Assets/Prefabs/Cavern/Cavern_SecretRoom_StorageLocker.prefab
 Assets/Prefabs/Cavern/Cavern_SecretRoom_GeneticsLab.prefab
 Assets/Prefabs/Cavern/Cavern_9.prefab
 Assets/Prefabs/Cavern/Cavern_8.prefab
@@ -76,9 +77,3 @@ Assets/Prefabs/Cavern/Cavern_12.prefab
 Assets/Prefabs/Cavern/Cavern_11.prefab
 Assets/Prefabs/Cavern/Cavern_10.prefab
 Assets/Prefabs/Cavern/Cavern_1.prefab
-Assets/Prefabs/Cavern/Cavern_SecretRoom_StorageLocker.prefab
-Assets/NewTerrainMaterial.prefab
-Assets/Ferr/NewTerrainMaterial.prefab
-Assets/Ferr/2DTerrain/NewTerrainMaterial.prefab
-Assets/Level Textures/NewTerrainMaterial.prefab
-Assets/Level Textures/CavernBG.prefab
