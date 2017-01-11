@@ -46,6 +46,7 @@ Assets/Scripts/General/Default Grid.prefab
 Assets/Prefabs/Cavern/Cavern_10.prefab
 Assets/Prefabs/Cavern/Cavern_11.prefab
 Assets/Prefabs/Precious_Global_CTRL.prefab
+Assets/Prefabs/TheRock_Global_CTRL.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Scripts/General/Default Grid.prefab
@@ -81,3 +82,4 @@ Assets/Prefabs/Cavern/Cavern_11.prefab
 Assets/Prefabs/Cavern/Cavern_10.prefab
 Assets/Prefabs/Cavern/Cavern_1.prefab
 Assets/Prefabs/Precious_Global_CTRL.prefab
+Assets/Prefabs/TheRock_Global_CTRL.prefab
