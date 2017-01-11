@@ -99,57 +99,57 @@ TextureImporter:
     21300188: Grappler_Head
     21300190: Enemies2_95
     21300192: Enemies2_96
-    21300194: Enemies2_97
+    21300194: Chola_Head
     21300196: Grappler_Chest
-    21300198: Enemies2_99
-    21300200: Enemies2_100
-    21300202: Enemies2_101
+    21300198: Cartel_Head
+    21300200: Columbiana_Head
+    21300202: Coackroach_Head
     21300204: Enemies2_102
-    21300206: Enemies2_103
+    21300206: Inmate4360_Head
     21300208: Grappler_Hook_Shoulder
     21300210: Grappler_Shoulder
-    21300212: Enemies2_106
-    21300214: Enemies2_107
-    21300216: Enemies2_108
-    21300218: Enemies2_109
-    21300220: Enemies2_110
-    21300222: Enemies2_111
-    21300224: Enemies2_112
-    21300226: Enemies2_113
-    21300228: Enemies2_114
-    21300230: Enemies2_115
+    21300212: Cartel_Shoulder
+    21300214: Cartel_Chest
+    21300216: Columbiana_Shoulder
+    21300218: Columbiana_Chest
+    21300220: Coackroach_Shoulder
+    21300222: Coackroach_Chest
+    21300224: Chola_Shoulder
+    21300226: Chola_Chest
+    21300228: Inmate4360_Shoulder
+    21300230: Inmate4360_Chest
     21300232: Grappler_Hook_Wrist
     21300234: Grappler_Thigh
     21300236: Grappler_Wrist
-    21300238: Enemies2_119
-    21300240: Enemies2_120
-    21300242: Enemies2_121
-    21300244: Enemies2_122
-    21300246: Enemies2_123
-    21300248: Enemies2_124
-    21300250: Enemies2_125
+    21300238: Cartel_Wrist
+    21300240: Columbiana_Wrist
+    21300242: Coackroach_Wrist
+    21300244: Coackroach_Thigh
+    21300246: Chola_Wrist
+    21300248: Chola_Thigh
+    21300250: Inmate4360_Wrist
     21300252: Grappler_Hand
-    21300254: Enemies2_127
-    21300256: Enemies2_128
-    21300258: Enemies2_129
-    21300260: Enemies2_130
-    21300262: Enemies2_131
-    21300264: Enemies2_132
-    21300266: Enemies2_133
+    21300254: Cartel_Hand
+    21300256: Cartel_Thigh
+    21300258: Columbiana_Thigh
+    21300260: Coackroach_Hand
+    21300262: Chola_Hand
+    21300264: Inmate4360_Hand
+    21300266: Inmate4360_Thigh
     21300268: Grappler_Hook_Hand
     21300270: Grappler_Leg
-    21300272: Enemies2_136
-    21300274: Enemies2_137
-    21300276: Enemies2_138
-    21300278: Enemies2_139
+    21300272: Cartel_Leg
+    21300274: Columbiana_Hand
+    21300276: Coackroach_Leg
+    21300278: Chola_Leg
     21300280: Grappler_Foot
-    21300282: Enemies2_141
-    21300284: Enemies2_142
-    21300286: Enemies2_143
-    21300288: Enemies2_144
-    21300290: Enemies2_145
-    21300292: Enemies2_146
-    21300294: Enemies2_147
+    21300282: Cartel_Foot
+    21300284: Columbiana_Leg
+    21300286: Coackroach_Foot
+    21300288: Chola_Foot
+    21300290: Inmate4360_Leg
+    21300292: Columbiana_Foot
+    21300294: Inmate4360_Foot
     21300296: Enemies2_148
     21300298: DrugedOutSniper_Head
     21300300: DerangedNinja_Head
@@ -1267,7 +1267,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_97
+    - name: Chola_Head
       rect:
         serializedVersion: 2
         x: 1398
@@ -1287,7 +1287,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_99
+    - name: Cartel_Head
       rect:
         serializedVersion: 2
         x: 494
@@ -1297,7 +1297,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_100
+    - name: Columbiana_Head
       rect:
         serializedVersion: 2
         x: 746
@@ -1307,7 +1307,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_101
+    - name: Coackroach_Head
       rect:
         serializedVersion: 2
         x: 1089
@@ -1327,7 +1327,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_103
+    - name: Inmate4360_Head
       rect:
         serializedVersion: 2
         x: 1756
@@ -1357,7 +1357,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_106
+    - name: Cartel_Shoulder
       rect:
         serializedVersion: 2
         x: 403
@@ -1367,7 +1367,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_107
+    - name: Cartel_Chest
       rect:
         serializedVersion: 2
         x: 469
@@ -1377,7 +1377,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_108
+    - name: Columbiana_Shoulder
       rect:
         serializedVersion: 2
         x: 680
@@ -1387,7 +1387,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_109
+    - name: Columbiana_Chest
       rect:
         serializedVersion: 2
         x: 774
@@ -1397,7 +1397,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_110
+    - name: Coackroach_Shoulder
       rect:
         serializedVersion: 2
         x: 984
@@ -1407,7 +1407,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_111
+    - name: Coackroach_Chest
       rect:
         serializedVersion: 2
         x: 1073
@@ -1417,7 +1417,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_112
+    - name: Chola_Shoulder
       rect:
         serializedVersion: 2
         x: 1305
@@ -1427,7 +1427,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_113
+    - name: Chola_Chest
       rect:
         serializedVersion: 2
         x: 1401
@@ -1437,7 +1437,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_114
+    - name: Inmate4360_Shoulder
       rect:
         serializedVersion: 2
         x: 1626
@@ -1447,7 +1447,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_115
+    - name: Inmate4360_Chest
       rect:
         serializedVersion: 2
         x: 1741
@@ -1487,7 +1487,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_119
+    - name: Cartel_Wrist
       rect:
         serializedVersion: 2
         x: 406
@@ -1497,7 +1497,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_120
+    - name: Columbiana_Wrist
       rect:
         serializedVersion: 2
         x: 682
@@ -1507,7 +1507,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_121
+    - name: Coackroach_Wrist
       rect:
         serializedVersion: 2
         x: 997
@@ -1517,7 +1517,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_122
+    - name: Coackroach_Thigh
       rect:
         serializedVersion: 2
         x: 1115
@@ -1527,7 +1527,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_123
+    - name: Chola_Wrist
       rect:
         serializedVersion: 2
         x: 1308
@@ -1537,7 +1537,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_124
+    - name: Chola_Thigh
       rect:
         serializedVersion: 2
         x: 1420
@@ -1547,7 +1547,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_125
+    - name: Inmate4360_Wrist
       rect:
         serializedVersion: 2
         x: 1626
@@ -1567,7 +1567,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_127
+    - name: Cartel_Hand
       rect:
         serializedVersion: 2
         x: 402
@@ -1577,7 +1577,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_128
+    - name: Cartel_Thigh
       rect:
         serializedVersion: 2
         x: 491
@@ -1587,7 +1587,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_129
+    - name: Columbiana_Thigh
       rect:
         serializedVersion: 2
         x: 794
@@ -1597,7 +1597,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_130
+    - name: Coackroach_Hand
       rect:
         serializedVersion: 2
         x: 998
@@ -1607,7 +1607,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_131
+    - name: Chola_Hand
       rect:
         serializedVersion: 2
         x: 1304
@@ -1617,7 +1617,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_132
+    - name: Inmate4360_Hand
       rect:
         serializedVersion: 2
         x: 1628
@@ -1627,7 +1627,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_133
+    - name: Inmate4360_Thigh
       rect:
         serializedVersion: 2
         x: 1766
@@ -1657,7 +1657,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_136
+    - name: Cartel_Leg
       rect:
         serializedVersion: 2
         x: 504
@@ -1667,7 +1667,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_137
+    - name: Columbiana_Hand
       rect:
         serializedVersion: 2
         x: 677
@@ -1677,7 +1677,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_138
+    - name: Coackroach_Leg
       rect:
         serializedVersion: 2
         x: 1122
@@ -1687,7 +1687,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_139
+    - name: Chola_Leg
       rect:
         serializedVersion: 2
         x: 1432
@@ -1707,7 +1707,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_141
+    - name: Cartel_Foot
       rect:
         serializedVersion: 2
         x: 502
@@ -1717,7 +1717,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_142
+    - name: Columbiana_Leg
       rect:
         serializedVersion: 2
         x: 806
@@ -1727,7 +1727,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_143
+    - name: Coackroach_Foot
       rect:
         serializedVersion: 2
         x: 1126
@@ -1737,7 +1737,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_144
+    - name: Chola_Foot
       rect:
         serializedVersion: 2
         x: 1431
@@ -1747,7 +1747,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_145
+    - name: Inmate4360_Leg
       rect:
         serializedVersion: 2
         x: 1773
@@ -1757,7 +1757,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_146
+    - name: Columbiana_Foot
       rect:
         serializedVersion: 2
         x: 803
@@ -1767,11 +1767,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemies2_147
+    - name: Inmate4360_Foot
       rect:
         serializedVersion: 2
         x: 1777
-        y: 3037
+        y: 3035
         width: 83
         height: 45
       alignment: 0
