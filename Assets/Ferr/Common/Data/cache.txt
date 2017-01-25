@@ -50,6 +50,12 @@ Assets/Prefabs/TheRock_Global_CTRL.prefab
 Assets/Prefabs/Convict_Global_CTRL.prefab
 Assets/Prefabs/Enemy_MineDroid.prefab
 Assets/Prefabs/DRInmate_Global_CTRL.prefab
+Assets/Prefabs/CrazedGrenadier_Global_CTRL.prefab
+Assets/Prefabs/ShieldedGoon_Global_CTRL.prefab
+Assets/Prefabs/Rocketeer_Global_CTRL.prefab
+Assets/Prefabs/PsychopathicSlut_Global_CTRL.prefab
+Assets/Prefabs/DiseasedClown_Global_CTRL.prefab
+Assets/Prefabs/MaskedKiller_Global_CTRL.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Scripts/General/Default Grid.prefab
@@ -89,3 +95,9 @@ Assets/Prefabs/TheRock_Global_CTRL.prefab
 Assets/Prefabs/Convict_Global_CTRL.prefab
 Assets/Prefabs/Enemy_MineDroid.prefab
 Assets/Prefabs/DRInmate_Global_CTRL.prefab
+Assets/Prefabs/CrazedGrenadier_Global_CTRL.prefab
+Assets/Prefabs/ShieldedGoon_Global_CTRL.prefab
+Assets/Prefabs/Rocketeer_Global_CTRL.prefab
+Assets/Prefabs/PsychopathicSlut_Global_CTRL.prefab
+Assets/Prefabs/DiseasedClown_Global_CTRL.prefab
+Assets/Prefabs/MaskedKiller_Global_CTRL.prefab
