@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 6049fbc4911b2034d9e3a52af25f703d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Weapon_Uzi
+    21300002: Weapon_AK47
+    21300004: Weapon_Katana
+    21300006: Weapon_Machete
+    21300008: Weapon_SniperRifle
+    21300010: Weapon_HandGun
+    21300012: Weapon_Magnum
+    21300014: Weapon_Knife
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Weapon_Uzi
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 680
+        width: 217
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_AK47
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 353
+        width: 447
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_Katana
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 729
+        width: 463
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_Machete
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 576
+        width: 290
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_SniperRifle
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 401
+        width: 445
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_HandGun
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 19
+        width: 98
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_Magnum
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 11
+        width: 134
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon_Knife
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 837
+        width: 205
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
