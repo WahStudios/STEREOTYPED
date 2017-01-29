@@ -47,7 +47,6 @@ Assets/Prefabs/Cavern/Cavern_10.prefab
 Assets/Prefabs/Cavern/Cavern_11.prefab
 Assets/Prefabs/Precious_Global_CTRL.prefab
 Assets/Prefabs/TheRock_Global_CTRL.prefab
-Assets/Prefabs/Convict_Global_CTRL.prefab
 Assets/Prefabs/Enemy_MineDroid.prefab
 Assets/Prefabs/DRInmate_Global_CTRL.prefab
 Assets/Prefabs/CrazedGrenadier_Global_CTRL.prefab
@@ -56,6 +55,13 @@ Assets/Prefabs/Rocketeer_Global_CTRL.prefab
 Assets/Prefabs/PsychopathicSlut_Global_CTRL.prefab
 Assets/Prefabs/DiseasedClown_Global_CTRL.prefab
 Assets/Prefabs/MaskedKiller_Global_CTRL.prefab
+Assets/Prefabs/DruggedOutSniper_Global_CTRL.prefab
+Assets/Prefabs/DerangedNinja_Global_CTRL.prefab
+Assets/Prefabs/Grappler_Global_CTRL.prefab
+Assets/Prefabs/Cartel_Global_CTRL.prefab
+Assets/Prefabs/Columbiana_Global_CTRL.prefab
+Assets/Prefabs/Chola_Global_CTRL.prefab
+Assets/Prefabs/Coackroach_Global_CTRL.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Scripts/General/Default Grid.prefab
@@ -92,7 +98,6 @@ Assets/Prefabs/Cavern/Cavern_10.prefab
 Assets/Prefabs/Cavern/Cavern_1.prefab
 Assets/Prefabs/Precious_Global_CTRL.prefab
 Assets/Prefabs/TheRock_Global_CTRL.prefab
-Assets/Prefabs/Convict_Global_CTRL.prefab
 Assets/Prefabs/Enemy_MineDroid.prefab
 Assets/Prefabs/DRInmate_Global_CTRL.prefab
 Assets/Prefabs/CrazedGrenadier_Global_CTRL.prefab
@@ -101,3 +106,10 @@ Assets/Prefabs/Rocketeer_Global_CTRL.prefab
 Assets/Prefabs/PsychopathicSlut_Global_CTRL.prefab
 Assets/Prefabs/DiseasedClown_Global_CTRL.prefab
 Assets/Prefabs/MaskedKiller_Global_CTRL.prefab
+Assets/Prefabs/DruggedOutSniper_Global_CTRL.prefab
+Assets/Prefabs/DerangedNinja_Global_CTRL.prefab
+Assets/Prefabs/Grappler_Global_CTRL.prefab
+Assets/Prefabs/Cartel_Global_CTRL.prefab
+Assets/Prefabs/Columbiana_Global_CTRL.prefab
+Assets/Prefabs/Chola_Global_CTRL.prefab
+Assets/Prefabs/Coackroach_Global_CTRL.prefab
