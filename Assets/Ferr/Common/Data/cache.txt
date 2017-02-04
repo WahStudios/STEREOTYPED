@@ -62,6 +62,34 @@ Assets/Prefabs/Cartel_Global_CTRL.prefab
 Assets/Prefabs/Columbiana_Global_CTRL.prefab
 Assets/Prefabs/Chola_Global_CTRL.prefab
 Assets/Prefabs/Coackroach_Global_CTRL.prefab
+Assets/Prefabs/Convict_Global_CTRL.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_13.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_Boss.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_Storage Locker.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_GeneticsLab.prefab
+Assets/Working Prefabs/WhiteSubType.prefab
+Assets/Working Prefabs/BlackThug 2.prefab
+Assets/Working Prefabs/BlackSubType.prefab
+Assets/Working Prefabs/WhiteThug.prefab
+Assets/Working Prefabs/WhiteThug 1.prefab
+Assets/Working Prefabs/LatinThug.prefab
+Assets/Working Prefabs/WhiteThug 2.prefab
+Assets/Working Prefabs/AsianThug 2.prefab
+Assets/Working Prefabs/AsianThug 1.prefab
+Assets/Working Prefabs/LatinThug 1.prefab
+Assets/Working Prefabs/NPC1.prefab
+Assets/Working Prefabs/AsianBoss.prefab
+Assets/Working Prefabs/NPC3.prefab
+Assets/Working Prefabs/BlackThug.prefab
+Assets/Working Prefabs/AsianThug.prefab
+Assets/Working Prefabs/AsianSubType.prefab
+Assets/Working Prefabs/NPC2.prefab
+Assets/Working Prefabs/LatinBoss.prefab
+Assets/Working Prefabs/WhiteBoss.prefab
+Assets/Working Prefabs/BlackThug 1.prefab
+Assets/Working Prefabs/LatinSubType.prefab
+Assets/Working Prefabs/BlackBoss.prefab
+Assets/Working Prefabs/LatinThug 2.prefab
 
 [Ferr2DT_PathTerrain]
 Assets/Scripts/General/Default Grid.prefab
@@ -113,3 +141,32 @@ Assets/Prefabs/Cartel_Global_CTRL.prefab
 Assets/Prefabs/Columbiana_Global_CTRL.prefab
 Assets/Prefabs/Chola_Global_CTRL.prefab
 Assets/Prefabs/Coackroach_Global_CTRL.prefab
+Assets/Level Textures/CavernBG.prefab
+Assets/Prefabs/Convict_Global_CTRL.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_13.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_Boss.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_Storage Locker.prefab
+Assets/Prefabs/GridPieces/Grid_Cavern_GeneticsLab.prefab
+Assets/Working Prefabs/WhiteSubType.prefab
+Assets/Working Prefabs/BlackThug 2.prefab
+Assets/Working Prefabs/BlackSubType.prefab
+Assets/Working Prefabs/WhiteThug.prefab
+Assets/Working Prefabs/WhiteThug 1.prefab
+Assets/Working Prefabs/LatinThug.prefab
+Assets/Working Prefabs/WhiteThug 2.prefab
+Assets/Working Prefabs/AsianThug 2.prefab
+Assets/Working Prefabs/AsianThug 1.prefab
+Assets/Working Prefabs/LatinThug 1.prefab
+Assets/Working Prefabs/NPC1.prefab
+Assets/Working Prefabs/AsianBoss.prefab
+Assets/Working Prefabs/NPC3.prefab
+Assets/Working Prefabs/BlackThug.prefab
+Assets/Working Prefabs/AsianThug.prefab
+Assets/Working Prefabs/AsianSubType.prefab
+Assets/Working Prefabs/NPC2.prefab
+Assets/Working Prefabs/LatinBoss.prefab
+Assets/Working Prefabs/WhiteBoss.prefab
+Assets/Working Prefabs/BlackThug 1.prefab
+Assets/Working Prefabs/LatinSubType.prefab
+Assets/Working Prefabs/BlackBoss.prefab
+Assets/Working Prefabs/LatinThug 2.prefab
