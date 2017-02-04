@@ -7,10 +7,10 @@ public class Door : MonoBehaviour {
 
 	// Use this for initialization
 	void Awake(){
-		boxCollider = gameObject.AddComponent<BoxCollider2D> ();
+	//	boxCollider = gameObject.AddComponent<BoxCollider2D> ();
 	}
 	void Start () {
-
+/*
 
 		Vector2 boxSize = boxCollider.size;
 		Vector2 boxCenter = boxCollider.center;
@@ -20,7 +20,7 @@ public class Door : MonoBehaviour {
 		boxCollider.center = boxCenter;
 		boxCollider.size = boxSize;
 		boxCollider.collider2D.isTrigger = true;
-
+        */
 	}
 	
 	// Update is called once per frame

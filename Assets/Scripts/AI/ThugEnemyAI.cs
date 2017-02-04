@@ -4,7 +4,7 @@ using System.Collections;
 public class ThugEnemyAI : MonoBehaviour {
     [HideInInspector]
     public Transform target; // if == null then do not run.
-    [HideInInspector]
+   
     public bool isGrounded = false;
     [HideInInspector]
     public bool hasFoundPlayer = false;

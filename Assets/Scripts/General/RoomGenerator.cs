@@ -69,7 +69,7 @@ public class RoomGenerator : MonoBehaviour {
         isStartingRoom = true;
 		usedGrids = new Dictionary<GameObject, int> ();
 		usedRooms = new Dictionary<GameObject, int> ();
-		maxRandomRooms = randomRooms.Length;
+		maxRandomRooms = randomRooms.Length -1;
         specialRoomFrequency = randomRooms.Length / 5;
         int randGridNumber = Random.Range (4, gridWidth - 4);
         int randGridSelection = Random.Range(4, gridHeight - 4);
@@ -600,7 +600,7 @@ gridColumnRight = gridColumn8;
 		if (currentSpecialRoom > maxSpecialRooms) {
 			NextRoom3 ();
 		} else {
-            Debug.Log("special3");
+           
 			currentSpecialRoom++;
 	
 			GridPos gridPos = currentGrid3.GetComponent<GridPos> ();
@@ -749,7 +749,7 @@ gridColumnRight = gridColumn8;
 		if (currentSpecialRoom > maxSpecialRooms) {
 			NextRoom3 ();
 		} else {
-            Debug.Log("Special1");
+  
 			currentSpecialRoom++;
 		
 			GridPos gridPos = currentGrid.GetComponent<GridPos> ();
@@ -1265,10 +1265,10 @@ gridColumnRight = gridColumn8;
 	}
 
 	void RandomRoomChooser2(int randomDirection, int randomSplitAmount){
-        Debug.Log("2");
+       
         int max = maxRandomRooms + 1;
         if (max >= currentRandomRooms) {
-            Debug.Log("wtf");
+
             randomDirection = Random.Range(1, 4);//1=left, 2=right, 3=up, 4=down
             int randRoom = Random.Range (0, maxRandomRooms);
            
@@ -1276,7 +1276,7 @@ gridColumnRight = gridColumn8;
             
 			if (usedRooms.ContainsKey (currentRandomRoom2)) {
 				RandomRoomChooser3(randomDirection, randomSplitAmount);
-                Debug.Log("Loop");
+      
 			}
 			else
 			{
@@ -1295,7 +1295,7 @@ gridColumnRight = gridColumn8;
                     }}
                 else
                 {
-                    Debug.Log("TRUE");
+                  
                     gridPos = currentGrid2.GetComponent<GridPos>();
                     isStart2 = false;
                 }
@@ -1455,7 +1455,7 @@ gridColumnRight = gridColumn8;
         }
     }
 	void RandomRoomChooser3(int randomDirection, int randomSplitAmount){
-        Debug.Log("3");
+      
         int max = maxRandomRooms + 1;
         if (max >= currentRandomRooms) {
             randomDirection = Random.Range(1, 4);//1=left, 2=right, 3=up, 4=down
@@ -1614,7 +1614,7 @@ gridColumnRight = gridColumn8;
 
 	/// CALL SEPERARATE FROM START
 	void RandomRoomChooser4(int randomDirection, int randomSplitAmount){
-        Debug.Log("4");
+        
         int max = maxRandomRooms + 1;
         if (max >= currentRandomRooms) {
             randomDirection = Random.Range(1, 4);//1=left, 2=right, 3=up, 4=down

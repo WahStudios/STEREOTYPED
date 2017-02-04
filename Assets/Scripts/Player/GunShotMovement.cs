@@ -39,7 +39,7 @@ public class GunShotMovement : MonoBehaviour {
 	public void FireRight(){
 		ResetGrenade();
 		ResetObject ();
-		Debug.Log ("FireLeft");
+
 		facingLeft = true;
 		isLeftActive = true;
 		forceAdded = true;
@@ -52,7 +52,7 @@ public class GunShotMovement : MonoBehaviour {
 		ResetObject();
 		facingLeft = false;
 		isLeftActive = true;
-		Debug.Log ("FireRight");
+		
 		forceAdded = true;
 
 	}

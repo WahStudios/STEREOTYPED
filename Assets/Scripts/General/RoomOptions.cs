@@ -31,54 +31,69 @@ public class RoomOptions : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		thisGrid = GameObject.Find ("Grid/" + gameObject.name);
-		gridPos = thisGrid.GetComponent<GridPos> ();
-		if(GameObject.Find ("RoomPool/" + gridPos.aboveGrid.name) != null)
-		upRoom = GameObject.Find ("RoomPool/" + gridPos.aboveGrid.name);
-		if(GameObject.Find ("RoomPool/" + gridPos.belowGrid.name) != null)
-		downRoom =  GameObject.Find ("RoomPool/" + gridPos.belowGrid.name);
-		if(GameObject.Find ("RoomPool/" + gridPos.leftGrid.name) != null)
-		leftRoom = GameObject.Find ("RoomPool/" + gridPos.leftGrid.name);
-		if(GameObject.Find ("RoomPool/" + gridPos.rightGrid.name) != null)
-		rightRoom =  GameObject.Find ("RoomPool/" + gridPos.rightGrid.name);
-		if (upRoom != null) {
-			upRoomOptions = upRoom.GetComponent<RoomOptions> ();
-			upDoorExit = upRoomOptions.downDoor;
-			upDoorScript = upDoor.AddComponent<Door> ();
-		} else {
-			upDoor.gameObject.SetActive(false);
-		}
-		if (downRoom != null) {
-			downRoomOptions = downRoom.GetComponent<RoomOptions> ();
-			downDoorExit = downRoomOptions.upDoor;
-			downDoorScript = downDoor.AddComponent<Door>();
-		}
-	 else {
-		downDoor.gameObject.SetActive(false);
-	}
-		if (leftRoom != null) {
-			leftRoomOptions = leftRoom.GetComponent<RoomOptions> ();
-			leftDoorExit = leftRoomOptions.rightDoor;
-			leftDoorScript = leftDoor.AddComponent<Door>();
-			 
-		}
-		else {
-			leftDoor.gameObject.SetActive(false);
-		}
-		if (rightRoom != null) {
-			rightRoomOptions = rightRoom.GetComponent<RoomOptions> ();
-			rightDoorExit = rightRoomOptions.leftDoor;
-			rightDoorScript = rightDoor.AddComponent<Door>();
-		}
-		else {
-			rightDoor.gameObject.SetActive(false);
-		}
+        if (GameObject.Find("Grid/" + gameObject.name) != null)
+        {
+            thisGrid = GameObject.Find("Grid/" + gameObject.name);
+            gridPos = thisGrid.GetComponent<GridPos>();
+            if (GameObject.Find("RoomPool/" + gridPos.aboveGrid.name) != null)
+                upRoom = GameObject.Find("RoomPool/" + gridPos.aboveGrid.name);
+            if (GameObject.Find("RoomPool/" + gridPos.belowGrid.name) != null)
+                downRoom = GameObject.Find("RoomPool/" + gridPos.belowGrid.name);
+            if (GameObject.Find("RoomPool/" + gridPos.leftGrid.name) != null)
+                leftRoom = GameObject.Find("RoomPool/" + gridPos.leftGrid.name);
+            if (GameObject.Find("RoomPool/" + gridPos.rightGrid.name) != null)
+                rightRoom = GameObject.Find("RoomPool/" + gridPos.rightGrid.name);
+            if (upRoom != null)
+            {
+                upRoomOptions = upRoom.GetComponent<RoomOptions>();
+                upDoorExit = upRoomOptions.downDoor;
+                upDoorScript = upDoor.AddComponent<Door>();
+            }
+            else
+            {
+                upDoor.gameObject.SetActive(false);
+            }
+            if (downRoom != null)
+            {
+                downRoomOptions = downRoom.GetComponent<RoomOptions>();
+                downDoorExit = downRoomOptions.upDoor;
+                downDoorScript = downDoor.AddComponent<Door>();
+            }
+            else
+            {
+                downDoor.gameObject.SetActive(false);
+            }
+            if (leftRoom != null)
+            {
+                leftRoomOptions = leftRoom.GetComponent<RoomOptions>();
+                leftDoorExit = leftRoomOptions.rightDoor;
+                leftDoorScript = leftDoor.AddComponent<Door>();
+
+            }
+            else
+            {
+                leftDoor.gameObject.SetActive(false);
+            }
+            if (rightRoom != null)
+            {
+                rightRoomOptions = rightRoom.GetComponent<RoomOptions>();
+                rightDoorExit = rightRoomOptions.leftDoor;
+                rightDoorScript = rightDoor.AddComponent<Door>();
+            }
+            else
+            {
+                rightDoor.gameObject.SetActive(false);
+            }
 
 
-	
-		playerParent = GameObject.Find ("PlayerParent");
 
+            playerParent = GameObject.Find("PlayerParent");
 
+        }
+        else
+        {
+            Debug.Log("Grid/" + gameObject.name);
+        }
 
 	}
 	public bool invokeDelay = false;

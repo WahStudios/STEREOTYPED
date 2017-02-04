@@ -27,7 +27,15 @@ public class EnemyPlacement : MonoBehaviour {
    // public int totalEnemiesOnScreen = 6;
     public int maxRooms = 100;
     public CreateRoom[] createRoom;
-    GameObject[] createRooms;
+    public GameObject[] createRooms;
+
+    public void RandomizeGangType()
+    {
+        if (randomSelectGangType)
+        {
+            gangType = Random.Range(0, (maxGangTypes - 1));
+        }
+    }
 
     void Start()
     {
@@ -36,14 +44,20 @@ public class EnemyPlacement : MonoBehaviour {
             gangType = Random.Range(0, (maxGangTypes - 1));
         }
         subType = gangType;
-        createRoom = new CreateRoom[maxRooms];
+       
         int n = 0;
-        createRooms = GameObject.FindGameObjectsWithTag("CreateRoom");
-        if(createRooms[n] != null)
+        if (GameObject.FindGameObjectsWithTag("CreateRoom") != null)
         {
-            createRoom[n] = createRooms[n].GetComponent<CreateRoom>();
-            n++;
-            CreateRoomNext(n);
+            createRooms = GameObject.FindGameObjectsWithTag("CreateRoom");
+            createRoom = new CreateRoom[createRooms.Length];
+            if (createRooms[n] != null)
+            {
+                createRoom[n] = createRooms[n].GetComponent<CreateRoom>();
+                n++;
+               if(n < createRooms.Length)
+                    CreateRoomNext(n);
+               
+            }
         }
        
     }
@@ -54,7 +68,9 @@ public class EnemyPlacement : MonoBehaviour {
         {
             createRoom[n] = createRooms[n].GetComponent<CreateRoom>();
             n++;
-            CreateRoomNext(n);
+           
+                if (n < createRooms.Length)
+                    CreateRoomNext(n);
         }
     }
     

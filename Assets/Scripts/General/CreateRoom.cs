@@ -24,33 +24,59 @@ public class CreateRoom : MonoBehaviour {
     public SpawnArea[] zombieSpawnAreas;
     public SpawnArea[] insectSpawnAreas;
     public int totalEnemiesLeftBeforeSpawningNextWave = 2;
+    public bool isCurrentRoom = false;
+    public bool hasSpawned = false;
     void Start()
     {
         totalEnemiesOnScreen = spawnWaves * spawnFrequency;
-        enemyPlacement = GameObject.Find("EnemyPlacement").GetComponent<EnemyPlacement>();
+     //   enemyPlacement = GameObject.Find("EnemyPlacement").GetComponent<EnemyPlacement>();
         //spawnFrequency = totalEnemiesOnScreen / totalEnemiesInEncounter;
-        if (isRoomEmpty == false)
+       
+       
+    }
+    private void OnTriggerEnter2D(Collider2D other  )
+    {
+        if(other.gameObject.tag == "Player")
         {
-            if (isNpcRoom == true)
-            {
-                SpawnNPC();
-            }
-            if (isBossRoom == true)
-            {
-                SpawnBoss();
-                if (spawnOtherEnemiesWithBoss == true)
+            isCurrentRoom = true;
+            hasSpawned = false;
+                if (isNpcRoom == true)
+                {
+                    SpawnNPC();
+                }
+                if (isBossRoom == true)
+                {
+                    SpawnBoss();
+                    if (spawnOtherEnemiesWithBoss == true)
+                    {
+                        SpawnSequence();
+                    }
+                }
+                if (isNpcRoom == false && isBossRoom == false)
                 {
                     SpawnSequence();
                 }
-            }
-            if (isNpcRoom == false && isBossRoom == false)
-            {
-                SpawnSequence();
-            }
+            //}
         }
-       
     }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(enemiesInRoom != null)
+        {
+            isCurrentRoom = false;
+            if (other.gameObject.tag == "Player")
+            {
+                StopCoroutine(SequenceCheck());
+                enemiesInRoom = GameObject.FindGameObjectsWithTag("Enemy");
+                foreach (GameObject g in enemiesInRoom)
+                {
+                   Destroy(g);
+                }
+            }
+        }
+    }
+    GameObject[] enemiesInRoom;
     public void SpawnSequence()
     {
         StartCoroutine(SequenceCheck());
@@ -59,18 +85,25 @@ public class CreateRoom : MonoBehaviour {
     public float sequenceChecker = 5f;
     IEnumerator SequenceCheck()
     {
-        yield return new WaitForSeconds(sequenceChecker);
-        GameObject[] enemiesInRoom = GameObject.FindGameObjectsWithTag("Enemy");
-        if(enemiesInRoom.Length < (totalEnemiesLeftBeforeSpawningNextWave))
+        if (isCurrentRoom == true)
         {
-            if (totalEnemiesOnScreen > 0)
+            yield return new WaitForSeconds(sequenceChecker);
+            if (isCurrentRoom == true)
             {
-                totalEnemiesOnScreen -= spawnFrequency;
+                enemiesInRoom = GameObject.FindGameObjectsWithTag("Enemy");
+                if (enemiesInRoom.Length < (totalEnemiesLeftBeforeSpawningNextWave))
+                {
+                    if (totalEnemiesOnScreen > 0)
+                    {
+                        totalEnemiesOnScreen -= spawnFrequency;
 
-                SpawnEnemies();
+                        SpawnEnemies();
+                    }
+                }
             }
+
+            StartCoroutine(SequenceCheck());
         }
-        StartCoroutine(SequenceCheck());
     }
 
     public void SpawnEnemies()

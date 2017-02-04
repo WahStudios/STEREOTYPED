@@ -46,26 +46,31 @@ public class SpawnArea : MonoBehaviour {
     int eventType = 0;
     int gangType = 0;
     int subType = 0;
-
+    bool hasSpawned = false;
     void Start()
     {
       //  totalEnemiesInEncounter = createRoom.totalEnemiesInEncounter;
         //currentEnemiesInEncounter = createRoom.totalEnemiesInEncounter;
        
-        enemyPlacement = GameObject.Find("EnemyPlacement").GetComponent<EnemyPlacement>() ;
+    //    enemyPlacement = GameObject.Find("EnemyPlacement").GetComponent<EnemyPlacement>() ;
         
     }
 
     public void SpawnEnemies()
     {
+        if (createRoom.hasSpawned == false)
+        {
+            enemyPlacement.RandomizeGangType();
+            createRoom.hasSpawned = true;
+        }
         eventType = enemyPlacement.eventType;
-        gangType = enemyPlacement.gangType;
+       
         subType = enemyPlacement.gangType;
         if (eventType == 0)//no event
         {
                 if (gangSpawn)
                 {
-                    SpawnEnemy(gangType);
+                    SpawnEnemy(enemyPlacement.gangType);
                 }
                 else if (subTypeSpawn)
                 {
@@ -96,7 +101,7 @@ public class SpawnArea : MonoBehaviour {
                 int rand = Random.Range(1, 7);
                 if(rand == 1)
                 {
-                    SpawnEnemy(gangType);
+                    SpawnEnemy(enemyPlacement.gangType);
                 }
                 else if(rand == 2)
                 {
@@ -132,19 +137,19 @@ public class SpawnArea : MonoBehaviour {
 
     void SpawnEnemy(int gangType)
     {
-        if(gangType == 0)//blackGang
+        if(enemyPlacement.gangType == 0)//blackGang
         {
             objectToSpawn = enemyPlacement.blackGangThugs[Random.Range(0, enemyPlacement.blackGangThugs.Length)];
         }
-        else if (gangType == 1)//whiteGang
+        else if (enemyPlacement.gangType == 1)//whiteGang
         {
             objectToSpawn = enemyPlacement.whiteGangThugs[Random.Range(0, enemyPlacement.whiteGangThugs.Length)];
         }
-        else if(gangType == 2)//asianGang
+        else if(enemyPlacement.gangType == 2)//asianGang
         {
             objectToSpawn = enemyPlacement.asianGangThugs[Random.Range(0, enemyPlacement.asianGangThugs.Length)];
         }
-        else if(gangType == 3)//latinGang
+        else if(enemyPlacement.gangType == 3)//latinGang
         {
             objectToSpawn = enemyPlacement.latinGangThugs[Random.Range(0, enemyPlacement.latinGangThugs.Length)];
         }
@@ -163,19 +168,19 @@ public class SpawnArea : MonoBehaviour {
 
     public void SpawnSubTypes()
     {
-        if (gangType == 0)//blackGang
+        if (enemyPlacement.gangType == 0)//blackGang
         {
             objectToSpawn = enemyPlacement.blackGangSubTypes[Random.Range(0, enemyPlacement.blackGangSubTypes.Length)];
         }                                                                                           
-        else if (gangType == 1)//whiteGang                                                          
+        else if (enemyPlacement.gangType == 1)//whiteGang                                                          
         {                                                                                             
             objectToSpawn = enemyPlacement.whiteGangSubTypes[Random.Range(0, enemyPlacement.whiteGangSubTypes.Length)];
         }                                                                                           
-        else if (gangType == 2)//asianGang                                                          
+        else if (enemyPlacement.gangType == 2)//asianGang                                                          
         {                                                                                             
             objectToSpawn = enemyPlacement.asianGangSubTypes[Random.Range(0, enemyPlacement.asianGangSubTypes.Length)];
         }                                                                                           
-        else if (gangType == 3)//latinGang                                                          
+        else if (enemyPlacement.gangType == 3)//latinGang                                                          
         {                                                                                              
             objectToSpawn = enemyPlacement.latinGangSubTypes[Random.Range(0, enemyPlacement.latinGangSubTypes.Length)];
         }
@@ -195,19 +200,19 @@ public class SpawnArea : MonoBehaviour {
 
     public void SpawnBoss()
     {
-        if (gangType == 0)//blackGang
+        if (enemyPlacement.gangType == 0)//blackGang
         {
             objectToSpawn = enemyPlacement.blackGangBosses[Random.Range(0, enemyPlacement.blackGangBosses.Length)];
         }                                                                                         
-        else if (gangType == 1)//whiteGang                                                        
+        else if (enemyPlacement.gangType == 1)//whiteGang                                                        
         {                                                                                           
             objectToSpawn = enemyPlacement.whiteGangBosses[Random.Range(0, enemyPlacement.whiteGangBosses.Length)];
         }                                                                                         
-        else if (gangType == 2)//asianGang                                                        
+        else if (enemyPlacement.gangType == 2)//asianGang                                                        
         {                                                                                           
             objectToSpawn = enemyPlacement.asianGangBosses[Random.Range(0, enemyPlacement.asianGangBosses.Length)];
         }                                                                                        
-        else if (gangType == 3)//latinGang                                                       
+        else if (enemyPlacement.gangType == 3)//latinGang                                                       
         {                                                                                            
             objectToSpawn = enemyPlacement.latinGangBosses[Random.Range(0, enemyPlacement.latinGangBosses.Length)];
         }
